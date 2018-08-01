@@ -1,10 +1,10 @@
 # Site settings
 title:       Wormser Linux User Stammtisch
-email:       your_email@example.com
-author:      John Otander
+email:       wolust@untergang.de
+author:      Stefan Höhn
 description: "Der Wormser Linux User Stammtisch trifft sich jeden 1. Dienstag im Monat"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://wolust.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
