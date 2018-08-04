@@ -1,12 +1,13 @@
 ---
 layout:     post
 title:      Treffen 2018
-date:       2018-07-11 15:31:19
+date:       2018-08-07 21:31:19
 summary:    Alle Treffen 2018 aufgelistet
 categories: jekyll pixyll treffen
 ---
 
 <ul>
+<li>07.08.2018 neues Datum neues Glück<li>
 <li>03.07.2018 Medizinische Meßgeräte Platine mit Prozessor, an der GPL vorbei entwickeln, Mitm-Proxy, Tmux und Android, Spracherkennung das "Emm" erkennen, Docker, Javascript und npm</li>
 <li>05.06.2018 CMS im Vergleich, Webseiten machen mit HTML, Virtualbox, Opendata und Statistisches Landesamt RLP, der neue Arduino MKR Vidor 5000 mit FPGA, Github an Microsoft… und jetzt? , Brett und Rollenspiele.</li>
 <li>08.05.2018 Kubuntu 18.04 neues KDE ist schnell. Wieder ein selbstgebautes RFID Lesegerät, Docker,  IOT Geräte antworten nicht, “Time series database” nennt sich InfluxDB auswerten mit Grafana. Großbritannien Brexit und Essen.</li>
