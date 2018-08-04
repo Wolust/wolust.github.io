@@ -1,9 +1,10 @@
 # Pixyll
 <hr />
 ## Von mir dewomser hinzugefügt:
-1.git repostory auf PC updaten : git pull https://github.com/Wolust/wolust.github.io.git master 
-2.git repository auf PC kopieren. (das erste mal) :git clone https://github.com/Wolust/wolust.github.io.git 
-3.geänderte repository von PC uploaden:
+
+1. git repostory auf PC updaten : git pull https://github.com/Wolust/wolust.github.io.git master 
+2. git repository auf PC kopieren. (das erste mal) :git clone https://github.com/Wolust/wolust.github.io.git 
+3. geänderte repository von PC uploaden:
  3.1. git add foo (foo ist was du neu hinzugefügt hast)
  3.2. git commit -a (Was du geändert hast)
  3.3. git push --set-upstream "https://github.com/Wolust/wolust.github.io.git" master
