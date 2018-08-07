@@ -20,7 +20,7 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
+animated:             true
 show_related_posts:   false
 show_post_footers:    false
 show_social_icons:    true
@@ -51,14 +51,14 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: dewomser
+github_username: wolust
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username: wolug
+twitter_username: wolust
 skype_username:
 steam_nickname:
-google_plus_id:
+google_plus_id: +StefanHöhn
 linkedin_username:
 angellist_username:
 medium_id:
@@ -73,7 +73,7 @@ show_sharing_icons: false
 # Change to 'true' to enable individual icons
 share_facebook: false
 share_twitter: true
-share_googleplus: false
+share_googleplus: true
 share_linkedin: false
 share_digg: false
 share_tumblr: false
@@ -98,15 +98,15 @@ text:
     hackernews:   'Share on Hacker News'
   post:
     updated:        'Updated'
-    minute_read:    'minute read'
+    minute_read:    'Lesezeit'
     related_posts:  'Related Posts'
   index:
     coming_soon: 'Coming soon...'
   contact:
     email:    'Email Address'
-    content:  'What would you like to say?'
+    content:  'lolo98?'
     subject:  'New submission!'
-    submit:   'Say Hello'
+    submit:   'Sag Hallo !'
     ajax:
       sending:  'sending..'
       sent:     'Message sent!'
