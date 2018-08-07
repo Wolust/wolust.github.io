@@ -5,8 +5,9 @@ layout: default
 
 <div class="home">
 <strong>WOLUST</strong> ist ein Acronym für <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch . 
-<img src="/images/tux-wolust.jpg" alt="Tux auf einem Biertisch" title="Der Tux ist immer dabei"/>
-  {% if posts_count > 0 %}
+<div style="float: right;"><img src="/images/tux-wolust.jpg" alt="Tux auf einem Biertisch" title="Der Tux ist immer dabei"/></div>
+
+{% if posts_count > 0 %}
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
