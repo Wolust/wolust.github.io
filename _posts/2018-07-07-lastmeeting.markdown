@@ -1,13 +1,14 @@
 ---
 layout:     post
 title:      Rückblick 2018
-date:       2018-07-07 21:31:19
+date:       2018-08-07 23:31:19
 summary:    Alle Treffen 2018 aufgelistet
 categories: jekyll pixyll treffen
 ---
 
 <ul>
-<li>07.08.2018 neues Datum neues Glück</li>
+
+<li>07.08.2018 Statische Webseiten Generatoren Pico und Jekyll. Neue Webseite https://wolust.github.io auf mehreren Geräten getestet. Tastatur in Großbritannien, Self-checkout, Bezahlen mit Sparkassenapp, Pihole </li>
 <li>03.07.2018 Medizinische Meßgeräte Platine mit Prozessor, an der GPL vorbei entwickeln, Mitm-Proxy, Tmux und Android, Spracherkennung das "Emm" erkennen, Docker, Javascript und npm</li>
 <li>05.06.2018 CMS im Vergleich, Webseiten machen mit HTML, Virtualbox, Opendata und Statistisches Landesamt RLP, der neue Arduino MKR Vidor 5000 mit FPGA, Github an Microsoft… und jetzt? , Brett und Rollenspiele.</li>
 <li>08.05.2018 Kubuntu 18.04 neues KDE ist schnell. Wieder ein selbstgebautes RFID Lesegerät, Docker,  IOT Geräte antworten nicht, “Time series database” nennt sich InfluxDB auswerten mit Grafana. Großbritannien Brexit und Essen.</li>
