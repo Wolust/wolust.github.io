@@ -1,8 +1,8 @@
 ---
-layout:     post
-title:      Rückblick 2016
-date:       2016-12-11 15:31:19
-summary:    Alle Treffen 2016 aufgelistet
+title: Rückblick 2016
+layout: post
+date: '2016-12-11 15:31:19 +0000'
+summary: Zusammenfassung und Stichpunkte
 categories: jekyll pixyll treffen
 ---
 
@@ -15,4 +15,3 @@ categories: jekyll pixyll treffen
 <li>09.08.2016: Mitgebrachte Kleinstcomputer und Zubehör, 40.000 Rechner für ein Chemiewerk, ZFS, Docker, SAP, Git und mehr.</li>
 <li>06.07.2016: Piandmore, Ist Bash eine Programmiersprache und was kann sie. Stammtisch soll flexibler werden.</li>
 </ul>
-

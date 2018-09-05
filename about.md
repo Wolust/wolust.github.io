@@ -1,7 +1,7 @@
 ---
+title: Stadtplan
 layout: page
-title: Termine
-permalink: /termine/
+permalink: "/termine/"
 tags: Termin
 ---
 
