@@ -2,7 +2,7 @@
 title: Nächstes Treffen
 layout: post
 date: '2018-09-05 17:30:00'
-summary: 03.10.2018 19:30 Uhr im Timescafe .
+summary: 02.10.2018 19:30 Uhr im Timescafe .
 categories: jekyll pixyll Ort Zeit
 ---
 
