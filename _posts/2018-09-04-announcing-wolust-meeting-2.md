@@ -28,3 +28,4 @@ Weitere Treffen ohne Gewähr:
   {% endif %}
 {% endfor %}
 </ul>
+{{ treffen.tag }}

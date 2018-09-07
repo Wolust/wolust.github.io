@@ -19,7 +19,7 @@ show_social_icons: true
 ajaxify_contact_form: true
 enable_mathjax: false
 extended_fonts: true
-enable_anchorjs: false
+enable_anchorjs: true
 post_preview_image: true
 fb_page: false
 fb_page_id: null
@@ -71,7 +71,7 @@ text:
     hackernews: Share on Hacker News
   post:
     updated: Updated
-    minute_read: Lesezeit
+    minute_read: Min. Lesezeit
     related_posts: Related Posts
   index:
     coming_soon: Coming soon...
@@ -85,7 +85,7 @@ text:
       sent: Message sent!
       error: Error!
   thanks: Thanks for contacting us. We will reply as soon as possible.
-  og_locale: en_US
+  og_locale: de_DE
 markdown: kramdown
 redcarpet:
   extensions:
