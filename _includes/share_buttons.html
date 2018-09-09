@@ -1,7 +1,11 @@
-<div class="share-page">
-  {{ site.text.share_buttons.text }}
 
+<hr />
+            
+<div class="share-page">
+  
   <div class="share-links">
+  {{ site.text.share_buttons.text }}
+  
     {% if site.share_facebook %}
       <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u={{ site.url | cgi_escape }}{{ page.url | cgi_escape }}" rel="nofollow" target="_blank" title="{{ site.text.share_buttons.facebook }}"></a>
     {% endif %}

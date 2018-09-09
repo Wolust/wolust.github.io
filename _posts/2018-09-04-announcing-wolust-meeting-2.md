@@ -1,18 +1,18 @@
 ---
-title: Nächstes Treffen
+title: Nächster Wolust
 layout: post
 date: '2018-09-05 17:30:00'
 summary: 02.10.2018 19:30 Uhr im Timescafe .
 categories: jekyll pixyll Ort Zeit
 ---
 
-Wir Treffen uns am 1. Dienstag  jeden Monats
+Wormser Linux Stammtisch Termine 
 
 <ul>
  {% for treffen  in site.data.daten.linuxuser %}
  {% if treffen.meeting == "Nächstes Treffen" %}
  {{treffen.meeting}} :
-   <li><strong>  {{ treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{treffen.ort}}
+   <li><strong>  {{ treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} 19:30 im {{treffen.ort}}
 	 </strong></li>
   {% endif %}
 {% endfor %}
@@ -28,4 +28,6 @@ Weitere Treffen ohne Gewähr:
   {% endif %}
 {% endfor %}
 </ul>
-{{ treffen.tag }}
+
+
+{% include share_buttons.html %}
