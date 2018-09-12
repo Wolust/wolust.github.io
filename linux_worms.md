@@ -7,7 +7,7 @@ layout: default
 
 Gegründet wurde WOLUST als WOLUG von [Thomas Peterek](http://www.computertp.de). Am 17.Januar 2012 trafen wir uns zum ersten mal. Stefan war dabei.
 Rayk und Andreas vom [Computerclub Worms](https://www.ccw-worms.de/) kamen am Anfang oft.
-[Uwe Lück](http://www.webdesign-bu.de/uwe_lueck/leblauf.pdf) hat uns Latex erklärt. War sehr oft dabei.
+[Uwe Lück](http://www.webdesign-bu.de/uwe_lueck/leblauf.pdf) hat uns LaTeX erklärt. War sehr oft dabei.
 
 Am 07.08.2013 kam dann Mike dazu. Der kommt auch heute noch regelmäßig zur WOLUST.
 
@@ -15,7 +15,7 @@ Aus Mangel an Linuxusern in Worms und Terminschwierigkeiten haben wir die WOLUG 
 Reste der damaligen Homepage gibts [archive.org](https://web.archive.org/web/20120712002444/http://www.wolug.de:80/)
 
 Thomas hat die Webseite an eine SEO-Firma verkauft. Die URL gibt es heute noch, wegen dem grauseligen Inhalt, will ich die hier aber nicht verlinken.
-Beim allerletzten Treffen am 24.10.2013 kammen plötzlich ein paar neue Leute. Hoffnung gab es, aber dann begann doch die Linuxfreie Zeit in Worms.
+Beim allerletzten Treffen am 24.10.2013 kamen plötzlich ein paar neue Leute. Hoffnung gab es, aber dann begann doch die Linuxfreie Zeit in Worms.
 
 15.10.2015 Uwe kommt zu Besuch, und wünscht sich ein außerodentliches WOLUG - Trefffen. Und es hat geklappt.
 

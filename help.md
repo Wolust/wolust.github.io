@@ -15,3 +15,18 @@ layout: default
 
 **Hilfe bei größeren Änderungen und Fehlern:**
 wolust@untergang.de
+<hr />
+**Fortunes:**
+
+<script type="text/javascript">
+var myArray = [
+  "Programmierweisheit:Unsere Fehler von heute sichern uns unser Brot von morgen.",
+  "Die Passwörter an die du dich noch erinnerst, hast du letzte Woche geändert.",
+  "VI ist kein Editor, das ist ein Eingabestrom-Modifikator.",
+	"Input - Output - Kaputt!",
+	"Nicht diskutieren - programmieren!"
+];
+
+var randomitem = myArray[Math.floor(Math.random()*myArray.length)];
+document.write( randomitem );
+</script>
