@@ -8,4 +8,8 @@ layout: default
   <article class="post-content">
   {{ content }}
   </article>
+    {% if page.update_date %}
+  <span class="post-meta">{{ site.text.post.updated }}: {{ site.time | date: site.date_format }}</span><br>
+  {% endif %}
+
 </div>

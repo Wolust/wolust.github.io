@@ -4,6 +4,7 @@ layout: post
 date: '2017-12-11 15:31:19 +0000'
 summary: Zusammenfassung und Stichpunkte
 categories: jekyll pixyll treffen
+update_date: ''
 ---
 
 <ul>
@@ -20,3 +21,4 @@ categories: jekyll pixyll treffen
 <li>07.02.2017: Server Umzug und Einstellung am Apache. So funktioniert  eine SPS . Reaktion der SPS auf Ereignisse, die sich während der Zykluszeit ändern. Automatisiertes Messen  in der Medizin. Blut mit dem Laser analysieren. Datensatz händisch anpassen.</li>
 <li>03.01.2017: NFC mit Raspberry, Erfahrung mit Wayland, Github und Travis , nodejs, Raspberry Cluster bauen. Jekyll baut Webseiten</li>
 </ul>
+

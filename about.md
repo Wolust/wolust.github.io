@@ -3,6 +3,7 @@ title: Stadtplan
 layout: page
 permalink: "/termine/"
 tags: Termin
+update_date: ''
 ---
 
 ## WOLUST jeden Monat am 1. Dienstag 
@@ -15,3 +16,4 @@ Im [Timescafe](http://http://www.timescafe.de/), Worms Ludwigsplatz / im Sommer 
 Fußweg Bahnhof - TimesCafe.
 
 Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe
+<hr />

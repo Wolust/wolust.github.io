@@ -1,6 +1,7 @@
 ---
 title: Wissenswertes zur LUG in Worms
-layout: default
+layout: page
+update_date: ''
 ---
 
 ## Geschichte Wolust
@@ -26,3 +27,4 @@ Wir haben in Worms mehrere Gastwirtschaften ausprobiert und sind jetzt im Timesc
 Juli 2018 haben wir mal für 8 Personen einen Tisch reserviert. Die Gruppe der Linuxuser ist gut gewachsen.
 
 #to be continued#
+<hr />

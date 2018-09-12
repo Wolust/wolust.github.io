@@ -1,6 +1,7 @@
 ---
 title: Hilfe
-layout: default
+layout: page
+update_date: ''
 ---
 
 ## So kann man einen Eintrag anlegen /neues Datum /Stichpunkte :
@@ -30,3 +31,4 @@ var myArray = [
 var randomitem = myArray[Math.floor(Math.random()*myArray.length)];
 document.write( randomitem );
 </script>
+&nbsp;<br />
