@@ -99,6 +99,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  
 exclude:
   - Gemfile
   - Gemfile.lock

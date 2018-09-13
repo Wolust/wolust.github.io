@@ -3,7 +3,7 @@ title: Nächster Wolust
 layout: post
 date: '2018-09-05 17:30:00'
 summary: 02.10.2018 19:30 Uhr im Timescafe .
-categories: jekyll pixyll Ort Zeit
+categories: Ort Zeit
 update_date: ''
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 ---

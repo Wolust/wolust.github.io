@@ -1,6 +1,7 @@
 ---
 title: Datenschutz
-layout: default
+layout: page
+update_date: ''
 meta_robots: noindex,nofollow
 ---
 
@@ -23,4 +24,4 @@ Es werden Scripte und Fonts geladen von diesen Urls:
 <br />
 Wenn ich was vergessen haben sollte, dann schickt mir das bitte per E-mail ! 
 <hr />
-Zuletzt geändert: {{ site.time }}
+

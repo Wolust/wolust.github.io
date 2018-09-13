@@ -1,6 +1,7 @@
 ---
 title: Wissenswertes zur LUG in Worms
 layout: page
+update_date: ''
 description: Die Geschichte des Wolust von 2012 bis heute. Von der WOLUG zur WOLUST. Wormser Linux User Stammtisch
 ---
 
