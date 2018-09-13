@@ -1,10 +1,10 @@
 ---
 title: Wissenswertes zur LUG in Worms
 layout: page
-update_date: ''
+description: Die Geschichte des Wolust von 2012 bis heute. Von der WOLUG zur WOLUST. Wormser Linux User Stammtisch
 ---
 
-## Geschichte Wolust
+### Geschichte Wolust ###
 
 Gegründet wurde WOLUST als WOLUG von [Thomas Peterek](http://www.computertp.de). Am 17.Januar 2012 trafen wir uns zum ersten mal. Stefan war dabei.
 Rayk und Andreas vom [Computerclub Worms](https://www.ccw-worms.de/) kamen am Anfang oft.

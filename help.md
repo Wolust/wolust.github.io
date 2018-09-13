@@ -2,9 +2,12 @@
 title: Hilfe
 layout: page
 update_date: ''
+summary: ''
+meta_robots: noindex,nofollow
+description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusammenfassung
 ---
 
-## So kann man einen Eintrag anlegen /neues Datum /Stichpunkte :
+### So kann man einen Eintrag anlegen /neues Datum /Stichpunkte : ###
 1.  Du brauchst einen Github-Account [github.com]( https://github.com/)
 2.  Du mußt Mitglied werden bei [Organisation Wolust](https://github.com/Wolust) Bei  Christian melden.
 3.   Gehe nach wolust.github.io  -> data_

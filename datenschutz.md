@@ -1,6 +1,7 @@
 ---
 title: Datenschutz
 layout: default
+meta_robots: noindex,nofollow
 ---
 
 ## Datenschutz ein Versuch

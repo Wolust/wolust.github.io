@@ -1,12 +1,12 @@
 ---
 title: Stadtplan
 layout: page
-permalink: "/termine/"
 tags: Termin
-update_date: ''
+permalink: "/termine/"
+description: Fußweg vom Bahnhof zum Timescafe Ludwigsplatz Worms .Linuxfans treffen sich dort jeden 1. Dienstag im Monat
 ---
 
-## WOLUST jeden Monat am 1. Dienstag 
+### WOLUST jeden Monat am 1. Dienstag  ###
 
 Im [Timescafe](http://http://www.timescafe.de/), Worms Ludwigsplatz / im Sommer draußen.
 ![timescafe](/images/map.png)
