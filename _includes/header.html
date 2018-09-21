@@ -1,11 +1,21 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
+   
+  
     <div class="measure">
     
-    
-     {% include cookieconsent.html %}
+    <div id="d" class ="small" style="background-color:lightgrey;"><span style="margin-left: 10px;"> Diese Seite benutzt Cookies Info: <a href="/datenschutz">🍪</a></span>
+<span style="float:right; margin-right: 10px;"> <a href="#" onclick="change(); document.cookie = 'klicker = Gedruckt';">ok</a></span>
+<script>
 
-    
+var x = getCookie('klicker'); 
+if (x == 'Gedruckt'){
+document.getElementById("d").style.visibility = "hidden"; 
+}
+</script>
+
+</div>
+
     
       <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
       <nav class="site-nav">
@@ -17,4 +27,5 @@
       {% endif %}
     </div>
   </div>
+ 
 </header>

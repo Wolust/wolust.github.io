@@ -7,9 +7,9 @@ meta_robots: noindex,nofollow
 
 ## Datenschutz ein Versuch
 
-Diese Seite ist bei http://github.com gehostet deshalb gilt hier auch https://help.github.com/articles/github-privacy-statement/. Besonders bei Benutzung des Backends ist das zu beachten.
+Diese Webseite verwendet **Cookies**. Die Verwendung von Cookies kann in der Einstellung des Webbrowsers abgestellt werden. 
 <br />
-Diese Webseite verwendet Cookies.
+Diese Seite ist bei **http://github.com** gehostet deshalb gilt hier auch **https://help.github.com/articles/github-privacy-statement/**. Besonders bei Benutzung des Backends ist das zu beachten.
 <br />
 Es werden Scripte und Fonts geladen von diesen Urls:
 
