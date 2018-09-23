@@ -5,12 +5,14 @@
     <div class="measure">
     
     <div id="d" class ="small" style="background-color:lightgrey;"><span style="margin-left: 10px;"> Diese Seite benutzt Cookies Info: <a href="/datenschutz">🍪</a></span>
-<span style="float:right; margin-right: 10px;"> <a href="#" onclick="document.cookie = 'klicker = Gedruckt'; change();">ok</a></span>
-<script>
+<span style="float:right; margin-right: 10px;"> <a href="#" onclick="document.cookie = 'klicker=Gedruckt; path=/'; change();">ok</a>
 
-var x = getCookie('klicker'); 
+
+</span>
+<script>
 if (x == 'Gedruckt'){
-document.getElementById("d").style.visibility = "hidden"; 
+
+document.getElementById("d").style.visibility="hidden";
 }
 </script>
 
