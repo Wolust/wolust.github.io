@@ -1,24 +1,16 @@
 <header class="site-header px2 px-responsive">
-  <div class="mt2 wrap">
-   
-  
-    <div class="measure">
-    
-    <div id="d" class ="small" style="background-color:lightgrey;"><span style="margin-left: 10px;"> Diese Seite benutzt Cookies Info: <a href="/datenschutz">🍪</a></span>
+<div class="mt2 wrap">
+<div class="measure">
+<div id="d" class ="small" style="background-color:lightgrey;"><span style="margin-left: 10px;"> Diese Seite benutzt Cookies Info: <a href="/datenschutz">🍪</a></span>
 <span style="float:right; margin-right: 10px;"> <a href="#" onclick="document.cookie = 'klicker=Gedruckt; path=/'; change();">ok</a>
-
-
 </span>
 <script>
 if (x == 'Gedruckt'){
-
-document.getElementById("d").style.visibility="hidden";
+change();
 }
 </script>
-
 </div>
-
-    
+   
       <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
       <nav class="site-nav">
         {% include navigation.html %}
