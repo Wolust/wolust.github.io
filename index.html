@@ -7,7 +7,7 @@ layout: default
 <div class="home">
 <div style="margin-bottom: 25px;">
 <figure style="float:right; margin-left: 40px;"><img src="/images/tux-wolust.jpg" alt="Tux auf einem Biertisch" title="Der Tux ist immer dabei"/>
-<figcaption style="margin-left: 20px; margin-right: 20px;">Tux ist auf dem Tisch</figcaption>
+<figcaption style="text-align: center;">Tux ist auf dem Tisch</figcaption>
 </figure>
 
 <strong>WOLUST</strong> ist ein Acronym für <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. <a href="/linux_worms">tl;dr</a><br />
@@ -39,48 +39,6 @@ Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu !
  
 </div>
 
-{% for treffen  in site.data.daten.linuxuser %}
- {% if treffen.meeting == "Nächstes Treffen" %}
-    
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Event",
-  "name": "Wormser Linux User Stammtisch",
-  "startDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T19:30-08",
-  "location": {
-    "@type": "Place",
-    "name":"Worms Timescafe",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Ludwigsplatz 1",
-      "addressLocality": "Timescafe",
-      "postalCode": "67547",
-      "addressRegion": "RLP",
-      "addressCountry": "De"
-    }
-  },
-  "image": ["https://wolust.de/images/tux-wolust.jpg"
-   ],
-  "description": "Wormser Linux User treffen sich einmal im Monat. Wenn du Interesse an Linux hast, komm vorbei und setz dich dazu !",
-  "endDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T23:00",
-  "offers": {
-    "@type": "Offer",
-    "url": "https://www.wolust.de",
-    "price": "0",
-    "priceCurrency": "€",
-    "availability": "http://schema.org/InStock",
-    "validFrom": "2018-09-08T15:20"
-  },
-  "performer": {
-    "@type": "PerformingGroup",
-    "name": "Tux der Linux Pinguin"
-  }
-}
-</script>  
-
-{% endif %}
-{% endfor %}
 
 <hr />
 <span class="post-meta">Geändert: {{ site.time | date: site.date_format }}</span>
