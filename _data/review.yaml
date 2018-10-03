@@ -1,8 +1,7 @@
 linuxuser:
-  
   - monat: '10'
-     inhalt: >-
-      02.10.2018 RaspberryPi und Docker. RaspberryPi und Objekt Verfolgung mit Kamera. Die Vorteile von RST gegenüber Markdown. Windows in VM. Onewire am Raspberry Pi. Wolust Webseite Termine ab jetzt im data.yaml , Logicanalyser und SPI
+    inhalt: >-
+     02.10.2018 RaspberryPi und Docker. RaspberryPi und Objekt Verfolgung mit Kamera. Die Vorteile von RST gegenüber Markdown. Windows in VM. Onewire am Raspberry Pi. Wolust Webseite Termine ab jetzt im data.yaml , Logicanalyser und SPI
   - monat: '09'
      inhalt: >-
       04.09.2018 Froscon - was gabs zu sehen - interessante Vorträge, Wine kann Windows Programme mit Dongel nicht, Esoterisches mit Mond und Erdstrahlen, Kritik an neuer Wolust-Webseite jetzt auch unter wolust.de zu finden
