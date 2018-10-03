@@ -1,13 +1,14 @@
 linuxuser:
+
   - monat: '10'
      inhalt: >-
-      02.10.2018 Logicanalyser und SPI
+      lolo98
   - monat: '09'
      inhalt: >-
       04.09.2018 Froscon - was gabs zu sehen - interessante Vorträge, Wine kann Windows Programme mit Dongel nicht, Esoterisches mit Mond und Erdstrahlen, Kritik an neuer Wolust-Webseite jetzt auch unter wolust.de zu finden
   - monat: '08'
      inhalt: >-
-      7.08.2018 Statische Webseiten Generatoren Pico und Jekyll. Neue Webseite https://wolust.github.io auf mehreren Geräten getestet. Tastatur in Großbritannien, Self-checkout, Bezahlen mit Sparkassenapp, Pihole
+      07.08.2018 Statische Webseiten Generatoren Pico und Jekyll. Neue Webseite https://wolust.github.io auf mehreren Geräten getestet. Tastatur in Großbritannien, Self-checkout, Bezahlen mit Sparkassenapp, Pihole
   - monat: '07'
      inhalt: >-
       03.07.2018 Medizinische Meßgeräte Platine mit Prozessor, an der GPL vorbei entwickeln, Mitm-Proxy, Tmux und Android, Spracherkennung das \"Emm\" erkennen, Docker, Javascript und npm
