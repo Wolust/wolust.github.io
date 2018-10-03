@@ -1,5 +1,8 @@
 linuxuser:
   
+  - monat: '11'
+     inhalt: >-
+      Test November
   - monat: '10'
     inhalt: >-
      02.10.2018 RaspberryPi und Docker. RaspberryPi und Objekt Verfolgung mit Kamera. Die Vorteile von RST gegenüber Markdown. Windows in VM. Onewire am Raspberry Pi. Wolust Webseite Termine ab jetzt im data.yaml , Logicanalyser und SPI
