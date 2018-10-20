@@ -1,0 +1,20 @@
+linuxuser:
+  - monat: '12'
+    inhalt: >- 
+     06.12.2016 : Umzug Opensuse nach Debian, ufw IP-tables, NFC, WLAN-Stick für Raspi vergessen ????, Arbeitsunfälle.
+  - monat: '11'
+    inhalt: >-
+     15.11.2016 : GCC 7.0, KDE und Akonadi, X startet nicht, Zertifikate aller Art, Industrie Standards , Single Malt <br />
+     01.11.2016 : Nextcloud, Threads und Instanzen, Gimp-Layer, Mikrokontroller, 1-wirebus, SPI mit Optokoppler
+  - monat: '10'
+    inhalt: >-
+     04.10.2016 : MicroPython, Partitionen, Editoren (vim. emacs, kate), cron, crontab , go (die Sprache), FPGA programmieren
+  - monat: '09'
+    inhalt: >-
+     13.09.2016: IMAP-Server installieren, Chromium und Bluetooth, Passwortmanager, Scanner mit 1000 Kopien
+  - monat: '08'
+    inhalt: >-
+     09.08.2016: Mitgebrachte Kleinstcomputer und Zubehör, 40.000 Rechner für ein Chemiewerk, ZFS, Docker, SAP, Git und mehr.
+  - monat: '07'
+    inhalt: >-
+     06.07.2016: Piandmore, Ist Bash eine Programmiersprache und was kann sie. Stammtisch soll flexibler werden.
