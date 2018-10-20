@@ -18,7 +18,7 @@ description: Kurzer Report der Wolust Stammtische 2018
 
 
 <ul>
- {% for review  in site.data.review.linuxuser %}
+ {% for review  in site.data.review18.linuxuser %}
     <li>  {{ review.inhalt }} </li>
  {% endfor %}
 </ul>

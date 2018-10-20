@@ -115,8 +115,45 @@
        ga('send', 'pageview');
     </script>
     {% endif %}
-        
-<script type="text/javascript">
+   {% if page.title == "Nächster Wolust" %}
+    {% for treffen in site.data.daten.linuxuser %}
+     {% if treffen.meeting == "Nächstes Treffen" %}
+<script type="application/ld+json"> 
+{ "@context": "http://schema.org", 
+"@type": "Event",
+"name": "Wormser Linux User Stammtisch", 
+"startDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T19:30-08", 
+"location": { "@type": "Place", 
+              "name":"Worms {{treffen.ort}}", 
+              "address": { 
+                          "@type": "PostalAddress", 
+                          "streetAddress": "Ludwigsplatz 1", 
+                          "addressLocality": "{{treffen.ort}}", 
+                          "postalCode": "67547", 
+                          "addressRegion": "RLP", 
+                          "addressCountry": "De" 
+                          } 
+             }, 
+"image": "https://wolust.de/images/tux-wolust.jpg", 
+"description": "Wormser Linux User treffen sich einmal im Monat. Wenn du Interesse an Linux hast, komm vorbei und setz dich dazu !", 
+"endDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T23:00", 
+"offers": { "@type": "Offer", 
+            "url": "https://www.wolust.de", 
+            "price": "0", 
+            "priceCurrency": "€", 
+            "availability": "http://schema.org/InStock", 
+            "validFrom": "2018-09-08T15:20" 
+           }, 
+"performer": { "@type": "PerformingGroup", 
+               "name": "Tux der Linux Pinguin" 
+             }
+} 
+</script>
+    {% endif %} 
+   {% endfor %}
+  {% endif %} 
+  
+   <script type="text/javascript">
 document.cookie = "klicker";
 function change()
 {
