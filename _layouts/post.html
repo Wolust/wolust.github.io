@@ -69,7 +69,7 @@ layout: default
 
 
 
-<span class="post-meta"> Erstellt: {{ page.date | date: site.date_format_day }} {{ page.date | german_long_month }} {{ page.date | date: site.date_format_year }} </span> / 
+<span class="post-meta"> Erstellt: {{ page.date | date: site.date_format }} </span> / 
   {% if page.update_date %}
-  <span class="post-meta">{{ site.text.post.updated }}: {{ site.time | date: site.date_format_day }} {{ site.time | german_long_month }} {{ site.time | date: site.date_format_year }}</span><br>
+  <span class="post-meta">{{ site.text.post.updated }}: {{ site.time | date: site.date_format }}</span><br>
   {% endif %}
