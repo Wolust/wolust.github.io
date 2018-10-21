@@ -4,9 +4,11 @@ author: Stefan Höhn
 description: Der Wormser Linux User Stammtisch trifft sich jeden 1. Dienstag im Monat
 baseurl: ''
 url: 'https://wolust.de'
-date_format: '%b %-d, %Y'
+date_format_day: '%-d .'
+date_format_year: '%Y'
+date_format : '%-d . %b . %Y'
 header_pages:
-  - about.md
+  - map.md
   - help.md
 google_verification: 'fdVYZrBjcMeFQK5MnFi4WhNe3-RVaVgjMZvh6ekvItM'
 google_analytics: null

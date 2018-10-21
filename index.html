@@ -1,20 +1,15 @@
 ---
 layout: default
 ---
-
 {% assign posts_count = paginator.posts | size %}
-
 <div class="home">
 <div style="margin-bottom: 25px;">
 <figure style="float:right; margin-left: 40px;"><img src="/images/tux-wolust.jpg" alt="Tux auf einem Biertisch" title="Der Tux ist immer dabei"/>
 <figcaption style="text-align: center;">Tux ist auf dem Tisch</figcaption>
 </figure>
-
 <strong>WOLUST</strong> ist ein Acronym für <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. <a href="/linux_worms">tl;dr</a><br />
 Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu ! 
 </div>
-
-
 {% if posts_count > 0 %}
     <div class="posts">
       {% for post in paginator.posts %}
@@ -36,9 +31,5 @@ Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu !
   {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
   {% endif %}
- 
 </div>
 
-
-<hr />
-<span class="post-meta">Geändert: {{ site.time | date: site.date_format }}</span>

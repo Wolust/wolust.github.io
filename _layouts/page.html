@@ -10,7 +10,7 @@ description: Linux Stammtisch Worms
   {{ content }}
   </article>
     {% if page.update_date %}
-  <span class="post-meta">{{ site.text.post.updated }}: {{ site.time | date: site.date_format }}</span><br>
+  <span class="post-meta">{{ site.text.post.updated }}: {{ site.time | date: site.date_format_day }} {{ site.time | german_long_month }} {{ site.time | date: site.date_format_year }} </span><br>
   {% endif %}
 
 </div>
