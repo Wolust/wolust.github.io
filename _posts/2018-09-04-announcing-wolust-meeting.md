@@ -7,9 +7,9 @@ summary: 06.11.2018 19:30 Uhr im Timescafe
 categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 ---
-
-<strong>Wormser Linux Stammtisch Termine</strong><br />
-
+<ul>
+<li>Wormser Linux Stammtisch Termine</li>
+</ul>
 Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger.
 <ul>
 <li>
