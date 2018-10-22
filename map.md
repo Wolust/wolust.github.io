@@ -18,4 +18,4 @@ Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Wo
 Fußweg Bahnhof - TimesCafe.
 
 Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe
-<hr />
+{% include fortune.html %}

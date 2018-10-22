@@ -28,23 +28,4 @@ description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusa
       &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">GitHub</a>.
 </li>
 </ol>
-<hr />
-**Fortunes:**
-
-<script type="text/javascript">
-var myArray = [
-  "Programmierweisheit:Unsere Fehler von heute sichern uns unser Brot von morgen.",
-  "Die Passwörter an die du dich noch erinnerst, hast du letzte Woche geändert.",
-  "VI ist kein Editor, das ist ein Eingabestrom-Modifikator.",
-  "Input - Output - Kaputt!",
-  "Nicht diskutieren - programmieren!",
-  "Linux ist nur gratis, wenn deine Zeit wertlos ist.",
-  "Früher oder später emulieren wir euch!",
-  "Linux, das beste Mittel um den Status DAU zu verlassen.",
-  "I❤️ #!/bin/bash"
-];
-
-var randomitem = myArray[Math.floor(Math.random()*myArray.length)];
-document.write( randomitem );
-</script>
-&nbsp;<br />
+{% include fortune.html %}

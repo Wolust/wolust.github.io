@@ -6,7 +6,7 @@ baseurl: ''
 url: 'https://wolust.de'
 date_format_day: '%-d .'
 date_format_year: '%Y'
-date_format : '%-d . %b . %Y'
+date_format : '%-d . %m . %Y %H:%M'
 header_pages:
   - map.md
   - help.md
@@ -106,3 +106,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
