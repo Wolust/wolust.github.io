@@ -138,17 +138,17 @@
 <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->  
   {% if page.title contains "Die Treffen 2018" %}
     <script type="application/ld+json">
-    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Die Treffen 2018", "author" : { "@type" : "Person", "name" : "Stefan Höhn" }, "datePublished" : "2018-09-25", "image" : "https://wolust.de/images/tux-wolust.jpg", "articleSection" : "{{ content | strip_html |strip_newlines }}", "url" : "https://wolust.de/treffen/2018/09/05/lastmeeting/", "publisher" : { "@type" : "Organization", "name" : "wolust" } }
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Die Treffen 2018", "author" : { "@type" : "Person", "name" : "Stefan Höhn" }, "datePublished" : "2018-09-25", "image" : "https://wolust.de/images/tux-wolust.jpg", "articleBody" : "{{ content | strip_html |strip_newlines | remove : '"' }}", "headline": "{{ site.data.review18.linuxuser[0].inhalt }}" , "url" : "https://wolust.de/treffen/2018/09/05/lastmeeting/", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "wolust" } }
     </script>
   {% endif %}
   {% if page.title contains "Rückblick 2017" %}
       <script type="application/ld+json">
-      { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2017", "author" : { "@type" : "Person", "name" : "Stefan Höhn" }, "datePublished" : "2017-12-11", "image" : "https://wolust.de/images/tux-wolust.jpg", "articleSection" : "{{ content | strip_html | strip_newlines }}", "url" : "https://wolust.de/treffen/2017/12/11/lastmeeting/", "publisher" : { "@type" : "Organization", "name" : "wolust" } }
+      { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2017", "author" : { "@type" : "Person", "name" : "Stefan Höhn" }, "datePublished" : "2017-12-11", "image" : "https://wolust.de/images/tux-wolust.jpg", "articleBody" : "{{ content | strip_html | strip_newlines | remove : '"' }}", "headline": "{{ site.data.review17.linuxuser[0].inhalt }}" , "url" : "https://wolust.de/treffen/2017/12/11/lastmeeting/", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "wolust" } }
     </script>
   {% endif %}
    {% if page.title contains "Rückblick 2016" %}
     <script type="application/ld+json">
-    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2016", "author" : { "@type" : "Person", "name" : "Stefan Höhn" }, "datePublished" : "2016-12-11", "image" : "https://wolust.de/images/tux-wolust.jpg", "articleSection" : "{{ content | strip_html  | strip_newlines }}", "url" : "https://wolust.de/treffen/2016/12/11/lastmeeting/", "publisher" : { "@type" : "Organization", "name" : "wolust" } }
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2016", "author" : { "@type" : "Person", "name" : "Stefan Höhn" }, "datePublished" : "2016-12-11", "image" : "https://wolust.de/images/tux-wolust.jpg", "articleBody" : "{{ content | strip_html  | strip_newlines | remove : '"'  }}", "headline": "{{ site.data.review16.linuxuser[0].inhalt }}" , "url" : "https://wolust.de/treffen/2016/12/11/lastmeeting/", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "wolust" } }
     </script>
    {% endif %}
     
