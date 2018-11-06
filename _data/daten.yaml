@@ -1,11 +1,5 @@
 linuxuser:
 
-- meeting: Nächstes Treffen
-  tag: "06"
-  monat: "11"
-  jahr: 2018
-  ort:  Times-Cafe Worms/Ludwigsplatz
-
 - meeting: Weitere Treffen
   tag: "04"
   monat: "12"
@@ -15,5 +9,11 @@ linuxuser:
 - meeting: Weitere Treffen
   tag: "08"
   monat: "01"
+  jahr: 2019
+  ort:  Times-Cafe Worms/Ludwigsplatz
+
+- meeting: Nächstes Treffen
+  tag: "05"
+  monat: "02"
   jahr: 2019
   ort:  Times-Cafe Worms/Ludwigsplatz
