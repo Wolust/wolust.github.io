@@ -13,7 +13,7 @@ Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Wo
 
 <img src="/images/map.png" alt="Stadtplan Worms" title="Viele Wege führen zur Wolust" width="100%">
 
-[Dieser Kartenausschitt](https://www.openstreetmap.org/search?query=Worms%20Ludwigsplatz#map=19/49.63256/8.36326&layers=N) ist eine Kopie aus Openstreetmap.
+[Dieser Kartenausschitt](https://www.openstreetmap.org/search?query=Worms%20Ludwigsplatz#map=19/49.63256/8.36326&layers=N) ist eine Kopie aus Openstreetmap. Veröffentlicht unter <a href="http://opendatacommons.org/licenses/odbl/">ODbL</a>
 
 Fußweg Bahnhof - TimesCafe.
 
