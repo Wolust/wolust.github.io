@@ -1,5 +1,7 @@
 linuxuser:
-  
+  - monat: '12'
+    inhalt  >-
+      04.12.1018 kommt noch
   - monat: '11'
     inhalt: >-
      06.11.2018 Piandmore Stände und Vorträge, Gitlab auf dem Raspberry Pi funktioniert nicht, Github und Travis-CI, LORA-WAN + ESP32, Calliope, InfrarotKameras, Eigenes CMS mit PHP entwickeln. 
