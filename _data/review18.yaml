@@ -1,6 +1,6 @@
 linuxuser:
   - monat: '12'
-    inhalt  >-
+    inhalt: >-
      04.12.1018 C++ und Pointer, Javascript Bibliothek für Sudoku, Sir Tim Berners-Lee das neue Internet mit Bsp.,MQTT und Apache, NSA hört uns ab, Nach dem Studium?, Zertifikat für alles mögliche.
   - monat: '11'
     inhalt: >-
