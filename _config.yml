@@ -58,8 +58,8 @@ share_stumbleupon: true
 share_hackernews: true
 text:
   pagination:
-    newer: Newer
-    older: Older
+    newer: Neuer
+    older: Älter
   share_buttons:
     text: Teile diese Webseite!
     facebook: Share on Facebook
