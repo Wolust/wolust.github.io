@@ -1,9 +1,9 @@
 ---
 title: Nächster Wolust
 layout: post
-date: '2018-12-30 18:59:00'
+date: '2019-01-02 13:29:00'
 update_date: ''
-summary: 01.01.2019 19:30 Uhr im Timescafe
+summary: 05.02.2019 19:30 Uhr im Timescafe
 categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 ---
