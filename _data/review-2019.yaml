@@ -2,7 +2,7 @@ linuxuser:
  
   - monat: '01'
     inhalt: >
-      <h2>01.01.2019</h2>
+      <h3>01.01.2019</h3>
       <ul>
         <li>Arch Linux</li>
         <li>Präsentationen mit Gitlab und Marpit / Static Websites</li>
