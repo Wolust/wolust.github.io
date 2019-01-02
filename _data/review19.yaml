@@ -1,5 +1,13 @@
 linuxuser:
  
   - monat: '01'
-    inhalt: >-
-      01.01.2018 Dummy. Inhalt kommt noch
+    inhalt: >
+      ## 01.01.2019
+      - Arch Linux
+      - Präsentationen mit Gitlab und Marpit / Static Websites
+      - Borg Backup
+      - EcoDMS Dokumentenmanagement
+      - Arduino ähnlicher ähnlicher Selbstbau mit 10 Jahre Batterie Laufzeit      
+      - Silvesterrakete mit Spycam
+      . Shopsysteme Währung und Prozentrechnung
+      - 35C3
