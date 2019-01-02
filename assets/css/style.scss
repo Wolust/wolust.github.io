@@ -1,0 +1,37 @@
+---
+---
+
+body {
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+.well {
+	display: block;
+	border: 1px solid #aaa;
+	background: #eee;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#home_tux {
+	float:right;
+	background: #eee;
+	border: 1px solid #aaa;
+	padding: 10px;
+}
+
+.post .py3 {
+	margin-top: 0;
+	margin-bottom: 10;
+	padding-top: 0;
+	padding-bottom: 0;
+}

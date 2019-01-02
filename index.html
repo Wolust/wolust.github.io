@@ -1,30 +1,32 @@
 ---
 layout: default
 ---
+
 {% assign posts_count = paginator.posts | size %}
 <div class="home">
-<div style="margin-bottom: 25px;">
-<figure style="float:right; margin-left: 40px;"><img src="/images/tux-wolust.jpg" alt="Tux auf einem Biertisch" title="Der Tux ist immer dabei"/>
-<figcaption style="text-align: center;">Tux ist auf dem Tisch</figcaption>
-</figure>
-<strong>WOLUST</strong> ist ein Acronym für <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. <a href="/linux_worms">tl;dr</a><br />
+  <div class="well">
+  <strong>WOLUST</strong> ist ein Acronym für <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. <a href="/linux_worms">tl;dr</a><br />
 Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu ! 
-<br/>
-    <strong>ACHTUNG TERMINÄNDERUNG !</strong>    
-</div>
-{% if posts_count > 0 %}
+  </div>
+  <figure id="home_tux">
+      <img src="/images/tux-wolust.jpg" alt="Tux auf einem Biertisch" title="Der Tux ist immer dabei"/>
+      <figcaption style="text-align: center;">Tux ist auf dem Tisch</figcaption>
+  </figure>
+  {% if posts_count > 0 %}
     <div class="posts">
       {% for post in paginator.posts %}
         <div class="post py3">
         <!--  <p class="post-meta">{{ post.date | date: site.date_format }}</p> -->
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-          <span class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </span>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+            <h2 class="post-title">{{ post.title }}</h2></a>
+            <span class="post-summary">
+              {% if post.summary %}
+                <p>{{ post.summary }}</p>
+                <a href="{{ post.url | prepend: site.baseurl }}">lesen</a>
+              {% else %}
+                {{ post.excerpt }}
+              {% endif %}
+            </span>
         </div>
       {% endfor %}
     </div>

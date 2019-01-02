@@ -8,7 +8,7 @@ update_date: ''
 description: Kurzer Report der Wolust Stammtische 2017 
 ---
 <ul>
- {% for review  in site.data.review17.linuxuser %}
+ {% for review  in site.data.review-2017.linuxuser %}
     <li>  {{ review.inhalt }} </li>
  {% endfor %}
 </ul>
