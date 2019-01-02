@@ -12,6 +12,7 @@ Diese Webseite verwendet **Cookies**. Die Verwendung von Cookies kann in der Ein
 Diese Seite ist bei **http://github.com** gehostet deshalb gilt hier auch **https://help.github.com/articles/github-privacy-statement/**. Besonders bei Benutzung des Backends ist das zu beachten.
 <br />
 Travis CI hat getestet:  [![Build Status](https://travis-ci.org/Wolust/wolust.github.io.svg?branch=master)](https://travis-ci.org/Wolust/wolust.github.io)
+<br />
 Es werden Scripte und Fonts geladen von diesen Urls:
 
 * bootstrapcdn.com
