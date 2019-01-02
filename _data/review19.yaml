@@ -2,12 +2,15 @@ linuxuser:
  
   - monat: '01'
     inhalt: >
-      ## 01.01.2019
-      - Arch Linux
-      - Präsentationen mit Gitlab und Marpit / Static Websites
-      - Borg Backup
-      - EcoDMS Dokumentenmanagement
-      - Arduino ähnlicher ähnlicher Selbstbau mit 10 Jahre Batterie Laufzeit      
-      - Silvesterrakete mit Spycam
-      . Shopsysteme Währung und Prozentrechnung
-      - 35C3
+      <h2>01.01.2019</h2>
+      <ul>
+        <li>Arch Linux</li>
+        <li>Präsentationen mit Gitlab und Marpit / Static Websites</li>
+        <li>Borg Backup</li>
+        <li>EcoDMS Dokumentenmanagement</li>
+        <li>Arduino ähnlicher ähnlicher Selbstbau mit 10 Jahre Batterie Laufzeit</li>
+        <li>Silvesterrakete mit Spycam</li>
+        <li>Shopsysteme Währung und Prozentrechnung</li>
+        <li>35C3</li>
+      </ul>
+      
