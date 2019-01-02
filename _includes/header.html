@@ -10,17 +10,14 @@ change();
 }
 </script>
 </div>
-      <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
+      <h1 class="site-title"><a href="{{ site.url }}">{{ site.title }}</a></h1>
       <div class="clearfix"></div>
       {% if site.show_social_icons %}
         {% include social_links.html %}
       {% endif %}
-      
-
-      
     </div>
   </div>
  </header>
