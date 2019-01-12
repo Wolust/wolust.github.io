@@ -1,11 +1,10 @@
 ---
 title: Hilfe
 layout: page
-update_date: ''
-summary: ''
 meta_robots: noindex,nofollow
 description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusammenfassung
 ---
+
 <ul>
 <li>So kann man einen Eintrag anlegen oder bearbeiten</li>
 </ul> 
@@ -14,7 +13,7 @@ description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusa
 3.  Um Einträge zu editieren, gehe nach wolust.github.io  -> data_
 10.  <span class="red">Einrückungen, Doppelpunkt, -Zeichen und Variablennamen nicht verändern !</span>
 4.   Dort gibt es [daten.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/daten.yaml) Hier können neue Termine angelegt oder editiert werden .
-5.   Dort gibt es [review18.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/review18.yaml) Hier können Stichpunkte zu vergangenen Treffen editiert und neu eingetragen werden. 
+5.   Dort gibt es [review-2019.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/review-2019.yaml) Hier können Stichpunkte zu vergangenen Treffen editiert und neu eingetragen werden. 
 6.   Das Datum des nächsten Stammtischs  sollte auch hier geändert werden: [announcing-wolust-meeting.md](https://github.com/Wolust/wolust.github.io/blob/master/_posts/2018-09-04-announcing-wolust-meeting.md)  in dem Variablen-Kästchen *Summary* oberste Zeile. 
 7.  Sonst bitte nichts verändern oder aber Du kennst Dich mit diesem Jekyll Template aus.
 9.  Hilfe bei größeren Änderungen und Fehlern: wolust@untergang.de
