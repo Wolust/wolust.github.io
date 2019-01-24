@@ -5,7 +5,7 @@ rvm:
  - 2.4
 script:
  - bundle exec jekyll build
- - bundle exec htmlproofer  --allow-hash-href ./_site
+ - bundle exec htmlproofer  --allow-hash-href --disable-external ./_site
  - grep post-title         _site/index.html
  - grep pagination-item    _site/index.html
  - grep 404                _site/404.html
