@@ -22,7 +22,7 @@ linuxuser:
         <li>LoRaWAN sendet auch verschlüsselt</li>
         <li>OBD im Auto Bluetooth und USB</li>
         <li>Displays Arduino i2c oder USB</li>
-        <li>Jekyll Homepage bei Github testen mit Travis Ci<li/>
+        <li>Jekyll Homepage bei Github testen mit Travis Ci</li>
         <li>Bashscript testen mit integriertem Shellcheck</li>
         <li>Webserver mit Python und Node.js</li>
       </ul>
