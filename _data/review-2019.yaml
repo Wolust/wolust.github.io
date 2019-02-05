@@ -13,4 +13,16 @@ linuxuser:
         <li>Shopsysteme Währung und Prozentrechnung</li>
         <li>35C3</li>
       </ul>
-      
+  - monat: '02'    
+    inhalt: > 
+      <h3>05.02.2019</h3>
+      <ul>
+        <li>Server zuhause  mit Nextcloud</li>
+        <li>Netzwerk daheim Linux, Mac, Windows</li>
+        <li>LoRaWAN sendet auch verschlüsselt</li>
+        <li>OBD im Auto Bluetooth und USB</li>
+        <li>Displays Arduino i2c oder USB</li>
+        <li>Jekyll Homepage bei Github testen mit Travis Ci<li/>
+        <li>Bashscript testen mit integriertem Shellcheck</li>
+        <li>Webserver mit Python und Node.js</li>
+      </ul>
