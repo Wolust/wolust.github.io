@@ -25,4 +25,5 @@ linuxuser:
         <li>Jekyll Homepage bei Github testen mit Travis Ci</li>
         <li>Bashscript testen mit integriertem Shellcheck</li>
         <li>Webserver mit Python und Node.js</li>
+        <li>Automatisiertes Testen von mobile Apps mit Appium und Robot Framework</li>
       </ul>
