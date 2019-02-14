@@ -3,10 +3,11 @@ title: Nächster Wolust
 layout: post
 date: '2019-01-02 13:29:00'
 update_date: '2019-02-06 07:00:00'
-summary: 05.03.2019 19:30 Uhr im Timescafe
 categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
+summary: lolo
 ---
+
 <ul>
 <li>Wormser Linux Stammtisch Termine</li>
 </ul>
@@ -16,6 +17,7 @@ Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der G
 {% assign next = site.data.daten.linuxuser[0] %}
 {{next.meeting}} :
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} 19:30 im {{next.ort}} </strong>
+
 </li>
 </ul>
 Weitere Treffen ohne Gewähr:

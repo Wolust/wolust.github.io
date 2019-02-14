@@ -37,7 +37,7 @@ stackoverflow_id: null
 twitter_username: wolug
 skype_username: null
 steam_nickname: null
-google_plus_id: +StefanHöhn
+google_plus_id: null
 linkedin_username: null
 angellist_username: null
 medium_id: null
@@ -49,7 +49,7 @@ vk_id: null
 show_sharing_icons: false
 share_facebook: true
 share_twitter: true
-share_googleplus: true
+share_googleplus: false
 share_linkedin: true
 share_digg: true
 share_tumblr: true
