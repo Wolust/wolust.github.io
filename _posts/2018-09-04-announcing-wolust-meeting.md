@@ -5,7 +5,7 @@ date: '2019-01-02 13:29:00'
 update_date: '2019-02-06 07:00:00'
 categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
-summary: lolo
+summary: 05.03.2019
 ---
 
 <ul>
