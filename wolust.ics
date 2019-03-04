@@ -1,0 +1,24 @@
+---
+layout: none
+date: '2019-03-04 16:29:00'
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://wolust.de/
+METHOD:PUBLISH
+{% for treffen  in site.data.daten.linuxuser %}
+BEGIN:VEVENT
+UID:{{ page.date | date: "%Y%m%d" }}{{treffen.tag}}{{treffen.monat}}{{treffen.jahr}}@wolust.de
+ORGANIZER;CN="Stefan Höhn":MAILTO:webmaster@untergang.de
+LOCATION:{{treffen.ort}}
+SUMMARY:{{ treffen.meeting }}
+DESCRIPTION:Hallo  !\nMorgen ist wieder Wormser Linux User 
+ Stammtisch.\n{{treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{treffen.ort}}\nBitte melden 
+ \,wer kommt. bei mehr als 4 Personen reserviere ich einen Tisch\nhttps:
+ //wolust.de\n
+CLASS:PUBLIC
+DTSTART:{{treffen.jahr}}{{treffen.monat}}{{treffen.tag}}T193000
+DTEND:{{treffen.jahr}}{{treffen.monat}}{{treffen.tag}}T230000
+DTSTAMP:{{ page.date | date: "%Y%m%d" }}T170000
+END:VEVENT{% endfor %}
+END:VCALENDAR

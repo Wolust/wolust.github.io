@@ -32,5 +32,6 @@ Weitere Treffen ohne Gewähr:
 {% endfor %}
 </ul>
 
+[Kalender/ICS]({{ site.baseurl }}{% link wolust.ics %})
 
 {% include share_buttons.html %}
