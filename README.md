@@ -22,7 +22,9 @@ Markdown Beispiele: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheats
 + Erweiterter Software test
 + github-metatags
 + Hauptmenue angepasst
+
  <hr />
+ 
  ## Die folgende Orginalanleitung ist voll gültig.
  
 [pixyll.com](http://www.pixyll.com)
