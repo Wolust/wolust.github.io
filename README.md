@@ -4,21 +4,21 @@
 
 1. git repostory auf PC updaten : git pull https://github.com/Wolust/wolust.github.io.git master 
 2. git repository auf PC kopieren. (das erste mal) :git clone https://github.com/Wolust/wolust.github.io.git 
-2a. Zum testen und ändern sollte Jekyll auf dem PC installiert sein.
-.3. geänderte repository von PC uploaden:
-⋅⋅1. git add foo (foo ist was du neu hinzugefügt hast)
-⋅⋅2. git commit -a (Was du geändert hast)
-⋅⋅3. git push --set-upstream "https://github.com/Wolust/wolust.github.io.git" master
-⋅⋅4.  Wenn das nicht geht : git push mit -f benutzen (brutal)
+3. Zum testen und ändern sollte Jekyll auf dem PC installiert sein.
+4. geänderte repository von PC uploaden:
+5. git add foo (foo ist was du neu hinzugefügt hast)
+6. git commit -a (Was du geändert hast)
+7. git push --set-upstream "https://github.com/Wolust/wolust.github.io.git" master
+8.  Wenn das nicht geht : git push mit -f benutzen (brutal)
 
 Markdown Beispiele: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
  <hr />
  ## Extra Features.
-* Kalender
-* Variablen in YAML
-* Erweiterter Software test
-* github-metatags
-* Hauptmenue angepasst
++ Kalender
++ Variablen in YAML
++ Erweiterter Software test
++ github-metatags
++ Hauptmenue angepasst
  <hr />
  ## Die folgende Orginalanleitung ist voll gültig.
  
