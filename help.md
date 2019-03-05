@@ -16,7 +16,13 @@ description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusa
 5. Dort gibt es [review-2019.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/review-2019.yaml) Hier können Stichpunkte zu vergangenen Treffen editiert und neu eingetragen werden. 
 7. Tiefgreifende  Änderungen (Neuverlinkung oder Änderungen von Dateinamen)  funktionieren nur  nach einer Generierung mit Jekyll  !
 8. Nach jeder  Änderung erzeugtes Html und Links mit Travis CI testen ! [![Build Status](https://travis-ci.org/Wolust/wolust.github.io.svg?branch=master)](https://travis-ci.org/Wolust/wolust.github.io)
-9.  Hilfe bei Fehlern: wolust@untergang.de
+9. Hilfe bei Fehlern: wolust@untergang.de
+
+### Wissenswertes
+Wolust Git-Liste: {% for repository in site.github.public_repositories %}
+1. [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+
 
 
 ### Dieses Jekyll-Thema habe ich als Basis für diese Seite benutzt:
