@@ -1,7 +1,6 @@
-# Pixyll
+# Wolust-Pixyll
 <hr />
-
-## Von mir dewomser hinzugefügt:
+## So macht man daraus die eigenen Homepage bei Github.
 
 1. git repostory auf PC updaten : git pull https://github.com/Wolust/wolust.github.io.git master 
 2. git repository auf PC kopieren. (das erste mal) :git clone https://github.com/Wolust/wolust.github.io.git 
@@ -14,7 +13,15 @@
 
 Markdown Beispiele: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
  <hr />
-
+ ## Extra Features.
+* Kalender
+* Variablen in YAML
+* Erweiterter Software test
+* github-metatags
+* Hauptmenue angepasst
+ <hr />
+ ## Die folgende Orginalanleitung ist voll gültig.
+ 
 [pixyll.com](http://www.pixyll.com)
 
 ![Pixyll screenshot](https://cloud.githubusercontent.com/assets/1424573/3847467/134aa236-1e66-11e4-8421-4e8c122118dc.png)
