@@ -1,5 +1,6 @@
 # Wolust-Pixyll
 <hr />
+
 ## So macht man daraus die eigenen Homepage bei Github.
 
 1. git repostory auf PC updaten : git pull https://github.com/Wolust/wolust.github.io.git master 
@@ -13,7 +14,9 @@
 
 Markdown Beispiele: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
  <hr />
- ## Extra Features.
+ 
+## Extra Features.
+
 + Kalender
 + Variablen in YAML
 + Erweiterter Software test
