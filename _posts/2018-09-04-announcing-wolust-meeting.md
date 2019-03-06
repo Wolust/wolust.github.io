@@ -1,8 +1,8 @@
 ---
 title: Nächster Wolust
 layout: post
-date: '2019-01-02 13:29:00'
-update_date: '2019-02-06 07:00:00'
+date: '2019-01-01 13:29:00'
+update_date: ''
 categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 summary-date: 'summary braucht man hier nicht mehr'
@@ -33,5 +33,7 @@ Weitere Treffen ohne Gewähr:
 </ul>
 
 [Kalender/ICS]({{ site.baseurl }}{% link wolust.ics %})
+
+
 
 {% include share_buttons.html %}

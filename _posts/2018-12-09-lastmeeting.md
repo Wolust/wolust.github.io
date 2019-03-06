@@ -2,6 +2,7 @@
 title: Die Treffen 2019
 layout: post
 date: '2018-12-03 06:34:00'
+update_date: ''
 categories: treffen
 summary: Zusammenfassung und Stichpunkte
 description: Kurzer Report der Wolust Stammtische 2019

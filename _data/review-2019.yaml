@@ -1,17 +1,18 @@
 linuxuser:
  
-  - monat: '01'
-    inhalt: >
-      <h3>01.01.2019</h3>
+  - monat: '03'    
+    inhalt: > 
+      <h3>05.03.2019</h3>
       <ul>
-        <li>Arch Linux</li>
-        <li>Präsentationen mit Gitlab und Marpit / Static Websites</li>
-        <li>Borg Backup</li>
-        <li>EcoDMS Dokumentenmanagement</li>
-        <li>Arduino ähnlicher ähnlicher Selbstbau mit 10 Jahre Batterie Laufzeit</li>
-        <li>Silvesterrakete mit Spycam</li>
-        <li>Shopsysteme Währung und Prozentrechnung</li>
-        <li>35C3</li>
+        <li>Google-Browser macht Bluetooth für Medizingeräte z.B. Glukose</li>
+        <li>Jekyll macht Kalender ics</li>
+        <li>Programmiersprache Python3.X im Vergleich zu 2.7</li>
+        <li>Python oder Ruby</li>
+        <li>Beschleunigungssensor und Arduino</li>
+        <li>Als Logger. Im EEPROM Werte direkt Byteweise speichern</li>
+        <li>Mobile Apps Softwaretests</li>
+        <li>Die Bahn. Verbindung Frankfurt - Köln ist richtig schnell </li>
+        <li>Vorteile von kleinen Wolust-Treffen</li>
       </ul>
   - monat: '02'    
     inhalt: > 
@@ -26,4 +27,17 @@ linuxuser:
         <li>Bashscript testen mit integriertem Shellcheck</li>
         <li>Webserver mit Python und Node.js</li>
         <li>Automatisiertes Testen von mobile Apps mit Appium und Robot Framework</li>
+      </ul>
+  - monat: '01'
+    inhalt: >
+      <h3>01.01.2019</h3>
+      <ul>
+        <li>Arch Linux</li>
+        <li>Präsentationen mit Gitlab und Marpit / Static Websites</li>
+        <li>Borg Backup</li>
+        <li>EcoDMS Dokumentenmanagement</li>
+        <li>Arduino ähnlicher ähnlicher Selbstbau mit 10 Jahre Batterie Laufzeit</li>
+        <li>Silvesterrakete mit Spycam</li>
+        <li>Shopsysteme Währung und Prozentrechnung</li>
+        <li>35C3</li>
       </ul>
