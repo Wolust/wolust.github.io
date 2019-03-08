@@ -12,12 +12,13 @@ description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusa
 1. Du brauchst einen Github-Account [github.com](https://github.com/)
 2. Du mußt Mitglied werden bei [Organisation Wolust](https://github.com/Wolust) Bei  Christian melden.
 3. Um Einträge zu editieren, gehe nach wolust.github.io  -> data_
-10. <span class="red">Einrückungen, Doppelpunkt, -Zeichen und Variablennamen nicht verändern !</span>
+13. <span class="red">Einrückungen, Doppelpunkt, -Zeichen und Variablennamen nicht verändern !</span>
 4. Dort gibt es [daten.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/daten.yaml) Hier können neue Termine angelegt oder editiert werden .
 5. Dort gibt es [review-2019.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/review-2019.yaml) Hier können Stichpunkte zu vergangenen Treffen editiert und neu eingetragen werden. 
 7. Tiefgreifende  Änderungen (Neuverlinkung oder Änderungen von Dateinamen)  funktionieren nur  nach einer Generierung mit Jekyll  !
-8. Nach jeder  Änderung erzeugtes Html und Links mit Travis CI testen ! [![Build Status](https://travis-ci.org/Wolust/wolust.github.io.svg?branch=master)](https://travis-ci.org/Wolust/wolust.github.io)
-9. Hilfe bei Fehlern: wolust@untergang.de
+8. Die Variable date ist tabu, weil sie zur Linkerzeugung benutzt wird. Die leere Variable date_update wird als aktuelles Änderungsdatum geparst. 
+9. Nach jeder  Änderung erzeugtes Html und Links mit Travis CI testen ! [![Build Status](https://travis-ci.org/Wolust/wolust.github.io.svg?branch=master)](https://travis-ci.org/Wolust/wolust.github.io)
+10. Hilfe bei Fehlern: wolust@untergang.de
 
 ### Wissenswertes
 Wolust Git-Liste: {% for repository in site.github.public_repositories %}
