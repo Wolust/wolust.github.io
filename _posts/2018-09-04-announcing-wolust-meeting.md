@@ -11,7 +11,7 @@ summary-date: 'summary braucht man hier nicht mehr'
 <ul>
 <li>Wormser Linux Stammtisch Termine</li>
 </ul>
-Wer sich für Linux und andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger.
+Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger.
 <ul>
 <li>
 {% assign next = site.data.daten.linuxuser[0] %}
