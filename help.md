@@ -24,7 +24,11 @@ Wolust Git-Liste: {% for repository in site.github.public_repositories %}
 1. [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
 
+### Schreibt hier
+[{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench)
 
+### Geht zum Wolust und hat ein Github-Account
+[{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench) [{% avatar devcon2012 %}](https://github.com/devcon2012) [{% avatar doppeldau %}](https://github.com/doppeldau)
 
 ### Dieses Jekyll-Thema habe ich als Basis für diese Seite benutzt:
 Theme crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).
