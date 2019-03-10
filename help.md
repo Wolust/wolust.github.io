@@ -10,7 +10,7 @@ description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusa
 
 
 1. Du brauchst einen Github-Account [github.com](https://github.com/)
-2. Du mußt Mitglied werden bei [Organisation Wolust](https://github.com/Wolust) Bei  Christian melden.
+2. Du mußt Mitglied werden bei [Organisation Wolust](https://github.com/Wolust) Bei  Christian @cmuench melden.
 3. Um Einträge zu editieren, gehe nach wolust.github.io  -> data_
 13. <span class="red">Einrückungen, Doppelpunkt, -Zeichen und Variablennamen nicht verändern !</span>
 4. Dort gibt es [daten.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/daten.yaml) Hier können neue Termine angelegt oder editiert werden .
@@ -21,18 +21,38 @@ description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusa
 10. Hilfe bei Fehlern: wolust@untergang.de
 
 ### Wissenswertes
-Wolust Git-Liste: {% for repository in site.github.public_repositories %}
-1. [{{ repository.name }}]({{ repository.html_url }})
+<strong>Wolust Git-Liste:</strong>
+<ul>
+ {% for repository in site.github.public_repositories %}
+<li> <a href="{{ repository.name }}">{{ repository.html_url }}</a>
+<br />
+{{ repository.description }}
+<br />
+Zuletzt upgedatet: {{ repository.updated_at | date: "%-d.%m.%Y %H:%M" }}
+</li>
 {% endfor %}
+</ul>
 
-### Schreibt hier
+<strong>Aktuelle Server Einstellung</strong>
+<ul>
+<li>Diese Homepage kann man mit Git <a href="{{ site.github.clone_url }}">klonen</a></li>
+<li>Jekyll Version : {{ site.github.versions.jekyll }}</li>
+<li>Liquid Version : {{ site.github.versions.liquid }}</li>
+<li>Lizenz : {{ site.github.license.key }}</li>
+</ul>
+
+**Schreibt hier:**
+
 [{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench)
 
-### Geht zum Wolust und hat ein Github-Account
+**Geht zum Wolust und hat ein Github-Account:**
+
 [{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench) [{% avatar devcon2012 %}](https://github.com/devcon2012) [{% avatar doppeldau %}](https://github.com/doppeldau)
 
-### Dieses Jekyll-Thema habe ich als Basis für diese Seite benutzt:
+### Pixyll Jekyll-Thema ist die  Basis für diese Site:
 Theme crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).
 &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">GitHub</a>.
+
+
 
  {% include fortune.html %}

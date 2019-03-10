@@ -35,5 +35,4 @@ Weitere Treffen ohne Gewähr:
 [Kalender/ICS]({{ site.baseurl }}{% link wolust.ics %})
 
 
-
 {% include share_buttons.html %}

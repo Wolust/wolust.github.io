@@ -51,6 +51,7 @@ telegram_username: null
 vk_id: null
 show_sharing_icons: false
 share_facebook: true
+share_mastodon: true
 share_twitter: true
 share_googleplus: false
 share_linkedin: true
@@ -67,6 +68,7 @@ text:
     text: Teile diese Webseite!
     facebook: Share on Facebook
     twitter: Share on Twitter
+    mastodon: Toot
     googleplus: Share on Google+
     linkedin: Share on LinkedIn
     digg: Share on Digg
@@ -106,7 +108,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - jekyll-avatar
-  
+  - jekyll-mentions
 exclude:
   - Gemfile
   - Gemfile.lock
