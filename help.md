@@ -24,7 +24,7 @@ description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusa
 <strong>Wolust Git-Liste:</strong>
 <ul>
  {% for repository in site.github.public_repositories %}
-<li> <a href="{{ repository.name }}">{{ repository.html_url }}</a>
+<li> <a href="{{ repository.html_url }}">{{ repository.name }}</a>
 <br />
 {{ repository.description }}
 <br />
