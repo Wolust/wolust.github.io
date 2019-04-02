@@ -1,6 +1,18 @@
 linuxuser:
- 
-  - monat: '03'    
+- monat: '04'    
+    inhalt: > 
+      <h3>02.04.2019</h3>
+      <ul>
+        <li>Android, Apps, Repsositries Bsp.: F-Droid und Blokada</li>
+        <li>Spielzeugfahrzeug installieren und programmieren mit Python und Processing</li>
+        <li>ESP32 Programmieren mit Arduino und Mikropython</li>
+        <li>Solid Dezentrales Internet ,was funktioniert schon.</li>
+        <li>Softwaretests</li>
+        <li>Alte Computerspiele und Emulatoren. Spiele bei archive.org</li>
+        <li>Social Networks und Mastodon</li>
+        <li>Arbeitsplätze erhalten durch verhindern der Fertigstellung? </li>
+      </ul>
+   - monat: '03'    
     inhalt: > 
       <h3>05.03.2019</h3>
       <ul>
