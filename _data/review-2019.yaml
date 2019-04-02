@@ -1,5 +1,5 @@
 linuxuser:
-   - monat: '04'    
+  - monat: '04'    
     inhalt: > 
       <h3>02.04.2019</h3>
       <ul>
@@ -12,7 +12,7 @@ linuxuser:
         <li>Social Networks und Mastodon</li>
         <li>Arbeitsplätze erhalten durch verhindern der Fertigstellung? </li>
       </ul>
-   - monat: '03'    
+  - monat: '03'    
     inhalt: > 
       <h3>05.03.2019</h3>
       <ul>
