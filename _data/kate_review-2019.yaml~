@@ -31,7 +31,7 @@ linuxuser:
     inhalt: > 
       05.02.2019
       
-        <ul><li>Server zuhause  mit Nextcloud</li>
+        </ul><li>Server zuhause  mit Nextcloud</li>
         <li>Netzwerk daheim Linux, Mac, Windows</li>
         <li>LoRaWAN sendet auch verschlüsselt</li>
         <li>OBD im Auto Bluetooth und USB</li>
@@ -45,7 +45,7 @@ linuxuser:
     inhalt: >
       01.01.2019
       
-        <ul><li>Arch Linux</li>
+        </ul><li>Arch Linux</li>
         <li>Präsentationen mit Gitlab und Marpit / Static Websites</li>
         <li>Borg Backup</li>
         <li>EcoDMS Dokumentenmanagement</li>

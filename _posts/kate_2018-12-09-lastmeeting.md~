@@ -8,8 +8,8 @@ summary: Zusammenfassung und Stichpunkte
 description: Kurzer Report der Wolust Stammtische 2019
 ---
 Themenüberblick. Darüber haben wir geredet:
-
+<ul>
  {% for review  in site.data.review-2019.linuxuser %}
-      {{ review.inhalt }} 
+    <li>  {{ review.inhalt }} </li>
  {% endfor %}
-
+</ul>

@@ -7,7 +7,7 @@ categories: treffen
 update_date: ''
 description: Kurzer Report der Wolust Stammtische 2016 
 ---
-Themenüberblick. Darüber haben wir geredet:
+Themenüberblick darüber haben wir geredet:
 <ul>
  {% for review  in site.data.review-2016.linuxuser %}
     <li>  {{ review.inhalt }} </li>

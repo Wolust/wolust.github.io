@@ -6,7 +6,7 @@ summary: Zusammenfassung und Stichpunkte
 categories: treffen
 description: Kurzer Report der Wolust Stammtische 2017 
 ---
-Themenüberblick. Darüber haben wir geredet:
+Themenüberblick darüber haben wir geredet:
 <ul>
  {% for review  in site.data.review-2017.linuxuser %}
     <li>  {{ review.inhalt }} </li>
