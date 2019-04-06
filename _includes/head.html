@@ -138,32 +138,34 @@
  
  {% if page.title == "index" %}
  <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->  
-<script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Article", "name" : "Wormser Linux User Stammtisch", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "image" : "{{ site.url }}/images/tux-wolust.jpg", "articleSection" : "WOLUST ist ein Acronym für Wormser Linux User Stammtisch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. Wie alles begann: tl;dr Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu !", "url" : "{{ site.url }}{{ page.url }}", "publisher" : { "@type" : "Organization", "name" : "WOLUST" } } </script>
+<script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Article", "name" : "Wormser Linux User Stammtisch", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2019-03-25", "dateModified" : "{{ site.time }}", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ site.description }}", "articleSection" : "WOLUST ist ein Acronym für Wormser Linux User Stammtisch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. Wie alles begann: tl;dr Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu !", "url" : "{{ site.url }}{{ page.url }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } } </script>
  {% endif %} 
+ 
+ 
  
  {% if page.title == "Stammtische 2019" %}
   <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->  
     <script type="application/ld+json">
-    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Die Treffen 2019", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2019-03-25", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}", "url": "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "WOLUST" } }
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Die Treffen 2019", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2019-03-25", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}", "url": "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
     </script>
   {% endif %}
 
   {% if page.title == "Stammtische 2018" %}
   <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->  
     <script type="application/ld+json">
-    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Die Treffen 2018", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2018-09-25", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}",  "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}", "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "WOLUST" } }
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Die Treffen 2018", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2018-09-25", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}",  "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}", "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
     </script>
   {% endif %}
   {% if page.title == "Stammtische 2017" %}
   <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->  
       <script type="application/ld+json">
-      { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2017", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2017-12-11", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}",  "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "WOLUST" } }
+      { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2017", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2017-12-11", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}",  "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}","publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
     </script>
   {% endif %}
    {% if page.title == "Stammtische 2016" %}
    <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->  
     <script type="application/ld+json">
-    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2016", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2016-12-11", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}", "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "WOLUST" } }
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2016", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2016-12-11", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}", "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
     </script>
    {% endif %}
 <script type="text/javascript">
