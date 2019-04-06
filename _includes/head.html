@@ -184,7 +184,10 @@
    </style>
    
    {% endif %}
-   
+   {% if page.title == "Wissenswertes zur LUG in Worms" %}
+ <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->  
+<script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Article", "name" : "{{ page.title }}", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2019-03-25", "dateModified" : "{{ site.time }}", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.description }}", "articleSection" : "{{ page.content | markdownify | strip_html }}", "url" : "{{ site.url }}{{ page.url }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } } </script>
+ {% endif %} 
    
    
 <script type="text/javascript">
