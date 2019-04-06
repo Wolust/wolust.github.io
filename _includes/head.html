@@ -168,6 +168,25 @@
     { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2016", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2016-12-11", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review  in site.data.review-2019.linuxuser %}  {{ review.inhalt | strip_html | }}  {% endfor %}", "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
     </script>
    {% endif %}
+   
+   {% if page.title == "Stadtplan" %}
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+   
+   <style>
+   #mapid { height: 637px; }
+   </style>
+   
+   {% endif %}
+   
+   
+   
 <script type="text/javascript">
 document.cookie = "klicker";
 function change()
