@@ -1,6 +1,6 @@
 ---
 layout: default
-title: index-seite
+title: index
 ---
 
 {% assign posts_count = paginator.posts | size %}
