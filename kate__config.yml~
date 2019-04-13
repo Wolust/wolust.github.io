@@ -109,7 +109,6 @@ plugins:
   - jekyll-github-metadata
   - jekyll-avatar
   - jekyll-mentions
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
