@@ -105,7 +105,7 @@
 { "@context": "http://schema.org", 
 "@type": "Event",
 "name": "Wormser Linux User Stammtisch", 
-"startDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T19:30-08", 
+"startDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T19:30", 
 "location": { "@type": "Place", 
               "name":"Worms {{treffen.ort}}", 
               "address": { 
@@ -125,7 +125,7 @@
             "price": "0", 
             "priceCurrency": "€", 
             "availability": "http://schema.org/InStock", 
-            "validFrom": "2018-09-08T15:20" 
+            "validFrom": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T19:30" 
            }, 
 "performer": { "@type": "PerformingGroup", 
                "name": "Tux der Linux Pinguin" 
