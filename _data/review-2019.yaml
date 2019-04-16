@@ -1,4 +1,15 @@
 linuxuser:
+  - monat: '04a'    
+    inhalt: > 
+      16.04.2019
+      
+        <ul><li>Arduino Eeprom schreiben und lesen (Bytes oder Block)</li>
+        <li>Kybernetes ,Docker</li>
+        <li>Multithreading mit Python</li>
+        <li>Linuxspiele mit 4K Auflösung</li>
+        <li>Linuxspiele im Container</li>
+        <li>Wir suchen einenRaum. Neue Ideen</li></ul>
+
   - monat: '04'    
     inhalt: > 
       02.04.2019
