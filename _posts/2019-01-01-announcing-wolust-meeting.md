@@ -1,11 +1,12 @@
 ---
 title: Nächster Wolust
 layout: post
-date: '2019-01-01 13:29:00'
-update_date: ''
+date: Jan 01, 2019 8:00 PM
+update_date: "''"
 categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
-summary-date: 'summary braucht man hier nicht mehr'
+summary-date: summary braucht man hier nicht mehr
+last_modified_at: Apr 17, 2019 8:00 PM
 ---
 
 <ul>
