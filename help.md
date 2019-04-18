@@ -4,6 +4,7 @@ layout: page
 date: '2019-01-02 13:29:00'
 meta_robots: noindex,nofollow
 description: Anleitung zum Updaten der Webseite WOLUST Nächsten Termin und Zusammenfassung
+sitemap: false
 ---
 
 ### So kann man einen Eintrag anlegen oder bearbeiten
