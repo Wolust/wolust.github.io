@@ -11,8 +11,8 @@ description: Fußweg vom Bahnhof zum Timescafe Ludwigsplatz Worms .Linuxfans tre
 </ul>
 Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
 
-<div id="mapid"></div>
 
+<div id="mapid"></div>
 [Diese Karte](https://www.openstreetmap.org/search?query=Worms%20Ludwigsplatz#map=19/49.63256/8.36326&layers=N) ist von Openstreetmap, veröffentlicht unter <a href="http://opendatacommons.org/licenses/odbl/">ODbL</a>
 
 Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
@@ -20,34 +20,52 @@ Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
 Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe
 {% include fortune.html %}
 
+<script>
+var mymap = L.map('mapid').setView([49.63290, 8.36309], 16);
 
-  
- <script>
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGV3b21zZXIiLCJhIjoiY2p1NXByNTI1MHF3NjRkbzJ4bzdyemRrayJ9.gs3MZEcigyG_wdlH_q1Q1w', {maxZoom: 18,attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',id: 'mapbox.streets'}).addTo(mymap);
+L.marker([49.632493, 8.363262]).addTo(mymap)
+.bindPopup("<b>Linux Stammtisch !</b><br />im Timescafe.").openPopup();
+         
 
-	var mymap = L.map('mapid').setView([49.63290, 8.36309], 16);
+var popup = L.popup();
 
-	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGV3b21zZXIiLCJhIjoiY2p1NXByNTI1MHF3NjRkbzJ4bzdyemRrayJ9.gs3MZEcigyG_wdlH_q1Q1w', {
-		maxZoom: 18,
-		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		id: 'mapbox.streets'
-	}).addTo(mymap);
+function onMapClick(e) {
+popup
+.setLatLng(e.latlng)
+.setContent("You clicked the map at " + e.latlng.toString())
+.openOn(mymap)
+};
 
-         L.marker([49.632493, 8.363262]).addTo(mymap)
-		.bindPopup("<b>Linux Stammtisch !</b><br />im Timescafe.").openPopup();
+var marker;
+map.on('locationfound', function(ev){
+    if (!marker) {
+        marker = L.marker(ev.latlng);
+    } else {
+        marker.setLatLng(ev.latlng);
+    }
+})
+
+</script> 
 
 
 
-	var popup = L.popup();
 
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent("You clicked the map at " + e.latlng.toString())
-			.openOn(mymap);
-	}
 
-	mymap.on('click', onMapClick);
 
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,13 +6,14 @@ update_date: "''"
 categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 summary-date: summary braucht man hier nicht mehr
-last_modified_at: Apr 17, 2019 8:00 PM
+last_modified_at: Apr 29, 2019 8:00 PM
 ---
 
 <ul>
 <li>Wormser Linux Stammtisch Termine</li>
 </ul>
 Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger.
+
 <ul>
 <li>
 {% assign next = site.data.daten.linuxuser[0] %}

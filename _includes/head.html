@@ -8,7 +8,7 @@
     {% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}</title>
+    <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }} lolo98</title>
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -103,7 +103,11 @@
     {% for treffen in site.data.daten.linuxuser %}
      {% if treffen.meeting == "Nächstes Treffen" %}
 <script type="application/ld+json"> 
-{ "@context": "http://schema.org", 
+
+{% for treffen  in site.data.daten.linuxuser %}
+   
+
+  { "@context": "http://schema.org", 
 "@type": "Event",
 "name": "Wormser Linux User Stammtisch", 
 "startDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T19:30", 
@@ -131,8 +135,19 @@
 "performer": { "@type": "PerformingGroup", 
                "name": "Tux der Linux Pinguin" 
              }
-} 
+}  
+   
+{% endfor %}
+
+
+
+
+
 </script>
+
+
+
+     
     {% endif %} 
    {% endfor %}
   {% endif %} 
@@ -178,12 +193,11 @@
     <!-- Make sure you put this AFTER Leaflet's CSS -->
  <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
    integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-   crossorigin=""></script>
-   
+   crossorigin="">   
+ </script>
    <style>
    #mapid { height: 637px; }
    </style>
-   
    {% endif %}
    {% if page.title == "Wissenswertes zur LUG in Worms" %}
  <!-- JSON-LD-Markup generiert von Google Strukturierte Daten: Markup-Hilfe -->  
