@@ -100,13 +100,10 @@
     {% endif %}
     
    {% if page.title == "Nächster Wolust" %}
-    {% for treffen in site.data.daten.linuxuser %}
-     {% if treffen.meeting == "Nächstes Treffen" %}
-<script type="application/ld+json"> 
-
-{% for treffen  in site.data.daten.linuxuser %}
    
-
+     
+<script type="application/ld+json"> [
+ {% for treffen in site.data.daten.linuxuser %}
   { "@context": "http://schema.org", 
 "@type": "Event",
 "name": "Wormser Linux User Stammtisch", 
@@ -135,21 +132,17 @@
 "performer": { "@type": "PerformingGroup", 
                "name": "Tux der Linux Pinguin" 
              }
-}  
-   
+} 
+{% if  treffen.letztes %}
+
+{% else %}
+,
+{% endif %} 
 {% endfor %}
+]</script>
 
-
-
-
-
-</script>
-
-
-
-     
-    {% endif %} 
-   {% endfor %}
+   
+   
   {% endif %} 
  
  {% if page.title == "index" %}
