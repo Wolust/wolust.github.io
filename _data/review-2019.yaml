@@ -4,7 +4,7 @@ linuxuser:
     inhalt: > 
       08.05.2019
       
-        <ul><li>Proxmox kann Server installieren (Bsp.nextcloud)<a href="/ceph-und-proxmox">interner Link</a></li>
+        <ul><li>Proxmox kann Server installieren (Bsp.nextcloud) <a href="/ceph-und-proxmox">interner Link</a></li>
         <li>Solid Grundlagen und Beispiele</li>
         <li>USB-Stecker mit MicroSD für Handy</li>
         <li>Realtime Linux</li>
