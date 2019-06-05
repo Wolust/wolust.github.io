@@ -1,5 +1,18 @@
 linuxuser:
-  
+
+  - monat: '06'    
+    inhalt: > 
+      04.06.2019
+
+        <ul><li>RMS hatte Klaus eine Email geschickt.(Emacs Verbesserung war nicht gut genug)</li>
+        <li>Perl auf dem Buildrechner durch gdb parsen für ARM-Platine</li>
+        <li>mosh im ICE. Latenz bei SSH im Zug nervt.</li>
+        <li>Mozilla IOT ausprobiert mit RaspberryPi und ESP32 als Lampe</li>
+        <li>USV /APC Selbsttest nie bei leerem Akku</li>
+        <li>Android Termux Shell auf dem Smartphone</li>
+        <li>Veranstaltungen: GPN / Froscon / Piandmore</li>
+        <li>Git und die API von github Bsp.Pullrequest</li></ul>
+        
   - monat: '05'    
     inhalt: > 
       08.05.2019

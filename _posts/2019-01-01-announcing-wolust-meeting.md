@@ -6,7 +6,7 @@ update_date: "''"
 categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 summary-date: summary braucht man hier nicht mehr
-last_modified_at: Apr 29, 2019 8:00 PM
+last_modified_at: Jun 05, 2019 6:00 AM
 ---
 
 <ul>
