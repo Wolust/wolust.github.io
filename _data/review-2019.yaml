@@ -5,7 +5,7 @@ linuxuser:
       04.06.2019
 
         <ul><li>RMS hatte Klaus eine Email geschickt.(Emacs Verbesserung war nicht gut genug)</li>
-        <li>Perl auf dem Buildrechner durch gdb parsen für ARM-Platine</li>
+        <li>Perl auf dem Buildrechner durch gdb parsen für ARM-Platine. <a href="https://github.com/devcon2012/perl_magick">Bei github</a></li>
         <li>mosh im ICE. Latenz bei SSH im Zug nervt.</li>
         <li>Mozilla IOT ausprobiert mit RaspberryPi und ESP32 als Lampe</li>
         <li>USV /APC Selbsttest nie bei leerem Akku</li>
