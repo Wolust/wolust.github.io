@@ -1,5 +1,18 @@
 linuxuser:
-
+  - monat: '07'    
+    inhalt: > 
+      02.07.2019
+        <ul><li>Echtzeit Linux Windows Dos</li>
+        <li>Ist ein Callback ein IRQ ? Trotzdem noch Echtzeit</li>
+        <li>BananaPi Router 2 Wifi Antennen. Hardware mitgebracht </li>
+        <li>Mozilla IOT in der Praxis. Modell hat leider nicht funktioniert</li>
+        <li>Webseite programmieren in C++</li>
+        <li>Bash die schnelle Lösung für alles</li>
+        <li>Javascript ,CDN mit skalierbaren Fonts,Ajax</li>
+        <li>youtube-dl verschiedene Anwendungen</li>
+        <li>Piandmore September 2019 in Weinheim - UKW</li>
+        <li>Örtliche Zeitung lesen mit AMP.Webseite in reines HTML verwandeln</li></ul>
+        
   - monat: '06'    
     inhalt: > 
       04.06.2019
