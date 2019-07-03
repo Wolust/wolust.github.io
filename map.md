@@ -25,16 +25,26 @@ Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Wo
 <div id='map'></div>
 
 <script>
+
 var cities = L.layerGroup();
 	
-L.marker([49.632493, 8.363262]).bindPopup('<b>Linux Stammtisch !</b><br />im Timescafe.').addTo(cities).openPopup()
+L.marker([49.632493, 8.363262]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>im Timescafe.').openPopup();
+
+var circle = L.circle([49.632493, 8.363262], {
+    color: 'grey',
+    fillColor: '#f03',
+    fillOpacity: 0.2,
+    radius: 500
+}).addTo(cities);
+
+circle.bindPopup("Noch maximal 500 Meter.");
 
 	function success(position) { 
  var latitude = position.coords.latitude; 
  var longitude = position.coords.longitude; 
  	 
 	
-	L.marker([latitude, longitude]).bindPopup('Dein Standort.').addTo(cities)
+	L.marker([latitude, longitude]).bindPopup('Dein Standort.').addTo(cities);
 	
 	}
 	function error() { 
