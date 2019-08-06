@@ -1,21 +1,21 @@
 linuxuser:
 
 - meeting: Nächstes Treffen
-  tag: "06"
-  monat: "08"
+  tag: "03"
+  monat: "09"
   jahr: 2019
   ort:  Times-Cafe Worms/Ludwigsplatz
 
 - meeting: Weitere Treffen
-  tag: "03"
-  monat: "09"
+  tag: "01"
+  monat: "10"
   jahr: 2019
   ort:  Times-Cafe Worms/Ludwigsplatz
   letztes: 1
   
 - meeting: Weitere Treffen
-  tag: "01"
-  monat: "10"
+  tag: "05"
+  monat: "11"
   jahr: 2019
   ort:  Times-Cafe Worms/Ludwigsplatz
   
