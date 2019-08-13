@@ -1,6 +1,7 @@
 ---
 title: geplant_2020
-date: '2019-08-05 16:31:04'
+layout: page
+meta_robots: nofollow,noindex
 ---
 
 Der Wormser Linux User Stammtisch kann ab 2020 3 mal im Jahr einen Raum mit Beamer bei de **Volkshochschule Worms** bekommen.  2 mal  im  Sommersemester und 1 mal im WInter. 
