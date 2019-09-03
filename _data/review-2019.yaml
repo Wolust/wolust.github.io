@@ -1,4 +1,15 @@
 linuxuser:
+  - monat: '09'    
+    inhalt: > 
+      03.09.2019
+        <ul><li>Mumble Sprachkonferenzsoftware</li>
+        <li>BluetoothLE Beispiel Calliope</li>
+        <li>Pi und Radio in Weinheim Sa 07.09</li>
+        <li>Autoreifen werden überwacht Druck, Temperatur</li>
+        <li>Sind Digitalpotis stackbar?</li>
+        <li>Datenbanken mysql, mongo.db, CAP-Theorem</li>
+        <li>Docker skalierbar, replizierbar, Datensicherung</li></ul>
+
   - monat: '08a'    
     inhalt: > 
       20.08.2019
