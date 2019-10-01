@@ -1,21 +1,18 @@
 linuxuser:
-
-- meeting: Nächstes Treffen
-  tag: "01"
-  monat: "10"
-  jahr: 2019
-  ort:  Times-Cafe Worms/Ludwigsplatz
-
-- meeting: Weitere Treffen
-  tag: "05"
-  monat: "11"
-  jahr: 2019
-  ort:  Times-Cafe Worms/Ludwigsplatz
-  letztes: 1
-  
-- meeting: Weitere Treffen
-  tag: "03"
-  monat: "12"
-  jahr: 2019
-  ort:  wahrscheinlich VHS Worms Raum 29
-  
+  - meeting: Nächstes Treffen
+    tag: '05'
+    monat: 11
+    jahr: 2019
+    ort: Times-Cafe Worms/Ludwigsplatz
+  - meeting: Weitere Treffen
+    tag: '03'
+    monat: 12
+    jahr: 2019
+    ort: wahrscheinlich VHS Worms Raum 29
+    letztes: 1
+  - meeting: Weitere Treffen
+    tag: '07'
+    monat: 01
+    jahr: 2020
+    ort: Times-Cafe Worms/Ludwigsplatz
+    letztes: 2
