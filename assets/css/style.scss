@@ -15,6 +15,7 @@ h1.site-title {
 	border: 1px solid #000;
 	width: 100%;
 	text-align: center;
+	margin-top: 0;
 }
 
 h1.site-title a {
@@ -52,4 +53,8 @@ h2 {
 	margin-bottom: 10;
 	padding-top: 0;
 	padding-bottom: 0;
+}
+
+#logo {
+	padding: 20px;
 }
