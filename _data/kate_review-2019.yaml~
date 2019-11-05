@@ -1,4 +1,16 @@
 linuxuser:
+  - monat: '11'    
+    inhalt: > 
+      05.11.2019
+        <ul><li>Smartwatch oder Casio </li>
+        <li>Schieberegister</li>
+        <li>Shell ZShell tmux screen</li>
+        <li>Maninthemiddle-Proxy ein Perlscript selbst gebaut </li>
+        <li>Verschiedene Raspberry Pis 1-4 und Odroid mitgebracht</li>
+        <li>VNC, Real-VNC, RPC</li>
+        <li>Hacker im Wordpress. Christian war betroffen</li>
+        <li>Smarpt 1-3 Multimediagadget vom Stefan</li> 
+        <li>Wie gehts weiter mit Wolust im Dezember; VHS-Worms ?</li></ul>
   - monat: '10'    
     inhalt: > 
       01.10.2019
