@@ -4,15 +4,18 @@ linuxuser:
     monat: '12'
     jahr: '2019'
     ort: Raum 29 der VHS-Worms Neusatzschule
+    strasse: Willi-Brandt-Ring 5
   - meeting: Weitere Treffen
     tag: '07'
     monat: '01'
     jahr: '2020'
-    ort: Times-Cafe Worms/Ludwigsplatz
+    ort: Times-Cafe Worms
+    strasse: Ludwigsplatz
     letztes: '1'
   - meeting: Weitere Treffen
     tag: '04'
     monat: '02'
     jahr: '2020'
-    ort: Times-Cafe Worms/Ludwigsplatz
+    ort: Times-Cafe Worms
+    strasse: Ludwigsplatz
     letztes: '2'

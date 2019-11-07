@@ -102,8 +102,9 @@
    {% if page.title == "Nächster Wolust" %}
    
      
-<script type="application/ld+json"> [
+
  {% for treffen in site.data.daten.linuxuser %}
+ <script type="application/ld+json"> [
   { "@context": "http://schema.org", 
 "@type": "Event",
 "name": "Wormser Linux User Stammtisch", 
@@ -112,7 +113,7 @@
               "name":"Worms {{treffen.ort}}", 
               "address": { 
                           "@type": "PostalAddress", 
-                          "streetAddress": "Ludwigsplatz 1", 
+                          "streetAddress": "{{treffen.strasse}}", 
                           "addressLocality": "{{treffen.ort}}", 
                           "postalCode": "67547", 
                           "addressRegion": "RLP", 
@@ -132,14 +133,11 @@
 "performer": { "@type": "PerformingGroup", 
                "name": "Tux der Linux Pinguin" 
              }
-} 
-{% if  treffen.letztes %}
-
-{% else %}
-,
-{% endif %} 
-{% endfor %}
+}
 ]</script>
+
+{% endfor %}
+
 
    
    

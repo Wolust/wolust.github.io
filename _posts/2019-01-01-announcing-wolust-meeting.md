@@ -20,7 +20,7 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <li>
 {% assign next = site.data.daten.linuxuser[0] %}
 {{next.meeting}} :
-<strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} 19:30 im {{next.ort}} </strong>
+<strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} 19:30 im {{next.ort}} {{next.strasse}} </strong>
 </li></ul>
 # Geplantes Programm
 1. **Init :** Wer wir sind. Was wir hier machen wollen. Veranstaltung planen mit Struktur damit kein Chaos entsteht. Referent: Mike Renner  (5-10 Minuten)
@@ -60,13 +60,10 @@ Weitere Treffen ohne Gewähr:
    {% if treffen.meeting <> "Nächstes Treffen" %}
  <li>
  {{treffen.meeting}} :
-     {{treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{treffen.ort}}
+     {{treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{treffen.ort}} {{treffen.strasse}}
  </li>  
   {% endif %}
 {% endfor %}
-
-
-[Kalender/ICS]({{ site.baseurl }}{% link wolust.ics %})
 
 
 {% include share_buttons.html %}
