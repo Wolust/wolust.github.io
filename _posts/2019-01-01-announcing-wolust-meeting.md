@@ -35,7 +35,7 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 - Wo sollte man nicht einfach etwas ändern?
 - Was ist POSIX oder Linux Standard Base?
 - Unterschiede zu anderen Betriebssystemen
-Referent: Christian Münch (30 Minuten)
+- Referent: Christian Münch (30 Minuten)
 
 4. Ersatzvortrag  (Nur im Notfall)
     „Programmieren“ mit  STRG-C  und STRG-V am Raspberry Pi
@@ -49,10 +49,10 @@ Referent: Christian Münch (30 Minuten)
 - Zertifikate testen, manipulieren, Gültigkeit erkennen.
 
 7. Nächster Stammtisch in der Neusatzschule VHS-Worms 2020
-
-    Thema: Was ist Linux, eine Einführung.
-
- 8. Schluß, Danke
+-  Thema: Was ist Linux, eine Einführung.
+-  Ausblick 2020
+-  Schluß, Danke
+-  Referent: Stefan Höhn
 
 Weitere Treffen ohne Gewähr:
 <ul>
