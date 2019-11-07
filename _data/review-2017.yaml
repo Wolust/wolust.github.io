@@ -4,7 +4,7 @@ linuxuser:
      05.12.2017  Modbus/TCP Layer 7 doch kein Bus sondern Protokoll , Zerifikate verteilen für Applegeräte, Linux-presentation-day, Physik, Arduino und Raspberry Pi, Temperaturerfassung mit 1-Wire, Proxy- und DNS- Server, Meetings bringen nur wenig und sind viel zu oft.
   - monat: '11'
     inhalt: >-
-     07.11.2017  Docker, Docker und Docker. Jenkins ersetzen durch Gitlab. "Divison by zero" Test an einer PHP-Funktion mit Gitlab ,Live Präsentation ; iBeacon und Bluetooth LE ; Ticketsystem ;  Android testen.
+     07.11.2017  Docker, Docker und Docker. Jenkins ersetzen durch Gitlab. Divison_by_zero Test an einer PHP-Funktion mit Gitlab ,Live Präsentation ; iBeacon und Bluetooth LE ; Ticketsystem ;  Android testen.
   - monat: '10'
     inhalt: >-
      03.10.2017 Passwortsafe mit Arduino XOR verschlüsselt , USB OTG, Calliope Online-Editor ausprobiert, Float Zahlen in der Medizin, C#, Teilen durch 0, OpenPLC Zykluszeit
