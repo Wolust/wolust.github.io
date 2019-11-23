@@ -15,7 +15,7 @@ Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Wo
 <ul>
 <li>WOLUST am 03.Dezember 2019</li>
 </ul>
-Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 3.Stock Zimmer 29 .
+Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Zimmer 31 .
 <br />
 Diesmal nicht im Timescafe !
 
@@ -93,6 +93,6 @@ navigator.geolocation.getCurrentPosition(success, error);
 <!--Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
 
 Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe -->
- <strong>Achtung !</strong> am 3. Dezember 2019 findet unser Stammtisch in der Neusatzschule statt 3. Stock Zimmer29 
+ <strong>Achtung !</strong> am 3. Dezember 2019 findet unser Stammtisch in der Neusatzschule statt 4. Stock Zimmer 31 
 
 {% include fortune.html %}
