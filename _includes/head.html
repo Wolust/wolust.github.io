@@ -128,7 +128,7 @@
             "price": "0", 
             "priceCurrency": "€", 
             "availability": "http://schema.org/InStock", 
-            "validFrom": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T19:30" 
+            "validFrom": "{{ site.time | date: "%Y-%m-%d" }}T19:30"
            }, 
 "performer": { "@type": "PerformingGroup", 
                "name": "Tux der Linux Pinguin" 
