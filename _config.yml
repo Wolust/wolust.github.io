@@ -100,7 +100,7 @@ redcarpet:
     - tables
     - with_toc_data
 permalink: pretty
-paginate: 4
+paginate: 3
 sass:
   style: compressed
 plugins:
