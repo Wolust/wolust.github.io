@@ -1,4 +1,12 @@
 linuxuser:
+  - monat: '12'    
+    inhalt: > 
+      03.12.2019
+        <ul><li>Mike eröffnet: Init und Vorstellung der Anwesenden</li>
+        <li>Klaus erklärt Zertifikate </li>
+        <li>Christian erklärt Ordnerstruktur in Linux</li>
+        <li>Achim zeigt: LED am Raspberry blinkt</li>
+        <li>Stefan gibt einen Ausblick auf 2020</li></ul>
   - monat: '11'    
     inhalt: > 
       05.11.2019
