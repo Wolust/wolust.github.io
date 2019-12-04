@@ -1,14 +1,15 @@
 linuxuser:
-  - monat: '12'    
-    inhalt: > 
+  - monat: 12
+    inhalt: |-
       03.12.2019
-        <ul><li>Mike eröffnet: Init und Vorstellung der Anwesenden</li>
+        <ul><li><strong>Erster Stammtisch im Gebäude der  VHS-Worms</strong></li>
+        <li>Mike eröffnet: Init und Vorstellung der Anwesenden</li>
         <li>Klaus erklärt Zertifikate </li>
         <li>Christian erklärt Ordnerstruktur in Linux</li>
-        <li>Achim zeigt: LED am Raspberry blinkt</li>
+        <li>Achim zeigt: LED am Raspberry blinkt weihnachtlich</li>
         <li>Stefan gibt einen Ausblick auf 2020</li></ul>
-  - monat: '11'    
-    inhalt: > 
+  - monat: 11
+    inhalt: |-
       05.11.2019
         <ul><li>Smartwatch oder Casio </li>
         <li>Schieberegister am Förderband</li>
@@ -19,8 +20,8 @@ linuxuser:
         <li>Hacker im Wordpress. Christian war betroffen</li>
         <li>Smarpt 1-3 Multimediagadget vom Stefan</li> 
         <li>Wie gehts weiter mit Wolust im Dezember; VHS-Worms ?</li></ul>
-  - monat: '10'    
-    inhalt: > 
+  - monat: 10
+    inhalt: |-
       01.10.2019
         <ul><li>UKW Weinheim/Piandmore </li>
         <li>Smartwatch für 15€ Kamera Bluetooth Livetest</li>
@@ -31,9 +32,8 @@ linuxuser:
         <li>RMS tritt zurück Hintergründe</li>
         <li>Rechner mit Ubuntu für die Eltern ist eine gute Idee</li> 
         <li>Traben-Trarbach mehr als ein Tor Exitnode?</li></ul>
-
-  - monat: '09'    
-    inhalt: > 
+  - monat: 09
+    inhalt: |-
       03.09.2019
         <ul><li>Mumble Sprachkonferenzsoftware</li>
         <li>BluetoothLE Beispiel Calliope</li>
@@ -42,17 +42,15 @@ linuxuser:
         <li>Sind Digitalpotis stackbar?</li>
         <li>Datenbanken mysql, mongo.db, CAP-Theorem</li>
         <li>Docker skalierbar, replizierbar, Datensicherung</li></ul>
-
-  - monat: '08a'    
-    inhalt: > 
+  - monat: 08a
+    inhalt: |-
       20.08.2019
         <ul><li>Zusammenarbeit mit VHS-Worms</li>
         <li>Kursleiterformular ausfüllen</li>
         <li>Dezember Vortrag zusammenstellen</li>
         <li>Struktur und Planung von Veranstaltungen</li></ul>
-
-  - monat: '08'    
-    inhalt: > 
+  - monat: 08
+    inhalt: |-
       06.08.2019
         <ul><li>Freie Energie Baukasten ist Quatsch</li>
         <li>Arabisch UTF-8 include in Windows</li>
@@ -64,9 +62,8 @@ linuxuser:
         <li>Fedora /Redhat /IBM</li>
         <li>git/ gitea /gitlab</li>
         <li>Froscon, Piandmore</li></ul>
-        
-  - monat: '07'    
-    inhalt: > 
+  - monat: '07'
+    inhalt: |-
       02.07.2019
         <ul><li>Echtzeit Linux Windows Dos</li>
         <li>Ist ein Callback ein IRQ ? Trotzdem noch Echtzeit</li>
@@ -78,9 +75,8 @@ linuxuser:
         <li>youtube-dl verschiedene Anwendungen</li>
         <li>Piandmore September 2019 in Weinheim - UKW</li>
         <li>Örtliche Zeitung lesen mit AMP. Webseite in reines HTML verwandeln</li></ul>
-        
-  - monat: '06'    
-    inhalt: > 
+  - monat: '06'
+    inhalt: |-
       04.06.2019
 
         <ul><li>RMS hatte Klaus eine Email geschickt.(Emacs Verbesserung war nicht gut genug)</li>
@@ -92,33 +88,30 @@ linuxuser:
         <li>Veranstaltungen: GPN / Froscon / Piandmore</li>
         <li>Git und die API von github Bsp.Pullrequest</li>
         <li>Katzen,zu Hause und auf der jagd</li></ul>
-        
-  - monat: '05'    
-    inhalt: > 
+  - monat: '05'
+    inhalt: |-
       08.05.2019
-      
+
         <ul><li>Proxmox kann Server installieren (Bsp.nextcloud) <a href="/ceph-und-proxmox">interner Link</a></li>
         <li>Solid Grundlagen und Beispiele</li>
         <li>USB-Stecker mit MicroSD für Handy</li>
         <li>Realtime Linux</li>
         <li>LibreELEC auf dem Raspberry Pi</li>
         <li>Ceph ist ein hoch-verfügbares, verteiltes und robustes Dateisystem</li></ul>
-        
-  - monat: '04a'    
-    inhalt: > 
+  - monat: 04a
+    inhalt: |-
       16.04.2019
-      
+
         <ul><li>Arduino Eeprom schreiben und lesen (Bytes oder Block)</li>
         <li>Kybernetes ,Docker</li>
         <li>Multithreading mit Python</li>
         <li>Linuxspiele mit 4K Auflösung</li>
         <li>Linuxspiele im Container</li>
         <li>Wir suchen einen Raum. Neue Ideen</li></ul>
-
-  - monat: '04'    
-    inhalt: > 
+  - monat: '04'
+    inhalt: |-
       02.04.2019
-      
+
         <ul><li>Android, Apps, Repositries Bsp.: F-Droid und Blokada</li>
         <li>Spielzeugfahrzeug installieren und programmieren mit Python und Processing</li>
         <li>ESP32 Programmieren mit Arduino und Mikropython</li>
@@ -128,11 +121,10 @@ linuxuser:
         <li>Social Networks und Mastodon</li>
         <li>Raspberry Pi Desktop auf alten Notebooks</li>
         <li>Arbeitsplätze erhalten durch verhindern der Fertigstellung von Projekten? </li></ul>
-      
-  - monat: '03'    
-    inhalt: > 
+  - monat: '03'
+    inhalt: |-
       05.03.2019
-      
+
         <ul><li>Google-Browser macht Bluetooth für Medizingeräte z.B. Glukose</li>
         <li>Jekyll macht Kalender ics</li>
         <li>Programmiersprache Python3.X im Vergleich zu 2.7</li>
@@ -142,11 +134,10 @@ linuxuser:
         <li>Mehrere isolierte LANs und Sicherheit in Großbetrieben</li>
         <li>Die Bahn. Verbindung Frankfurt - Köln ist richtig schnell </li>
         <li>Vorteile von kleinen Wolust-Treffen</li></ul>
-      
-  - monat: '02'    
-    inhalt: > 
+  - monat: '02'
+    inhalt: |-
       05.02.2019
-      
+
         <ul><li>Server zuhause  mit Nextcloud</li>
         <li>Netzwerk daheim Linux, Mac, Windows</li>
         <li>LoRaWAN sendet auch verschlüsselt</li>
@@ -156,11 +147,10 @@ linuxuser:
         <li>Bashscript testen mit integriertem Shellcheck</li>
         <li>Webserver mit Python und Node.js</li>
         <li>Automatisiertes Testen von mobile Apps mit Appium und Robot Framework</li></ul>
-      
   - monat: '01'
-    inhalt: >
+    inhalt: |-
       01.01.2019
-      
+
         <ul><li>Arch Linux</li>
         <li>Präsentationen mit Gitlab und Marpit / Static Websites</li>
         <li>Borg Backup</li>
@@ -169,4 +159,3 @@ linuxuser:
         <li>Silvesterrakete mit Spycam</li>
         <li>Shopsysteme Währung und Prozentrechnung</li>
         <li>35C3</li></ul>
-      
