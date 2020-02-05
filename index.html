@@ -22,13 +22,13 @@ Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu !
             <h2 class="post-title">{{ post.title }}</h2></a>
             <span class="post-summary">
               {% if post.summary %}
-                <p>{{ post.summary }}</p>
-                <a href="{{ post.url | prepend: site.baseurl }}">lesen</a>
+                <p>{{ post.summary }}</br>
+                <a href="{{ post.url | prepend: site.baseurl }}">lesen</a></p>
               {% else %}
                 {% assign next = site.data.daten.linuxuser[0] %}
                 <p> {{next.tag}}.{{next.monat}}.{{next.jahr}} 19:30 im {{next.ort}} </p>
-                <p> Dieses Treffen ist speziell für Neulinge, die wissen wollen was Linux ist. Wir haben bootbare USB-Sticks und DVDs mit Linux dabei.</p>
-                <a href="{{ post.url | prepend: site.baseurl }}">lesen</a>
+                <p> Dieses Treffen ist speziell für Neulinge, die wissen wollen was Linux ist. Wir haben bootbare USB-Sticks und DVDs mit Linux dabei.
+                <a href="{{ post.url | prepend: site.baseurl }}">lesen</a></p>
               {% endif %}
             </span>
         </div>

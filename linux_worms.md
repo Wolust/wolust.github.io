@@ -1,8 +1,8 @@
 ---
 title: Wissenswertes zur LUG in Worms
 layout: page
-update_date: ''
-description: Die Geschichte des Wolust von 2012 bis heute. Von der WOLUG zur WOLUST. Wormser Linux User Stammtisch
+description: Die Geschichte des Wolust von 2012 bis heute. Von der WOLUG zur WOLUST.
+  Wormser Linux User Stammtisch
 ---
 
 ### Geschichte Wolust ###
@@ -27,5 +27,4 @@ Wir haben in Worms mehrere Gastwirtschaften ausprobiert und sind jetzt im Timesc
 
 Juli 2018 haben wir mal für 8 Personen einen Tisch reserviert. Die Gruppe der Linuxuser ist gut gewachsen.
 
-#to be continued#
-<hr />
+Seit Dezember 2019 bekommen wir 3 mal  jährlich bei der [Volkshochschule Worms](https://www.vhs-worms.de/index.php?id=9&kathaupt=26%3B&suchesetzen=false%3B&kfs_stichwort_schlagwort=linux&tx_indexedsearch%5Bsubmit_button%5D=) einen Raum mit Beamer.  Die Veranstaltungen dort sind öffentlich und kostenlos.  (Wer nicht regelmäßig am Stammtisch teilnimmt, soll sich bitte vorher bei der VHS-Worms anmelden. ) Am 3.12. 2019 fand das Treffen erstmals  bei der VHS statt.  Termine werden auf Wolust.de bekanntgegeben.
