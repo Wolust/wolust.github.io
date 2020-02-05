@@ -9,7 +9,7 @@ description: Kurzer Report der Wolust Stammtische 2020
 last_modified_at: Dez 04, 2019 8:34 PM
 ---
 
-… and a happy few beer !
+Kurze Zusammenfasung der Themen der Abende. Nicht nur Linux
 
  {% for review  in site.data.review-2020.linuxuser %}
       {{ review.inhalt }} 

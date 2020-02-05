@@ -1,7 +1,25 @@
 linuxuser:
   - monat: '01'
     inhalt: |-
-      01.01.2019
+      07.01.2020
 
-        <ul><li>Fröhliche Weihnachten</li>
-        <li>und einen guten Rutsch !</li></ul>
+        <ul><li>Raketentechnik und Beschleunigungsensoren</li>
+        <li>Verschlüsseln mit Yubikey, oder selbst gebaut.</li>
+        <li>Videokommunikation im Betrieb und Nextcloud</li>
+        <li>Javascript emuliert einen Linux-PC (alt) was noch?</li>
+        <li>Verschiedene Wine und Windowsspiele</li>
+        <li>CCC</li>
+        <li>Serverless ist ein blöder Name.</li>
+        <li>DSL-Modem. So war das früher</li>
+        <li>ImageMagicK 200 Beispiele</li>
+        <li>Werbung für Wolust und VHS-Webseite</li></ul>
+  - monat: '02'
+    inhalt: |-
+      04.02.2020
+
+        <ul><li>Rocketscience</li> 
+        <li>Nextcloud kann fast alles?</li>
+        <li>Tipps für Linux Anfänger und Umsteiger</li>
+        <li>Windowmanager</li>
+        <li>Themen für den März Stammtisch: KDE / wichtige Programme / Linux Umstieg vor 20 Jahren / Knoppix-USB</li>
+        <ul>

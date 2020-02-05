@@ -1,21 +1,21 @@
 linuxuser:
   - meeting: Nächstes Treffen
-    tag: '07'
-    monat: '01'
+    tag: '03'
+    monat: '03'
     jahr: '2020'
-    ort: Times-Cafe Worms
-    strasse: Ludwigsplatz
+    ort: Computerlabor des VHS-Worms Neusatzschule
+    strasse: Willy-Brandt-Ring 5
   - meeting: Weitere Treffen
-    tag: '04'
-    monat: '02'
+    tag: '07'
+    monat: '04'
     jahr: '2020'
     ort: Times-Cafe Worms
     strasse: Ludwigsplatz
     letztes: '1'
   - meeting: Weitere Treffen
-    tag: '03'
-    monat: '03'
+    tag: '05'
+    monat: '05'
     jahr: '2020'
-    ort: Computerlabor des VHS-Worms Neusatzschule
-    strasse: Willi-Brandt-Ring 5
+    ort: Times-Cafe Worms
+    strasse: Ludwigsplatz
     letztes: '2'
