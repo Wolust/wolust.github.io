@@ -5,22 +5,35 @@ tags: Stadtplan,  Map, Karte
 date: '2019-01-02 13:29:00'
 permalink: "/map/"
 description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Stammtisch
-ort: VHS
 ---
 
-{% if page.ort == "Timescafe" %}
-Wir sind im Timescafe
-{% elsif page.ort == "VHS" %}
-Wr sind in der VHS
+
+{% assign next = site.data.daten.linuxuser[0] %}
+{% if next.ort contains "VHS" %}
+  {% assign ort = "VHS" %}
+{% elsif next.ort contains "Timescafe" %}
+  {% assign ort = "Timescafe" %}
+{% else %}
+  {% assign ort = "dummy" %}
 {% endif %}
 
 
-{% if page.ort == "Timescafe" %}
+
+{% if ort == "Timescafe" %}
+Wir sind im Timescafe
+{% elsif ort == "VHS" %}
+Wir sind in der VHS
+{% else %}
+Es gibt keinen Stadtplan für {{ ort }} . Nur für die Orte "VHS" und "Timescafe" sind Daten hinterlegt. Bitte 1.Wert "ort" in "daten.yaml" anpassen !
+{% endif %}
+
+
+{% if ort == "Timescafe" %}
 <ul>
 <li>WOLUST jeden Monat am 1. Dienstag</li>
 </ul>
 Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
-{% elsif page.ort == "VHS" %}
+{% elsif ort == "VHS" %}
 Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Computerlabor .
 <br />
 Diesmal nicht im Timescafe !
@@ -37,10 +50,10 @@ Diesmal nicht im Timescafe !
 
 var cities = L.layerGroup();
 
-{% if page.ort == "Timescafe" %}
+{% if ort == "Timescafe" %}
  L.marker([49.632493, 8.363262]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>im Timescafe.').openPopup();
  var circle = L.circle([49.632493, 8.363262], {
-{% elsif page.ort == "VHS" %}
+{% elsif ort == "VHS" %}
 L.marker([49.627460,8.357028]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
 var circle = L.circle([49.627460,8.357028], {
 {% endif %}
@@ -78,9 +91,9 @@ navigator.geolocation.getCurrentPosition(success, error);
 	var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
 		streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
 	var map = L.map('map', {
-{% if page.ort == "Timescafe" %}
+{% if ort == "Timescafe" %}
 center: [49.63290, 8.36309],
-{% elsif page.ort == "VHS" %}
+{% elsif ort == "VHS" %}
 center: [49.627460,8.357028],
 {% endif %}	
 
@@ -105,12 +118,12 @@ center: [49.627460,8.357028],
 
 [Diese Karte](https://www.openstreetmap.org/search?query=Worms%20Ludwigsplatz#map=19/49.63256/8.36326&layers=N) ist von Openstreetmap, veröffentlicht unter <a href="http://opendatacommons.org/licenses/odbl/">ODbL</a>
 
-{% if page.ort == "Timescafe" %}
+{% if ort == "Timescafe" %}
 Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
 
 Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe
-{% elsif page.ort == "VHS" %}
-Wr sind in der VHS .
+{% elsif ort == "VHS" %}
+Wir sind in der VHS .
 
 Die Einfahrt zum Lehrerparkplatz ist sehr schmal. Nicht für SUV geeignet.
 {% endif %}
