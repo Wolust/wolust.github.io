@@ -1,5 +1,24 @@
 linuxuser:
-  - monat: '01'
+  - monat: 03
+    inhalt: |-
+      03.03.2020
+
+        <ul><li>Vortrag Linux installieren gestern ud heute.</li> 
+        <li>Linux-Desktop am Beispiel KDE</li>
+        <li>Linux. wichtige Programme für den Desktop</li>
+        <li>HandsOn: Linux USB bootet diverse PCs. Raspberrypi bootet.</li>
+        </ul>
+  - monat: 02
+    inhalt: |-
+      04.02.2020
+
+        <ul><li>Rocketscience</li> 
+        <li>Nextcloud kann fast alles?</li>
+        <li>Tipps für Linux Anfänger und Umsteiger</li>
+        <li>Windowmanager</li>
+        <li>Themen für den März Stammtisch: KDE / wichtige Programme / Linux Umstieg vor 20 Jahren / Knoppix-USB</li>
+        </ul>
+  - monat: 01
     inhalt: |-
       07.01.2020
 
@@ -13,13 +32,4 @@ linuxuser:
         <li>DSL-Modem. So war das früher</li>
         <li>ImageMagicK 200 Beispiele</li>
         <li>Werbung für Wolust und VHS-Webseite</li></ul>
-  - monat: '02'
-    inhalt: |-
-      04.02.2020
 
-        <ul><li>Rocketscience</li> 
-        <li>Nextcloud kann fast alles?</li>
-        <li>Tipps für Linux Anfänger und Umsteiger</li>
-        <li>Windowmanager</li>
-        <li>Themen für den März Stammtisch: KDE / wichtige Programme / Linux Umstieg vor 20 Jahren / Knoppix-USB</li>
-        <ul>
