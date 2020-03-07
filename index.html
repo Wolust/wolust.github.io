@@ -3,7 +3,9 @@ title: index
 layout: default
 ---
 
+{% assign next = site.data.daten.linuxuser[0] %}
 {% assign posts_count = paginator.posts | size %}
+
 <div class="home">
   <div class="well">
   <strong>WOLUST</strong> ist ein Acronym für <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. Wie alles begann: <a href="/linux_worms">tl;dr</a>
@@ -25,9 +27,8 @@ Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu !
                 <p>{{ post.summary }}</br>
                 <a href="{{ post.url | prepend: site.baseurl }}">lesen</a></p>
               {% else %}
-                {% assign next = site.data.daten.linuxuser[0] %}
-                <p> {{next.tag}}.{{next.monat}}.{{next.jahr}} 19:30 im {{next.ort}} </p>
-                <p><a href="{{ post.url | prepend: site.baseurl }}">lesen</a></p>
+                <p> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} </p>
+                <a href="{{ post.url | prepend: site.baseurl }}">lesen</a>
               {% endif %}
             </span>
         </div>

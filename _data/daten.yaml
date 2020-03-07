@@ -2,20 +2,23 @@ linuxuser:
   - meeting: Nächstes Treffen
     tag: '07'
     monat: '04'
-    jahr: '2020'
+    jahr: 2020
     ort: Timescafe Worms
     strasse: Ludwigsplatz
-    letztes: '1'
+    letztes: 1
+    start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '05'
     monat: '05'
-    jahr: '2020'
+    jahr: 2020
     ort: Timescafe Worms
     strasse: Ludwigsplatz
-    letztes: '2'
+    letztes: 2
+    start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '02'
     monat: '06'
-    jahr: '2020'
+    jahr: 2020
     ort: Computerlabor des VHS-Worms Neusatzschule
     strasse: Willy-Brandt-Ring 5
+    start: '19:00 Uhr'

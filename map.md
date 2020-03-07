@@ -18,25 +18,19 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 {% endif %}
 
 
-
 {% if ort == "Timescafe" %}
-Wir sind im Timescafe
+ Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} im Timescafe
+ <ul>
+ <li>WOLUST jeden Monat am 1. Dienstag</li>
+ </ul>
+ Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
 {% elsif ort == "VHS" %}
-Wir sind in der VHS
+  Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Volkshochschule Worms <br />
+ Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Computerlabor .
+ <br />
+ Diesmal nicht im Timescafe !
 {% else %}
-Es gibt keinen Stadtplan für {{ ort }} . Nur für die Orte "VHS" und "Timescafe" sind Daten hinterlegt. Bitte 1.Wert "ort" in "daten.yaml" anpassen !
-{% endif %}
-
-
-{% if ort == "Timescafe" %}
-<ul>
-<li>WOLUST jeden Monat am 1. Dienstag</li>
-</ul>
-Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
-{% elsif ort == "VHS" %}
-Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Computerlabor .
-<br />
-Diesmal nicht im Timescafe !
+ Es gibt keinen Stadtplan für {{ ort }} . Nur für die Orte "VHS" und "Timescafe" sind Daten hinterlegt. Bitte 1.Wert "ort" in "daten.yaml" anpassen !
 {% endif %}
 
 <style>
@@ -60,7 +54,7 @@ var circle = L.circle([49.627460,8.357028], {
 	
     color: 'grey',
     fillColor: '#f03',
-    fillOpacity: 0.2,
+    fillOpacity: 0.1,
     radius: 500
 }).addTo(cities);
 

@@ -1,12 +1,11 @@
 ---
 title: Nächster Wolust
 layout: post
-date: Jan 01, 2019 8:00 PM
+date: Apr 07, 2020 4:33 AM
 update_date: "''"
-categories: Ort Zeit
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 summary-date: summary braucht man hier nicht mehr
-last_modified_at: Jun 05, 2019 6:00 AM
+last_modified_at: Mar 07, 2020 4:33 AM
 ---
 
 <ul>
@@ -20,8 +19,17 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <li>
 {% assign next = site.data.daten.linuxuser[0] %}
 {{next.meeting}} :
-<strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} 19:30 im {{next.ort}} {{next.strasse}} </strong>
-</li></ul>
+<strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} {{next.strasse}} </strong>
+<div class="well">
+<ol>
+<li>Klaus zeigt neue Software</li>
+<li>Stefan zeigt Jekyll auf dem Tablet</li>
+<li>Aktuelles / freie Themenwahl </li>
+</ol>
+</div>
+</li>
+</ul>
+
 
 Weitere Treffen ohne Gewähr:
 <ul>
@@ -29,7 +37,7 @@ Weitere Treffen ohne Gewähr:
    {% if treffen.meeting <> "Nächstes Treffen" %}
  <li>
  {{treffen.meeting}} :
-     {{treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{treffen.ort}} {{treffen.strasse}}
+     {{treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{next.start}} {{treffen.ort}} {{treffen.strasse}}
  </li>  
   {% endif %}
 {% endfor %}
