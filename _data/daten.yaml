@@ -1,10 +1,10 @@
 linuxuser:
   - meeting: Nächstes Treffen
-    tag: '07'
+    tag: '08'
     monat: '04'
     jahr: 2020
-    ort:  Timescafe fällt aus!
-    strasse: Wir planen eine Videokonferenz
+    ort: Internet online !
+    strasse: Videokonferenz  
     letztes: 1
     start: '19:30 Uhr'
   - meeting: Weitere Treffen

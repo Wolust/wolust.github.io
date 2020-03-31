@@ -23,9 +23,10 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} {{next.strasse}} </strong>
 <div class="well">
 <ol>
-<li>Klaus zeigt neue Software</li>
-<li>Stefan zeigt Jekyll auf dem Tablet</li>
-<li>Aktuelles / freie Themenwahl </li>
+<li>Der Online-Stammtisch ist ausnahmsweise am <strong>Mittwoch</strong> dem 08.04.2020 von 19:30 bis 21:30 Uhr</li>
+<li>Wer mitmachen will, sollte sich evtl. eine Zoom Appp installierern.</li>
+<li>URL wird hier veröffentlicht und kommt per Email</li>
+<li>Topic: Aktuelles / freie Themenwahl </li>
 </ol>
 </div>
 </li>
