@@ -1,19 +1,11 @@
 linuxuser:
   - meeting: Nächstes Treffen
-    tag: '08'
-    monat: '04'
+    tag: '05'
+    monat: '05'
     jahr: 2020
     ort: Internet online !
     strasse: Videokonferenz  
     letztes: 1
-    start: '19:30 Uhr'
-  - meeting: Weitere Treffen
-    tag: '05'
-    monat: '05'
-    jahr: 2020
-    ort: Timescafe Worms
-    strasse: Ludwigsplatz
-    letztes: 2
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '02'
@@ -21,4 +13,13 @@ linuxuser:
     jahr: 2020
     ort: Computerlabor des VHS-Worms Neusatzschule
     strasse: Willy-Brandt-Ring 5
+    letztes: 2
     start: '19:00 Uhr'
+  - meeting: Weitere Treffen
+    tag: '07'
+    monat: '07'
+    jahr: 2020
+    ort: Timescafe Worms
+    strasse: Ludwigsplatz
+    letztes: 3
+    start: '19:30 Uhr'

@@ -23,8 +23,9 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} {{next.strasse}} </strong>
 <div class="well">
 <ol>
-<li>Der Online-Stammtisch ist ausnahmsweise am <strong>Mittwoch</strong> dem 08.04.2020 von 19:30 bis 21:30 Uhr</li>
-<li>Wer mitmachen will, sollte sich evtl. eine Zoom Appp installierern.</li>
+<li>Wegen Corona ist der Linux-Stammtisch diesmal online</li>
+<li>19:00-19:30 Uhr probieren wir die VHS-Cloud</li>
+<li>ab 19:30 Uhr Stammtisch. Wer mitmachen will, sollte sich evtl. eine Zoom Appp installierern.</li>
 <li>URL wird hier veröffentlicht und kommt per Email</li>
 <li>Topic: Aktuelles / freie Themenwahl </li>
 </ol>
