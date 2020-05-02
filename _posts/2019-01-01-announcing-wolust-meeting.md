@@ -10,7 +10,7 @@ categories: linux worms
 ---
 
 <ul>
-<li>Wormser Linux Stammtisch Termine</li>
+<li>Wormser Linux Stammtisch Termine. Jeden 1. Dienstag im Monat</li>
 </ul>
 <!--Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger. -->
 
@@ -24,9 +24,9 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <div class="well">
 <ol>
 <li>Wegen Corona ist der Linux-Stammtisch diesmal online</li>
-<li>19:00-19:30 Uhr probieren wir die VHS-Cloud</li>
-<li>ab 19:30 Uhr Stammtisch. Wer mitmachen will, sollte sich evtl. eine Zoom Appp installierern.</li>
-<li>URL wird hier veröffentlicht und kommt per Email</li>
+<li>19:00-19:30 Uhr Prestammtisch die Konferenz wird eröffnet</li>
+<li>Ab 19:30 Uhr Stammtisch. Wer mitmachen will, und noch keinen Zugang hat, kann sich per Email melden.</li>
+<li>Wir benutzen die <a href="https://vhs.cloud">Cloud der Volkshochschule</a> Worms</li>
 <li>Topic: Aktuelles / freie Themenwahl </li>
 </ol>
 </div>
