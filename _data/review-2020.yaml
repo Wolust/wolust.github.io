@@ -1,4 +1,15 @@
 linuxuser:
+  - monat: 05
+    inhalt: |-
+      05.05.2020
+
+        <ul><li><strong>2.Online-Konferenz wegen Corona</strong></li>
+        <li>Unsere Hardwareschätzchen der vergangenen 30 Jahre </li> 
+        <li>NAS,warum man das braucht. NAS zuhause sinnvoll? NAS Soft- und Hardware.</li>
+        <li>Daten synchronisieren - Nextcloud "kann alles".</li>
+        <li>Wir hatten Besuch aus dem Ruhrgebiet.</li>
+        <li>Firefox mit open-with Extension ist eine Schnittstelle zur Shell </li>
+        </ul>
   - monat: 04
     inhalt: |-
       08.04.2020
