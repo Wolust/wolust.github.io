@@ -110,7 +110,7 @@
   { "@context": "http://schema.org", 
 "@type": "Event",
 "name": "Wormser Linux User Stammtisch", 
-"startDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T19:30", 
+"startDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T18:30+01:00", 
 "location": { "@type": "Place", 
               "name":"Worms {{treffen.ort}}", 
               "address": { 
@@ -124,17 +124,24 @@
              }, 
 "image": "{{ site.url }}/images/tux-wolust.jpg", 
 "description": "Wormser Linux User treffen sich einmal im Monat. Wenn du Interesse an Linux hast, komm vorbei und setz dich dazu !", 
-"endDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T23:00", 
+"endDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T22:00+01:00", 
 "offers": { "@type": "Offer", 
             "url": "https://wolust.de", 
             "price": "0", 
             "priceCurrency": "€", 
             "availability": "http://schema.org/InStock", 
-            "validFrom": "{{ site.time | date: "%Y-%m-%d" }}T19:30"
+            "validFrom": "{{ site.time | date: "%Y-%m-%d" }}T18:30+01:00"
            }, 
 "performer": { "@type": "PerformingGroup", 
-               "name": "Tux der Linux Pinguin" 
-             }
+               "name": "Wormser Linux User Stammtisch" 
+             },
+"organizer": { "@type": "Person",
+                "name": "Stefan Höhn",
+                "url": "https://stefan-höhn.de"
+            },
+"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+"eventStatus": "https://schema.org/EventMovedOnline"           
+
 }
 ]</script>
 

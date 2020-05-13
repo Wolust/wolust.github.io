@@ -1,11 +1,11 @@
 ---
 title: Nächster Wolust
 layout: post
-date: Mar 07, 2020 4:33 AM
+date: May 07, 2020 4:33 AM
 update_date: "''"
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 summary-date: summary braucht man hier nicht mehr
-last_modified_at: Apr 07, 2020 4:33 AM
+last_modified_at: May 07, 2020 4:33 AM
 categories: linux worms
 ---
 
