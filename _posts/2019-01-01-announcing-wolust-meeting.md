@@ -23,11 +23,7 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} {{next.strasse}} </strong>
 <div class="well">
 <ol>
-<li>Wegen Corona ist der Linux-Stammtisch diesmal online</li>
-<li>19:00-19:30 Uhr Prestammtisch die Konferenz wird eröffnet</li>
-<li>Ab 19:30 Uhr Stammtisch. Wer mitmachen will, und noch keinen Zugang hat, kann sich per Email melden.</li>
-<li>Wir benutzen die <a href="https://vhs.cloud">Cloud der Volkshochschule</a> Worms</li>
-<li>Topic: Aktuelles / freie Themenwahl </li>
+<li>Volkshochschule Worms hat wieder geöffnet !</li>
 </ol>
 </div>
 </li>

@@ -4,10 +4,10 @@ linuxuser:
     tag: '02'
     monat: '06'
     jahr: 2020
-    ort: Internet online !
-    strasse: Videokonferenz
+    ort: VHS Worms
+    strasse:  Willy-Brandt-Ring 5
     letztes: 1
-    start: '19:30 Uhr'
+    start: '19:00 Uhr'
   - meeting: Weitere Treffen
     tag: '07'
     monat: '07'
