@@ -23,7 +23,7 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} {{next.strasse}} </strong>
 <div class="well">
 <ol>
-<li></strong>Volkshochschules</strong> Worms hat wieder geöffnet! Bitte portable Linuxgeräte mitbringen oder USB-Sticks mit Image</li>
+<li><strong>Volkshochschules</strong> Worms hat wieder geöffnet! Bitte portable Linuxgeräte mitbringen oder USB-Sticks mit Image</li>
 <li>
 <strong>Klaus</strong> erzählt was zum InfoGopher oder zum "IntentionLogging".
 Intentionlogging ist ein Konzept, das er sich aus den Fingern gesogen habe, um mit Logausgaben von komplexen Serverprogrammen besser zurechtzukommen.
