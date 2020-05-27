@@ -2,7 +2,6 @@ _site
 vendor
 .sass-cache
 .DS_Store
-.jekyll-metadata
 .yml~
 .md~
 .html~
