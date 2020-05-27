@@ -21,10 +21,14 @@ Beim allerletzten Treffen am 24.10.2013 kamen plötzlich ein paar neue Leute. Ho
 
 15.10.2015 Uwe kommt zu Besuch, und wünscht sich ein außerodentliches WOLUG - Treffen. Und es hat geklappt.
 
+#### Am 3.11 2015 gründet sich der Wormser Linux User Stammtisch ####
+
 am 06.07.2016 beginnen die Aufzeichnung der neu gegründeten WOLUST mit [Christian](https://blog.muench-worms.de/) ,Mike und Stefan
 
 Wir haben in Worms mehrere Gastwirtschaften ausprobiert und sind jetzt im Timescafe am Ludwigsplatz, wegen des guten Essens und kostenlosem WLAN.
 
 Juli 2018 haben wir mal für 8 Personen einen Tisch reserviert. Die Gruppe der Linuxuser ist gut gewachsen.
 
-Seit Dezember 2019 bekommen wir 3 mal  jährlich bei der [Volkshochschule Worms](https://www.vhs-worms.de/index.php?id=9&kathaupt=26%3B&suchesetzen=false%3B&kfs_stichwort_schlagwort=linux&tx_indexedsearch%5Bsubmit_button%5D=) einen Raum mit Beamer.  Die Veranstaltungen dort sind öffentlich und kostenlos.  (Wer nicht regelmäßig am Stammtisch teilnimmt, soll sich bitte vorher bei der VHS-Worms anmelden. ) Am 3.12. 2019 fand das Treffen erstmals  bei der VHS statt.  Termine werden auf Wolust.de bekanntgegeben.
+Ab dem 01.10.2018 hat der Christian den Domainnamen Wolust.de für uns reserviert. 
+
+Seit Dezember 2019 bekommen wir 3 mal  jährlich bei der [Volkshochschule Worms](https://www.vhs-worms.de/index.php?id=9&kathaupt=26%3B&suchesetzen=false%3B&kfs_stichwort_schlagwort=linux&tx_indexedsearch%5Bsubmit_button%5D=) einen Raum mit Beamer.  Die Veranstaltungen dort sind öffentlich und kostenlos.  (Wer nicht regelmäßig am Stammtisch teilnimmt, soll sich bitte vorher bei der VHS-Worms anmelden. ) Am 3.12. 2019 fand das Treffen erstmals bei der VHS statt.  Termine werden auf Wolust.de bekanntgegeben.
