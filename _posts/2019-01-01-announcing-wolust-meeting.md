@@ -23,19 +23,8 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} {{next.strasse}} </strong>
 <div class="well">
 <ol>
-<li><strong>Volkshochschule</strong> Worms hat wieder geöffnet! Bitte portable Linuxgeräte mitbringen oder USB-Sticks mit Image</li>
-<li>
-<strong>Klaus</strong> erzählt was zum InfoGopher oder zum "IntentionLogging".
-Intentionlogging ist ein Konzept, das er sich aus den Fingern gesogen hat, um mit Logausgaben von komplexen Serverprogrammen besser zurechtzukommen.
-Der InfoGopher ist so eine Art WebSpider/Robot/... Er soll Informationen zusammentragen und verdichten.
-<a href="https://github.com/devcon2012/infogopher">Software ist von Klaus und auf Github"</a>
-</li>
-<li>
-<strong>Stefan</strong> hat auch was:
-Aktuelle Webseiten automatisch schneiden, bearbeiten, neu zusammenfügen und anzeigen am Beispiel einer Tageszeitung.
-Werkzeug :bash, sed, grep, curl, HTML-Kenntnisse
-Kurzvortrag mit Hands-on
-</li>
+<li><strong>Timescafe</strong> Worms hat wieder geöffnet! Bitte portable Linuxgeräte mitbringen. Themen sind frei wählbar. Es gibt was zu essen und zu trinken.</li>
+
 </ol>
 </div>
 </li>

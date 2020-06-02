@@ -1,5 +1,18 @@
 ---
 linuxuser:
+
+  - monat: 06
+    inhalt: |-
+      02.06.2020
+
+        <ul><li><strong>VHS Worms Computerlabor</strong></li>
+        <li>1.) Infogopher  ist ein Datensammler in Perl geschrieben</li>
+        <li>Klaus erklärt die Historie und Funktionen von Perl und  sein Programm</li>
+        <li>2.) Programme mit Bash verbinden.</li>
+        <li>Webseite verwandeln  und ein Internet Radioplayer .</li>
+        <li>Stefan erklärt wie man das hackt.</li>
+        <li>3.)Anfängerfragen zur Linuxdistribution</li>
+        </ul>
   - monat: 05
     inhalt: |-
       05.05.2020
