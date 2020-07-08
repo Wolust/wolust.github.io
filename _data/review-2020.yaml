@@ -1,6 +1,20 @@
 ---
 linuxuser:
 
+  - monat: 07
+    inhalt: |-
+      07.07.2020
+
+        <ul>
+        <li>Server umziehen mit Ceph </li>
+        <li>CouchDB</li>
+        <li>Corona-App verfolgen mit Calliope</li>
+        <li>Debian früher gut, und heute?</li>
+        <li>Python3 und das Datum (die Uhrzeit)</li>
+        <li>Nextcloud entwickelt sich rasant</li>
+        <li>Schnitzel gut, Bier gut, Longdrink gut</li>
+        <li>XXL-Portionen in Las Vegas</li>
+        </ul>
   - monat: 06
     inhalt: |-
       02.06.2020
