@@ -37,7 +37,7 @@ Weitere Treffen ohne Gewähr:
    {% if treffen.meeting <> "Nächstes Treffen" %}
  <li>
  {{treffen.meeting}} :
-     {{treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{next.start}} {{treffen.ort}} {{treffen.strasse}}
+     {{treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{treffen.start}} {{treffen.ort}} {{treffen.strasse}}
  </li>  
   {% endif %}
 {% endfor %}
