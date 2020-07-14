@@ -21,6 +21,17 @@ sitemap: false
 9. Nach jeder  Änderung erzeugtes Html und Links mit Travis CI testen ! [![Build Status](https://travis-ci.org/Wolust/wolust.github.io.svg?branch=master)](https://travis-ci.org/Wolust/wolust.github.io)
 10. Hilfe bei Fehlern: wolust@untergang.de
 
+### Nur mal ausprobieren oder spielen.
+
+Du willst Ruby, die Gems und Jekyll gar nicht installieren.  Wenns bei dir Docker und Git gibt, wir haben ein Docker-YAML auf unserer Webseite.
+und so gehts:
+1. Klone unsere Webseite von Github. git clone https://github.com/Wolust/wolust.git
+2. Öffne eine Shell: cd in_den_clone_ordner
+3. docker -compose up
+4. Wenn alles geklappt hat. öffne einen Webbrowser http://0.0.0.0:4000
+5. Mit http://0.0.0.0:4000/admin/ kannst du testweise Änderungen an der Homepage machen. 
+6. Viel Spaß mit Jekyll und der Wolustwebseite.
+
 ### Wissenswertes
 <strong>Wolust Git-Liste:</strong>
 <ul>

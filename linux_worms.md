@@ -27,7 +27,7 @@ am 06.07.2016 beginnen die Aufzeichnung der neu gegründeten WOLUST mit [Christi
 
 Wir haben in Worms mehrere Gastwirtschaften ausprobiert und sind jetzt im Timescafe am Ludwigsplatz, wegen des guten Essens und kostenlosem WLAN.
 
-Juli 2018 haben wir mal für 8 Personen einen Tisch reserviert. Die Gruppe der Linuxuser ist gut gewachsen. Klaus , Niels, [Achim](https://achwo.de/)
+Juli 2018 haben wir mal für 8 Personen einen Tisch reserviert. Die Gruppen der Linuxuser ist gut gewachsen. Klaus , Niels, [Achim](https://achwo.de/)
 
 Ab dem 01.10.2018 hat der Christian den Domainnamen Wolust.de für uns reserviert. 
 
