@@ -1,6 +1,19 @@
 ---
 linuxuser:
+  - monat: 08
+    inhalt: |-
+      04.08.2020
 
+        <ul>
+        <li>Mint Linux gut für Anfänger</li>
+        <li>Manjaro rolling Release oder Arch </li>
+        <li>Was kann das Tuxedo Notebook? 8+32 GB RAM ist schon schnell </li>
+        <li>Arduino misst 50 Hz aber im Freien gibts kein Empfang</li>
+        <li>Neue Wormatia Webseite</li>
+        <li>Docker und die Iptables</li>
+        <li>Nudeln Sushi und andere Lebensmittel</li>
+        <li>Kernfusion der Iter in Frankreich, wie funktioniert das.</li>
+        </ul>
   - monat: 07
     inhalt: |-
       07.07.2020
