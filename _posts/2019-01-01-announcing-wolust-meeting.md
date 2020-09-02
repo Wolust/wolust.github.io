@@ -23,7 +23,8 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} {{next.strasse}} </strong>
 <div class="well">
 <ol>
-<li><strong>Timescafe</strong> Worms hat wieder geöffnet! Bitte portable Linuxgeräte mitbringen. Themen sind frei wählbar. Es gibt was zu essen und zu trinken.</li>
+<li><strong>Voilkshochschule</strong> Worms hat wieder geöffnet! Bitte Mund-Nase-Masken und portable Linuxgeräte mitbringen.</li>
+<li>Vorträge von Christian zu Docker und Achim (genaues Thema kommt noch) </li>
 
 </ol>
 </div>
