@@ -1,5 +1,19 @@
 ---
 linuxuser:
+  - monat: 09
+    inhalt: |-
+      01.09.2020
+
+        <ul>
+        <li>Gast aus Birmingham</li>
+        <li>Arduinino/Atmel und Programmer am Beispiel 2-Punktregler</li>
+        <li>Nextcloud auf einen neuen Server oder Distro umziehen </li>
+        <li>Was geht mit Docker</li>
+        <li>Kernelmodule für angesteckte Hardware laden mit modprobe</li>
+        <li>Gastro App wurde gehackt</li>
+        <li>Froscon 2020 die Higlights. Harald König ansehen !</li>
+        <li>Oktober sind wir in der VHS. Vorträge von Christian und Achim geplant</li>
+        </ul>
   - monat: 08
     inhalt: |-
       04.08.2020
