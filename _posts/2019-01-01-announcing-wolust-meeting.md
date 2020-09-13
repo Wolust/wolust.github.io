@@ -23,10 +23,32 @@ Eine Openstreetmap-Karte zeigt unseren aktuellen [Treffpunkt]({{ site.baseurl }}
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} {{next.strasse}} </strong>
 <div class="well">
 <ol>
-<li><strong>Voilkshochschule</strong> Worms hat wieder geöffnet! Bitte Mund-Nase-Masken und portable Linuxgeräte mitbringen.</li>
-<li>Vorträge von Christian zu Docker und Achim (genaues Thema kommt noch) </li>
-
+<li><strong>Volkshochschule</strong> Worms hat wieder geöffnet! Bitte Mund-Nase-Masken und portable Linuxgeräte mitbringen.
+Vorträge von Christian und Achim</li>
+<li>
+<strong>Einführung in die Container-Technologie.</strong> Theoretische Einführung gefolgt
+von kleineren Beispielen. Folgende Fragen werden beantwortet:
+<ul>
+<li>- Wie funktioniert das technisch?</li>
+<li>- Wie kommen meine Daten in einen Container?</li>
+<li>- Was brauche ich um mit Docker zu starten?</li>
+<li>- Was sind die Vorteile von Containern?</li>
+<li>- Wie sehen moderne Infrastrukturen aus?</li>
+</ul>
+</li>
+<li>Achim: Thema noch ausstehend</li>
+<li><strong>Hands on</strong> falls noch Zeit und Erwünscht</li>
 </ol>
+
+
+
+
+
+
+
+
+
+
 </div>
 </li>
 </ul>
