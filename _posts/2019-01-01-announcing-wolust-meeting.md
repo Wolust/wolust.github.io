@@ -36,7 +36,18 @@ von kleineren Beispielen. Folgende Fragen werden beantwortet:
 <li>- Wie sehen moderne Infrastrukturen aus?</li>
 </ul>
 </li>
-<li>Achim: Thema noch ausstehend</li>
+<li><strong>Virtualisierung am Beispiel von Proxmox VE und VirtualBox</strong>
+<ul>
+<li>- Was ist Virtualisierung und welche Technik steckt dahinter?</li>
+<li>- Welche Voraussetzungen werden für Virtualisierung gebraucht?</li>
+<li>- Was sind die Vorteile von Virtualisierung?</li>
+<li>- Was kann ich mit Virtualisierung erreichen, wo wird sie eingesetzt?</li>
+<li>- Wie schütze ich meine Daten? - Snapshots, Replizierung, Backups.</li>
+<li>- Vergleich verschiedener Virtualisierungslösungen.</li>
+</ul>
+
+
+</li>
 <li><strong>Hands on</strong> falls noch Zeit und Erwünscht</li>
 </ol>
 
