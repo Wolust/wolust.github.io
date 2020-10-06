@@ -5,7 +5,7 @@ linuxuser:
       06.10.2020
      
       
-        Wir waren  in der <strong>Volkshochschule Worms</strong><br />
+        Wir waren  in der <strong>Volkshochschule Worms</stong><br />
         Vorträge von Christian und Achim<br />
         <strong>Einführung in die Container-Technologie.</strong> Theoretische Einführung gefolgt von kleineren Beispielen. Folgende Fragen werden beantwortet:
       
@@ -27,7 +27,7 @@ linuxuser:
         <li>- Vergleich verschiedener Virtualisierungslösungen.</li>
         </ul>
         <br />
-        <strong>Hands on</strong> und VHS 2021. Wie gehts weiter ?
+        <strong>Hands on</strong> und VHS 2021. Wie gehts weiter ?</li>
       
   
   

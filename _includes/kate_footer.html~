@@ -1,0 +1,21 @@
+<footer class="center">
+  <div class="measure">
+  
+
+   <small>
+      Gemacht mit &lt;3 von <a href="https://stefan-höhn.de">Stefan Höhn</a> mail: <a href="mailto:wolust@untergang.de">wolust@untergang.de</a>&lt;/&gt; <a href="/datenschutz">Datenschutz</a> &lt;/&gt; Edit.{% github_edit_link "Seite verbessern" %}
+   </small>
+
+  </div>
+</footer>
+
+<!-- AnchorJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
+<script>
+    anchors.options = {
+    visible: 'always',
+    placement: 'left',
+    icon: '⚓️'
+    };
+    anchors.add('.post-content');
+</script>
