@@ -1,14 +1,6 @@
 ---
 linuxuser:
   - meeting: Nächstes Treffen
-    tag: '06'
-    monat: '10'
-    jahr: 2020
-    ort: VHS Worms
-    strasse: Willy-Brandt-Ring 5
-    letztes: 1
-    start: '19:00 Uhr'
-  - meeting: Weitere Treffen
     tag: '03'
     monat: '11'
     jahr: 2020
