@@ -6,12 +6,20 @@ linuxuser:
     jahr: 2020
     ort: Timescafe Worms
     strasse: Ludwigsplatz
-    letztes: 2
+    letztes: 1
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '01'
     monat: '12'
     jahr: 2020
+    ort: Timescafe Worms
+    strasse: Ludwigsplatz
+    letztes: 2
+    start: '19:30 Uhr'
+  - meeting: Weitere Treffen
+    tag: '05'
+    monat: '01'
+    jahr: 2021
     ort: Timescafe Worms
     strasse: Ludwigsplatz
     letztes: 3
