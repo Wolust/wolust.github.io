@@ -20,7 +20,7 @@ categories: linux worms
 {{next.meeting}} :
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} : {{next.ort}} {{next.strasse}} </strong>
 <div class="well">
-Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger. Um teilnehmen zu können musst Du an der <a href="vhs.cloud">VHS-Cloud></a> angemeldet sein. Kurs : "linux@worms.vhs.cloud" (das ist keine URL)
+Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger. Um teilnehmen zu können musst Du an der <a href="https://vhs.cloud">VHS-Cloud</a> angemeldet sein. Kurs : "linux@worms.vhs.cloud" (das ist keine URL)
 </div>
 </li>
 </ul>
