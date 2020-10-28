@@ -27,7 +27,7 @@ Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu !
                 <p>{{ post.summary }}</br>
                 <a href="{{ post.url | prepend: site.baseurl }}">lesen</a></p>
               {% else %}
-                <p> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}} </p>
+                <p> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} : {{next.ort}} </p>
                 <a href="{{ post.url | prepend: site.baseurl }}">lesen</a>
               {% endif %}
             </span>

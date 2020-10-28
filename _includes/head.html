@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <meta name="description" content="{% if page.description %}{{ page.description | xml_escape | prepend: ' ' | prepend: page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}"> -->
     {% assign next = site.data.daten.linuxuser[0] %}
-    <meta name="description" content="Nächster Wormser Linux User Stammtisch ist am {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} im {{next.ort}}  {% if page.description %}{{ page.description | xml_escape | prepend: ' ' | prepend: page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}"> 
+    <meta name="description" content="Nächster Wormser Linux User Stammtisch ist am {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} : {{next.ort}}  {% if page.description %}{{ page.description | xml_escape | prepend: ' ' | prepend: page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}"> 
     {% if page.meta_robots %}<meta name="robots" content="{{ page.meta_robots }}">
     {% else %}<meta name="robots" content="all">{% endif %}
     <meta name="author" content="{{ site.author }}">
@@ -139,7 +139,7 @@
                 "name": "Stefan Höhn",
                 "url": "https://stefan-höhn.de"
             },
-"eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+"eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
 "eventStatus": "https://schema.org/EventScheduled"           
 
 }
@@ -157,15 +157,8 @@
 	{
 	  "@context": "https://schema.org",
 	  "@type": "Course",
-	  "name": "04.117 Das Betriebssystem Linux verstehen Vortragsreihe",
-	  "description": "Der Wormser Linux User Stammtisch gibt Kurzvorträge zu den Themen
-- Netzwerk
-- Docker/Kubernetes
-- Kleincomputer
-- Desktop.
-Die Vorträge werden anschaulich vorgetragen und mittels Beamer unterstützt.
-Je nach Vortrag gibt es anschließend ein Hands on oder Live-Vorführungen am Beispiel.
-Der Vorträge sind kostenfrei, um Anmeldung wird gebeten. ",
+	  "name": "Wormser Linux User in der Cloud",
+	  "description": "Stammtisch findet in der Cloud statt. Ein festes Thema gibt es nicht. Linux übers Internet. ",
 	  "provider": {
 		"@type": "Organization",
 		"name": "Volkshochschule Worms",
