@@ -1,5 +1,22 @@
 ---
 linuxuser:
+  - monat: 11
+    inhalt: |-
+      03.11.2020
+      
+      Wir waren Online
+      
+      <ul>
+      <li>Nvidia und die Linux propietär oder nouveau</li>
+      <li>git mit CI an verschiedenen Beispielen auch mit Docker</li>
+      <li>Wormser Bahnhof und die Uhren</li>
+      <li>Gute Linter für Bash und Python</li>
+      <li>Github und Gitlab</li>
+      <li>Wolust gibts jetzt seit genau 5 Jahren</li>
+      <li>Wolust 2021</li>
+      </ul>
+      
+      
   - monat: 10
     inhalt: |-
       06.10.2020
