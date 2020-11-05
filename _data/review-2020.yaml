@@ -7,13 +7,13 @@ linuxuser:
       Wir waren Online
       
       <ul>
-      <li>Nvidia und die Linux propietär oder nouveau</li>
+      <li>Nvidia und Linux propietär oder nouveau</li>
       <li>git mit CI an verschiedenen Beispielen auch mit Docker</li>
-      <li>Wormser Bahnhof und die Uhren</li>
       <li>Gute Linter für Bash und Python</li>
       <li>Github und Gitlab</li>
       <li>Wolust gibts jetzt seit genau 5 Jahren</li>
-      <li>Wolust 2021</li>
+      <li>Wormser Bahnhof und die Uhren</li>
+      <li>Wolust in der VHS 2021</li>
       </ul>
       
       
@@ -32,6 +32,7 @@ linuxuser:
         <li>- Was brauche ich um mit Docker zu starten?</li>
         <li>- Was sind die Vorteile von Containern?</li>
         <li>- Wie sehen moderne Infrastrukturen aus?</li>
+        <li>- <a href="https://static.muench.dev/presentation/docker/index.html#1">Vortrag Slideshow</a> zum nachlesen.</li> 
         </ul>
       
         <strong>Virtualisierung am Beispiel von Proxmox VE und VirtualBox</strong><br />
@@ -42,6 +43,7 @@ linuxuser:
         <li>- Was kann ich mit Virtualisierung erreichen, wo wird sie eingesetzt?</li>
         <li>- Wie schütze ich meine Daten? - Snapshots, Replizierung, Backups.</li>
         <li>- Vergleich verschiedener Virtualisierungslösungen.</li>
+        <li>-<a href="https://achwo.de/?download=Virtualisierung.pdf">Der Vortrag als PDF</a> zum nachlesen.</li>
         </ul>
         <br />
         <strong>Hands on</strong> und VHS 2021. Wie gehts weiter ?
