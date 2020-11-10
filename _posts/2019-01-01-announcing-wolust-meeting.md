@@ -1,18 +1,18 @@
 ---
 title: Nächster Wolust
 layout: post
-date: May 07, 2020 4:33 AM
+date: Nov 07, 2020 4:33 AM
 update_date: "''"
 description: Das ist der Terminkalender der Linux User Gruppe Worms
 summary-date: summary braucht man hier nicht mehr
-last_modified_at: May 07, 2020 4:33 AM
+last_modified_at: Nov 07, 2020 4:33 AM
 categories: linux worms
 ---
 
 <ul>
 <li>Wormser Linux Stammtisch Termine. Jeden 1. Dienstag im Monat</li>
 
-<!--Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger. -->
+<!--Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen.Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger. -->
 <li>Eine Openstreetmap-Karte zeigt unseren aktuellen Treffpunkt</li>
 
 <li>
