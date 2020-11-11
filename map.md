@@ -24,19 +24,37 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  <li>WOLUST jeden Monat am 1. Dienstag</li>
  </ul>
  Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
+ <div id="mapid" style="height: 637px;"></div>
 {% elsif ort == "VHS" %}
   Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Volkshochschule Worms <br />
  Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Computerlabor .
  <br />
  Diesmal nicht im Timescafe !
+ <div id="mapid" style="height: 637px;"></div>
 {% else %}
- Es gibt keinen Stadtplan für {{ ort }} . Nur für die Orte "VHS" und "Timescafe" sind Daten hinterlegt. Bitte 1.Wert "ort" in "daten.yaml" anpassen !
+ No map found. Exception 404
+ <div id="mapid" style="height: 637px;">
+ <pre>
+ ________________________________________
+/ Es gibt keinen Stadtplan für {{ ort }} .   \
+| Nur für die Orte \“VHS\” und           |
+| \“Timescafe\” sind Daten hinterlegt.   |
+| Bitte 1.Wert \“ort\” in \“daten.yaml\” |
+\ anpassen !                             /
+ ----------------------------------------
+              \   ^__^
+               \  (oo)\_______
+                  (__)\       )\/\
+                      ||----w |
+                      ||     ||
+</pre> 
+</div>
 {% endif %}
 
 
 
 
-<div id="mapid" style="height: 637px;"></div>
+
 <script>
 
 	var mymap = L.map('mapid').setView([49.63290, 8.36309], 13);
