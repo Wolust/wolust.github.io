@@ -1,16 +1,16 @@
 ---
 linuxuser:
   - meeting: Nächstes Treffen
-    tag: '01'
-    monat: '12'
-    jahr: 2020
+    tag: '05'
+    monat: '01'
+    jahr: 2021
     ort: Coronabedingt online
     strasse: VHS-Cloud
     letztes: 1
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
-    tag: '04'
-    monat: '01'
+    tag: '02'
+    monat: '02'
     jahr: 2021
     ort: Timescafe Worms
     strasse: Ludwigsplatz
@@ -18,7 +18,7 @@ linuxuser:
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '02'
-    monat: '02'
+    monat: '03'
     jahr: 2021
     ort: Timescafe Worms
     strasse: Ludwigsplatz

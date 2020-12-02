@@ -1,5 +1,22 @@
 ---
 linuxuser:
+
+  - monat: 12
+    inhalt: |-
+      01.12.2020
+      
+      Wir waren Online in der VHS-Cloud
+      
+      <ul>
+      <li>Kalender mit automatisierten Twitterposts in VueJS  von Christian.</li>
+      <li>PostgreSQL Unterschiede zu MySQL</li>
+      <li>Continuos Integration</li>
+      <li>Der Webbrowser Brave ist schnell</li>
+      <li>Mikrocontroller: Arduino, ATTiny, Feather, ESP32, MicroPython</li>
+      <li>Kaufhaus Österreich</li>
+      <li>Ausblick: Ideen / Termine 2021</li>
+      </ul>
+ 
   - monat: 11
     inhalt: |-
       03.11.2020
