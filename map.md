@@ -32,7 +32,7 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  Diesmal nicht im Timescafe !
  <div id="mapid" style="height: 637px;"></div>
 {% else %}
- No map found. Exception 404
+ Keine Karte gefunden. Exception 404
  <div id="mapid" style="height: 637px;">
  <pre>
  ________________________________________
