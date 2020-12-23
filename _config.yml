@@ -112,8 +112,9 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
   - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-
+  
