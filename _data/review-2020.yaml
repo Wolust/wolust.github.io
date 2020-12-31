@@ -1,6 +1,25 @@
 ---
 linuxuser:
 
+  - monat: 1230
+    inhalt: |-
+      30.12.2020
+      
+      Sonderstammtisch  Wir waren Online in der VHS-Cloud
+      
+      <ul>
+      <li>RC3 ruckelt. Qualität der Vorträge lässt immer mehr nach.</li>
+      <li>Coronaregeln in der VHS</li>
+      <li>Corona. Grafik erstellen aus Exccelspreadsheet. <a href="https://www.untergang.de/index.php/linux-blog/vom-spreadsheet-zur-grafik.html">Stefans Webseite</a></li>
+      <li>RetroPie. Wo gibts die Spiele ? </li>
+      <li>Darknet, Onion TLD, Suchmaschine für Tor. Eigene Homepage im Tornetzwerk</li>
+      <li>C# Wie geht "Hello World" mit Visual Studio Code</li>
+      <li>Microsoft und Ubuntu. Das Windows-Subsystem für Linux (WSL)</li>
+      </ul>
+
+
+
+
   - monat: 12
     inhalt: |-
       01.12.2020
