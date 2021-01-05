@@ -3,10 +3,12 @@ linuxuser:
   - monat: 1
     inhalt: |-
       05.01.2021
-      
-      Noch kein Stammtisch 2021
-      
-      <ul>
-      <li>In Planung</li>
-      </ul>
-      
+
+        <ul><li>Mozilla Syncserver für Firefox selbst hosten.</li>
+        <li>IRC was war das? Gibts noch: irc.uugrn.org #uugrn Test123.</li>
+        <li>Worms Corona da wird nichts besser. Es gibt Privatparties.</li>
+        <li>C# 20 Minuten Vortrag kommt.</li>
+        <li>März VHS-Vortrag. Einführung in Linux. Wir wollen LPIC essentials nutzen.</li>
+        <li>Crypto mit Hardware.</li>
+        <li>Transport Protokoll von Google.</li>
+        <li>Gnuplot Grafik anpassen.</li></ul>
