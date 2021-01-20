@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 sudo: false
 rvm:
- - 3.0
+ - 2.7
 script:
  - bundle exec jekyll build
  - bundle exec htmlproofer  --allow-hash-href --disable-external ./_site
