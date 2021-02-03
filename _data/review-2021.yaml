@@ -19,9 +19,9 @@ linuxuser:
 
         <ul><li>Mikrofon/Soundprobleme einiger Teilnehmer</li>
         <li>Hausautomation mit Tasmota und 1-Wire</li>
-        <li>Displays ansteuern i2C,SPI und 4-Bit
+        <li>Displays ansteuern i2C,SPI und 4-Bit</li>
         <li>Silvesterraketen elektronische Payload und das Recht§.</li>
-        <li>Solid Internet von Tim Benes-Lee</li>
+        <li>Solid Internet von Tim Berners-Lee</li>
         <li>SSH-Logging auswerten mit einem Perlscript</li>
         <li>433 MHz und der Manchester-Code</li>
         <li>Verkehrsprobleme lösen: Tesla, Wasserstoff oder Umzug</li>
