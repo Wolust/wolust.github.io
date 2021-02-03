@@ -1,21 +1,14 @@
 ---
 linuxuser:
+
   - meeting: Nächstes Treffen
-    tag: '02'
-    monat: '02'
-    jahr: 2021
-    ort: Coronabedingt online
-    strasse: VHS-Cloud
-    letztes: 1
-    start: '19:30 Uhr'
-  - meeting: Weitere Treffen
     tag: '02'
     monat: '03'
     jahr: 2021
-    ort: Volkshochschule Worms
+    ort: VHS Worms
     strasse: Willy-Brandt-Ring 5
     letztes: 3
-    start: '19:30 Uhr'
+    start: '19:00 Uhr'
   - meeting: Weitere Treffen
     tag: '06'
     monat: '04'
@@ -24,4 +17,11 @@ linuxuser:
     strasse: Ludwigsplatz
     letztes: 2
     start: '19:30 Uhr'
-    
+  - meeting: Weitere Treffen
+    tag: '04'
+    monat: '05'
+    jahr: 2021
+    ort: Coronabedingt online
+    strasse: VHS-Cloud
+    letztes: 1
+    start: '19:30 Uhr'  
