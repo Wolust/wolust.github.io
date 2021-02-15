@@ -5,10 +5,10 @@ linuxuser:
     tag: '02'
     monat: '03'
     jahr: 2021
-    ort: VHS Worms
-    strasse: Willy-Brandt-Ring 5
+    ort: Coronabedingt online
+    strasse: VHS-Cloud
     letztes: 3
-    start: '19:00 Uhr'
+    start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '06'
     monat: '04'
