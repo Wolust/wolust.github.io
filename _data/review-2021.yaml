@@ -3,7 +3,7 @@ linuxuser:
 
   - monat: 3
     inhalt: |-
-      02.04.2021
+      02.03.2021
 
         <ul><li>Matrix Server selbst gehostet Postgres</li>
         <li>IRC Headless mit WeeChat IRC-Client als Webinterface und Konversation</li>
