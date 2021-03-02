@@ -1,18 +1,18 @@
 ---
 linuxuser:
-  - monat: 1
+
+  - monat: 3
     inhalt: |-
-      05.01.2021
+      02.04.2021
 
-        <ul><li>Mozilla Syncserver für Firefox selbst hosten.</li>
-        <li>IRC was war das? Gibts noch: irc.uugrn.org #uugrn Test123.</li>
-        <li>Worms Corona da wird nichts besser. Es gibt Privatparties.</li>
-        <li>C# 20 Minuten Vortrag kommt.</li>
-        <li>März VHS-Vortrag. Einführung in Linux. Wir wollen LPIC essentials nutzen.</li>
-        <li>Crypto mit Hardware.</li>
-        <li>Transport Protokoll von Google.</li>
-        <li>Gnuplot Grafik anpassen.</li></ul>
-
+        <ul><li>Matrix Server selbst gehostet Postgres</li>
+        <li>IRC Headless mit WeeChat IRC-Client als Webinterface und Konversation</li>
+        <li>Wolust hat einen eigenen IRC-Kanal</li>
+        <li>Nextcloud 21 nicht für den Raspberry Pi geeignet</li>
+        <li>Waschmaschinensteuerung selbst gemacht klappt nicht</li>
+        <li>Impfen, wir hatten super Ideen</li>
+        <li>433 MHz funkt immer noch nicht</li></ul>
+       
   - monat: 2
     inhalt: |-
       03.02.2021
@@ -27,3 +27,17 @@ linuxuser:
         <li>Verkehrsprobleme lösen: Tesla, Wasserstoff oder Umzug</li>
         <li>VHS-Linux-Anfängerabend muss vorbereitet werden</li></ul>
        
+  - monat: 1
+    inhalt: |-
+      05.01.2021
+
+        <ul><li>Mozilla Syncserver für Firefox selbst hosten.</li>
+        <li>IRC was war das? Gibts noch: irc.uugrn.org #uugrn Test123.</li>
+        <li>Worms Corona da wird nichts besser. Es gibt Privatparties.</li>
+        <li>C# 20 Minuten Vortrag kommt.</li>
+        <li>März VHS-Vortrag. Einführung in Linux. Wir wollen LPIC essentials nutzen.</li>
+        <li>Crypto mit Hardware.</li>
+        <li>Transport Protokoll von Google.</li>
+        <li>Gnuplot Grafik anpassen.</li></ul>
+
+  
