@@ -1,6 +1,20 @@
 ---
 linuxuser:
 
+  - monat: 4
+    inhalt: |-
+      06.04.2021
+
+        <ul><li>IRC Kanal #Wolust und Bridge für Nextcloud Talk</li>
+        <li>Alpine Linux für Container</li>
+        <li>NFC-Tag und der Hersteller NXP</li>
+        <li>Jekyll im Dockercontainer macht wolust.de</li>
+        <li>Grafana und InfluxDB . Das neue Flash? oder macht es doch Sinn.</li>
+        <li>Corona und Wolust. Corona und impfen bei Übergewicht. </li>
+        <li>Feuer im Rechenzentrum. Was war in Straßburg ?</li>
+        <li>Explosionen im Betrieb und Brandverletzung</li></ul>
+       
+
   - monat: 3
     inhalt: |-
       02.03.2021
