@@ -1,6 +1,19 @@
 ---
 linuxuser:
 
+  - monat: 5
+    inhalt: |-
+      04.05.2021
+
+        <ul><li>Webseite wolust.de administrieren mit und ohne Jekyll</li>
+        <li>Universal-Logger Xtrinsic-Board am Raspberry Pi hat jetzt 2 Taster Ein/Aus</li>
+        <li>Freies Android auf Volla Phone</li>
+        <li>Grafana hat 100.000 kleine Zacken ohne Bedeutung sieht aber gut aus.</li>
+        <li>Ingenieur kann Pumpe nach Leistungsanforderungen auswählen oder mit dem Chef verhandeln</li>
+        <li>Kühe als Haustiere oder Nutztiere</li>
+        <li>Hackerkultur in Frankreich?</li>
+        <li>Pornografischer Desktophintergrund bei Ubuntu 20.4</li></ul>
+        
   - monat: 4
     inhalt: |-
       06.04.2021
