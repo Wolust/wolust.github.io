@@ -56,7 +56,11 @@
     <meta property="og:locale" content="{{ site.text.og_locale }}">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{% if page.title %}{{ page.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}">
-    <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
+  
+    <meta poperty="og:description" content="Nächster Wormser Linux User Stammtisch ist am {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} : {{next.ort}}  {% if page.description %}{{ page.description | xml_escape | prepend: ' ' | prepend: page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}"> 
+    
+    
+    
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title | xml_escape }}">
     {% if site.post_preview_image %}
