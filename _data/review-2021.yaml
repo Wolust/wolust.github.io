@@ -1,5 +1,19 @@
 ---
 linuxuser:
+  - monat: 6
+    inhalt: |-
+      01.06.2021
+
+        <ul><li>Kommandozeilen Tools für den Alltag</li>
+        <li>Wettervorhersage mit Opendata von DWD für Worms als Einzeiler in Bash</li>
+        <li>Wetterseite der Hochschule hat immer noch Probleme mit der Uhrzeit. Mischmasch GMT und MESZ </li>
+        <li>ESP32 programmieren. Unterschiede zum Arduino. Programmierbar mit Arduino</li>
+        <li>Lüftersteuerung im Keller funktioniert endlich</li>
+        <li>VHS.cloud BBB Desktopfreigabe funktioniert nur beim Administrator</li>
+        <li>VHS Real Wir sind aus dem Programm gefallen?</li>
+        <li>Mattermost </li>
+        <li>Wolust.de ist jetzt eine PWA</li>
+        <li> https://github.com/Wolust/Linkliste/blob/master/wolust210601.txt NEU!</li></ul>
 
   - monat: 5
     inhalt: |-
