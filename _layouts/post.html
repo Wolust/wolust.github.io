@@ -17,6 +17,9 @@ layout: default
   {% endif %}
   </span>
 </div>
+<article class="post-content">
+  {{ content }}
+</article>
 <script src="https://utteranc.es/client.js"
         repo="Wolust/wolust.github.io"
         issue-term="pathname"
@@ -25,10 +28,6 @@ layout: default
         crossorigin="anonymous"
         async>
 </script>
-<article class="post-content">
-  {{ content }}
-</article>
-
 {% if site.show_sharing_icons %}
   {% include share_buttons.html %}
 {% endif %}
