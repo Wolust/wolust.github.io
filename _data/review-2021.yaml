@@ -4,7 +4,7 @@ linuxuser:
     inhalt: |-
       01.06.2021
 
-        <ul><li>Kommandozeilen Tools für den Alltag</li>
+        <ul><li>Linux Tools für den Alltag (ulauncher, autokey)</li>
         <li>Wettervorhersage mit Opendata von DWD für Worms als Einzeiler in Bash</li>
         <li>Wetterseite der Hochschule hat immer noch Probleme mit der Uhrzeit. Mischmasch GMT und MESZ </li>
         <li>ESP32 programmieren. Unterschiede zum Arduino. Programmierbar mit Arduino</li>
