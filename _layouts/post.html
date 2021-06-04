@@ -1,14 +1,7 @@
 ---
 layout: default
 ---
-<script src="https://utteranc.es/client.js"
-        repo="dewomser/jekyll-my-awesome-site"
-        issue-term="pathname"
-        label="Linux"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+
 {% assign minutes = content | strip_html | number_of_words | divided_by: 100 %}
 {% if minutes == 0 %}
 {% assign minutes = 1 %}
@@ -24,7 +17,14 @@ layout: default
   {% endif %}
   </span>
 </div>
-
+<script src="https://utteranc.es/client.js"
+        repo="Wolust/wolust.github.io"
+        issue-term="pathname"
+        label="Linux"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 <article class="post-content">
   {{ content }}
 </article>
