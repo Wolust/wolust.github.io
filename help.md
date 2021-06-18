@@ -34,7 +34,7 @@ und so gehts:
 
 ### IRC Kanal Testweise
 
-<iframe src="https://kiwiirc.com/client/irc.freenode.net/?nick=Besucher|?#wolust" style="border:0; width:100%; height:450px;"></iframe>
+<iframe src="https://kiwiirc.com/client/irc.eu.libera.chat/?nick=Besucher|?#wolust" style="border:0; width:100%; height:450px;"></iframe>
 
 
 ### Wissenswertes
