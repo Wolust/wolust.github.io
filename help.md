@@ -33,8 +33,8 @@ und so gehts:
 6. Viel Spaß mit Jekyll und der Wolustwebseite.
 
 ### IRC Kanal Testweise
+<iframe src="https://kiwiirc.com/nextclient/irc.libera.chat/#wolust" title="IRC-Webclient für #Wolust"></iframe> 
 
-<iframe src="https://kiwiirc.com/client/irc.libera.chat/?nick=Besucher&port=6697|?#wolust" style="border:0; width:100%; height:450px;"></iframe>
 
 
 ### Wissenswertes
