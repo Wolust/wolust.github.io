@@ -8,5 +8,7 @@ gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-sitemap', group: :jekyll_plugins
 gem 'html-proofer'
+gem 'rack', '>= 2.1.4'
+
 
 gem 'sassc', group: :jekyll_plugins
