@@ -1,5 +1,23 @@
 ---
 linuxuser:
+
+  - monat: 7
+    inhalt: |-
+      06.07.2021
+
+        <ul><li>Einchecken mit der Corona-Warn-App</li>
+        <li>Github Copilot</li>
+        <li>Das neue Arduino. Hard- und Software</li>
+        <li>H2 fürs Auto  Vor- Nachteile</li>
+        <li>GPS auswerten</li>
+        <li>Linux Kernel und die Zukunft</li>
+        <li>Arch installiert RPM und deb</li>
+        <li>Fedora ~ Redhat</li>
+        <li>Python und Pointer</li>
+        <li>Volkshochschule Worms</li>
+        <li>Schnitzel und Bier.</li></ul>
+
+
   - monat: 6
     inhalt: |-
       01.06.2021

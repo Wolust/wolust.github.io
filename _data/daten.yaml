@@ -2,24 +2,24 @@
 linuxuser:
 
   - meeting: Nächstes Treffen
-    tag: '06'
-    monat: '07'
+    tag: '03'
+    monat: '08'
     jahr: 2021
     ort: Timescafe Worms
     strasse: Ludwigsplatz
     letztes: 3
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
-    tag: '03'
-    monat: '08'
+    tag: '07'
+    monat: '09'
     jahr: 2021
     ort: Timescafe Worms
     strasse: Ludwigsplatz
     letztes: 2
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
-    tag: '07'
-    monat: '09'
+    tag: '05'
+    monat: '10'
     jahr: 2021
     ort: Timescafe Worms
     strasse: Ludwigsplatz
