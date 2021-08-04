@@ -1,6 +1,17 @@
 ---
 linuxuser:
 
+  - monat: 8
+    inhalt: |-
+      03.08.2021
+
+        <ul><li>RAID-System 0,1,5,… 51 und andere in  Hardware und Software</li>
+        <li>Matrix und Bridging</li>
+        <li>Nextcloud Bridging</li>
+        <li>Corona Warnapps + Luca</li>
+        <li>Esp32 kann PC emulieren</li>
+        <li>iPhone ist kaputt  "Pegasus"-Hack</li></ul>
+
   - monat: 7
     inhalt: |-
       06.07.2021
