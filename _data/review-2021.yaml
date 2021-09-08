@@ -1,6 +1,26 @@
 ---
 linuxuser:
 
+  - monat: 9
+    inhalt: |-
+      07.09.2021
+
+        <ul><li>Linux Kernel mit  Arch mit KDE</li>
+        <li>Kernel kein Linux.</li>
+        <li>Selbsterstellte Zertifikate und Firefox.</li>
+        <li>Kompilieren von Hardwaretreiber.</li>
+        <li>Uraltnetbook als Bildershow.</li>
+        <li>Kellerentfeuchter  funktioniert.</li>
+        <li>Corona im Krankenhaus und Quarantäne.</li>
+        <li>Die Bash … Wunder was da alles geht.</li>
+        <li>DSL , ISDN, Modem</li>
+        <li>git commit checkout als Backup ?</li>
+        <li>Brettspiele 18XX-Reihe</li>
+        <li>CI/CD mit Robot Framework und der Kampf um Budgets</li>
+        <li>Mattermost vs. Matrix</li>
+        <li>Manjaro, das Arch der Faulen</li>
+        <li>Nexus Artefact Repository (Hammer)</li>
+        <li>Die Funzel und Willi</li></ul>
   - monat: 8
     inhalt: |-
       03.08.2021
