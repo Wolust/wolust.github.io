@@ -2,20 +2,31 @@
 linuxuser:
 
 
+  - monat: 11
+    inhalt: |-
+      02.11.2021
+
+        <ul><li>Die Shell: Wenige Zeilen Code</li>
+        <li>Raspberry Pi Sachen basteln mit Linux und Python</li>
+        <li>Nextcloud mit allem.</li>
+        <li>PHP 7 .x+8.x und PHPUnit</li>
+        <li>Alles gedockert</li>
+        <li>Software aus China, Russland, Nordkorea</li>
+        <li>Windows 11 auf dem Tuxedo Notebook</li>
+        <li>microPython</li></ul>
+ 
   - monat: 10
     inhalt: |-
       05.10.2021
-
-        <ul>
-        <li>Android Hintergrund selbst programmieren (dynamisch)</li>
+      
+        <ul><li>Android Hintergrund selbst programmieren (dynamisch)</li>
         <li>ZFS Deduplizieren</li>
         <li>Die Varianten von top</li>
         <li>Podcasts Thema Linux</li>
         <li>Verschlüsseln</li>
         <li>Ein universelles Trackingtool mit Raspberry Pi</li>
         <li>CovPass-Check-App</li>
-        <li>IPv6</li>
-        </ul>
+        <li>IPv6</li></ul>
 
   - monat: 9
     inhalt: |-
