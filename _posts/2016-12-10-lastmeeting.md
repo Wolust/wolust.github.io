@@ -3,7 +3,9 @@ title: Stammtische 2016
 layout: post
 date: '2016-12-11 15:31:19 +0000'
 summary: Zusammenfassung und Stichpunkte
-categories: linux worms
+categories:
+- linux
+- worms
 description: Kurzer Report der Wolust Stammtische 2016
 ---
 
