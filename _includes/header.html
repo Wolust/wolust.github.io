@@ -10,9 +10,15 @@ change();
 }
 </script>
 </div>
-      <nav class="site-nav">
-        {% include navigation.html %}
-      </nav>            
+       <nav class="site-nav.left">
+      <span>
+      <a href="{{ site.url }}">Index</a>
+      </span>
+      
+      <span class="site-nav">
+      {% include navigation.html %}
+      </span> 
+      </nav>          
       <h1 class="site-title">
           <a href="{{ site.url }}"><img id="logo" src="{{ site.url }}/images/logo.png" alt="Wolust Logo"/>
           {{ site.title }}</a>
