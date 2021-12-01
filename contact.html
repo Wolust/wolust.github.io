@@ -1,49 +1,23 @@
 ---
-title: Sag Hallo
+title: Issue (Github)
 layout: page
 permalink: "/contact/"
-tags: contact
-update_date: ''
+tags:
+- contact
 ---
 
+<h3>Das hier ist Gästebuch, Notitzblock, Linkliste und vieles mehr.</h3>
+
+
+Schreib einfach Deine Kommentare da rein !
 <div class="py2">
-  {% if site.ajaxify_contact_form %}
-    <form class="form-stacked">
-      <label>
-        Email noch nicht aktiviert
-        <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
-      </label>
-
-      <label>
-        Content
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content }}" style="resize: vertical"></textarea>
-      </label>
-
-      <input type="text" name="_gotcha" style="display:none" />
-
-   <!--   <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit }}</button>
-   -->
-    </form>
-  {% else %}
-    <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
-      <label>
-        Email
-        <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
-      </label>
-      <label>
-        Content
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="{{ site.text.contact.content }}" style="resize: vertical"></textarea>
-      </label>
-<!--<input
-      <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
-      <input type="hidden" name="_subject" value="{{ site.text.contact.subject }}" />
-      <input type="text" name="_gotcha" style="display:none" />
-
-       type="submit" class="button button-blue button-big mobile-block" value="{{ site.text.contact.submit }}"> -->
-    </form>
-  {% endif %}
-</div>
-
-{% if site.ajaxify_contact_form %}
-  {% include ajaxify_content_form.html %}
-{% endif %}
+  
+<script src="https://utteranc.es/client.js"
+        repo="Wolust/wolust.github.io"
+        issue-term="pathname"
+        label="Linux"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+	</div>
