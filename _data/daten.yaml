@@ -2,16 +2,16 @@
 linuxuser:
 
   - meeting: Nächstes Treffen
-    tag: '07'
-    monat: '12'
+    tag: '04'
+    monat: '01'
     jahr: 2021
     ort: Cloud
     strasse: VHS
     letztes: 3
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
-    tag: '04'
-    monat: '01'
+    tag: '01'
+    monat: '02'
     jahr: 2022
     ort: Timescafe Worms
     strasse: Ludwigsplatz
@@ -19,7 +19,7 @@ linuxuser:
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '01'
-    monat: '02'
+    monat: '03'
     jahr: 2022
     ort: Timescafe Worms
     strasse: Ludwigsplatz
