@@ -1,6 +1,19 @@
 ---
 linuxuser:
 
+  - monat: 12
+    inhalt: |-
+      07.12.2021
+
+        <ul><li>Zeige Deine Bash History !</li>
+        <li>Verschiedene 3D-Drucker und Druckmethoden Vorführung</li>
+        <li>Design und Anspruch</li>
+        <li>Smarpt Design mit der Laubsäge</li>
+        <li>Docker, was ist da kompliziert?</li>
+        <li>Messstrippen</li>
+        <li>Raspberrypi als Mediaserver </li>
+        <li>USB als virtuelle CD-Rom</li>
+        <li>Essen: Gnocchi und Schnitzel</li></ul>
 
   - monat: 11
     inhalt: |-
