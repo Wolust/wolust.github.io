@@ -32,11 +32,6 @@ und so gehts:
 5. Mit http://0.0.0.0:4000/admin/ kannst du testweise Änderungen an der Homepage machen. 
 6. Viel Spaß mit Jekyll und der Wolustwebseite.
 
-### IRC Kanal Testweise
-<iframe src="https://kiwiirc.com/nextclient/irc.libera.chat/#wolust" title="IRC-Webclient für #Wolust" width="100%" height="500"></iframe> 
-
-
-
 ### Wissenswertes
 <strong>Wolust Git-Liste:</strong>
 <ul>
