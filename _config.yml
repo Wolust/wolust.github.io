@@ -25,7 +25,7 @@ show_post_footers: false
 show_social_icons: true
 ajaxify_contact_form: true
 enable_mathjax: false
-extended_fonts: true
+extended_fonts: false
 enable_anchorjs: true
 post_preview_image: true
 fb_page: false
