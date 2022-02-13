@@ -19,7 +19,7 @@ Es werden Scripte und Fonts geladen von diesen Urls:
 * maxcdn.bootstrapcdn.com
 * cloudflare.com
 * cdnjs.cloudflare.com
-* fonts.googleapis.com
+* Abgeschaltet 13.02.2022 (fonts.googleapis.com)
 * gstatic.com
 * fonts.gstatic.com
 
