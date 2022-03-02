@@ -2,11 +2,11 @@
 linuxuser:
 
   - meeting: Nächstes Treffen
-    tag: '01'
+    tag: '08'
     monat: '03'
     jahr: 2022
-    ort: Cloud
-    strasse: VHS
+    ort: Timescafe Worms
+    strasse: Ludwigsplatz
     letztes: 3
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
