@@ -1,15 +1,6 @@
 ---
 linuxuser:
-
   - meeting: Nächstes Treffen
-    tag: '08'
-    monat: '03'
-    jahr: 2022
-    ort: ONLINE!
-    strasse: in der VHS-Cloud
-    letztes: 3
-    start: '19:30 Uhr'
-  - meeting: Weitere Treffen
     tag: '05'
     monat: '04'
     jahr: 2022
@@ -25,3 +16,11 @@ linuxuser:
     strasse: Ludwigsplatz
     letztes: 1
     start: '19:30 Uhr'  
+  - meeting: Weitere Treffen
+    tag: '07'
+    monat: '06'
+    jahr: 2022
+    ort: Timescafe Worms
+    strasse: Ludwigsplatz
+    letztes: 1
+    start: '19:30 Uhr'

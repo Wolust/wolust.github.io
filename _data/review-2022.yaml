@@ -36,3 +36,10 @@ linuxuser:
         <li>Panic-Taste und Thermostat mit Attiny steuern</li>
         <li>Default Shell wechseln</li>
         <li>Computer aufräumen und Backup</li></ul>
+
+  - monat: 04
+    inhalt: |-
+      08.03.2022
+
+        <ul><li>Verteilung von Zertifikaten</li>
+        <li>Raspberry Pi Pico</li></ul>
