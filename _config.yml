@@ -11,9 +11,10 @@ date_format_year: '%Y'
 date_format : '%-d . %m . %Y %H:%M'
 header_pages:
   - map.md
+  - talk.md
   - contact.html
   - help.md
-  
+
 lolo: 'lolo is amaster'  
 google_verification: 'fdVYZrBjcMeFQK5MnFi4WhNe3-RVaVgjMZvh6ekvItM'
 google_analytics: null

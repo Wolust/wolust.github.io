@@ -15,7 +15,7 @@ sitemap: false
 3. Um Einträge zu editieren, gehe nach wolust.github.io  -> data_
 13. <span class="red">Einrückungen, Doppelpunkt, -Zeichen und Variablennamen nicht verändern !</span>
 4. Dort gibt es [daten.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/daten.yaml) Hier können neue Termine angelegt oder editiert werden .
-5. Dort gibt es [review-2021.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/review-2021.yaml) Hier können Stichpunkte zu vergangenen Treffen editiert und neu eingetragen werden. 
+5. Dort gibt es [review-2022.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/review-2021.yaml) Hier können Stichpunkte zu vergangenen Treffen editiert und neu eingetragen werden.
 7. Tiefgreifende  Änderungen (Neuverlinkung oder Änderungen von Dateinamen)  funktionieren nur  nach einer Generierung mit Jekyll  !
 8. Die Variable date ist tabu, weil sie zur Linkerzeugung benutzt wird. Die leere Variable date_update wird als aktuelles Änderungsdatum geparst. 
 9. Nach jeder  Änderung erzeugtes Html und Links mit Github Actions testen ! [![Jekyll site CI](https://github.com/Wolust/wolust.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/Wolust/wolust.github.io/actions/workflows/jekyll.yml)
@@ -59,8 +59,8 @@ Zuletzt upgedatet: {{ repository.updated_at | date: "%-d.%m.%Y %H:%M" }}
 
 **Geht zum Wolust und hat ein Github-Account:**
 
-[{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench) [{% avatar devcon2012 %}](https://github.com/devcon2012) [{% avatar doppeldau %}](https://github.com/doppeldau) 
-[{% avatar satwareAG-ironMike %}](https://github.com/satwareAG-ironMike)
+[{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench) [{% avatar devcon2012 %}](https://github.com/devcon2012) [{% avatar doppeldau %}](https://github.com/doppeldau)
+
 ### Pixyll Jekyll-Thema ist die  Basis für diese Site:
 Theme crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).
 &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">GitHub</a>.
