@@ -1,4 +1,12 @@
-Wie man Zertifikate verteilt ohne verrückt zu werden
+---
+title: Wie man Zertifikate verteilt ohne verrückt zu werden
+layout: page
+description: SCEP, EST, ACME
+author: Klaus Ramstöck
+---
+
+
+## Wie man Zertifikate verteilt ohne verrückt zu werden
 
 (SCEP, EST, ACME)
 
@@ -13,7 +21,7 @@ EC      - Elliptic Curve Cryptography (ECC) oder deutsch Elliptische-Kurven-Kryp
 DH      - Diffie-Hellman-Schlüsselaustausch
 SHA     - Standard Hash Algorithm
 
-1. Wozu dienen Zertifikate ?
+### 1. Wozu dienen Zertifikate ?
 
 Alice   -> () ->   Bob
 
@@ -26,7 +34,7 @@ Alice   -> () ->   Bob
 
 Also: Wenn ich das erste Mal ein Zertifikat haben will, geht all das nicht.
 
-2. SCEP, EST, ACME im Vergleich:
+### 2. SCEP, EST, ACME im Vergleich:
 
 2.1 SCEP: "Sesam öffne dich!"
 
@@ -79,7 +87,7 @@ Zur Aussagekraft: Ja, jeder kriegt ein Zertifikat, Nein, nicht jeder bekommt ein
 
 
 
-3. Technische Details
+### 3. Technische Details
 
 3.1 SCEP
 
