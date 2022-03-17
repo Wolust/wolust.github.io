@@ -8,13 +8,13 @@ description: Vorträge, Folien, Talks bei Wolust,  die man hier nachlesen kann
 sitemap: true
 ---
 
-### Hier kommen Vorträge rein
-
+### Hier gibts Vorträge zum nachlesen.
 
 1. Klaus: [SCEP-EST-ACME]({{ site.baseurl }}/SCEP-EST-ACME)
 2. Achim: [Ceph und Proxmox]({{ site.baseurl }}/ceph-und-proxmox)
-
-
-
+3. Stefan: [Linux installieren gestern und heute](https://www.untergang.de/html-folien030302020-vhs/img0.html) Externer Link
+4. Christian: [Einführung in die Container Technologie](https://static.muench.dev/presentation/docker/index.html#1) Externer Link
+5. Achim: [Virtualisierung am Beispiel von Proxmox VE und VirtualBox](https://achwo.de/?download=Virtualisierung.pdf) Extern pdf
+6. Cristian: [Division By Zero PHPUnit](https://github.com/Wolust/test-division-by-zero) Extern Github
 
  {% include fortune.html %}
