@@ -15,6 +15,6 @@ sitemap: true
 3. Stefan: [Linux installieren gestern und heute](https://www.untergang.de/html-folien030302020-vhs/img0.html) Externer Link
 4. Christian: [Einführung in die Container Technologie](https://static.muench.dev/presentation/docker/index.html#1) Externer Link
 5. Achim: [Virtualisierung am Beispiel von Proxmox VE und VirtualBox](https://achwo.de/?download=Virtualisierung.pdf) Extern pdf
-6. Cristian: [Division By Zero PHPUnit](https://github.com/Wolust/test-division-by-zero) Extern Github
+6. Christian: [Division By Zero PHPUnit](https://github.com/Wolust/test-division-by-zero) Extern Github
 
  {% include fortune.html %}
