@@ -16,9 +16,6 @@ sitemap: true
 4. Christian: [Einführung in die Container Technologie](https://static.muench.dev/presentation/docker/index.html#1) Externer Link
 5. Achim: [Virtualisierung am Beispiel von Proxmox VE und VirtualBox](https://achwo.de/?download=Virtualisierung.pdf) Extern pdf
 6. Christian: [Division By Zero PHPUnit](https://github.com/Wolust/test-division-by-zero) Extern Github
-<<<<<<< HEAD
-=======
 7. Christian: [Linux Dateisystem](https://speakerdeck.com/cmuench/linux-dateisystem)
->>>>>>> refs/remotes/origin/master
 
  {% include fortune.html %}
