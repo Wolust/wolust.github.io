@@ -11,7 +11,7 @@ author: Achim Wolff
 [https://pve.proxmox.com/pve-docs/](https://pve.proxmox.com/pve-docs/)
 LXC als Containerverwaltung:[https://linuxcontainers.org/](https://linuxcontainers.org/)
 ### Ceph als verteiltes Storage
-[Cluster-Dateisystem](https://ceph.com/](https://ceph.com/)
+[Cluster-Dateisystem](https://ceph.com/)
 Ich habe testweise 3 alte Rechner dafür benutzt und auf allen drei per
 USB-Stick  Proxmox VE installiert. Einfach das ISO hier herunterladen:
 [https://www.proxmox.com/de/downloads/item/proxmox-ve-5-4-iso-installer](https://www.proxmox.com/de/downloads/item/proxmox-ve-5-4-iso-installer)
@@ -319,4 +319,4 @@ standard_19.04-1_amd64.tar.gzcontainer       debian-9-ansible_15.0-
 Da sind neben kompletten Betriebssystemen auch so schicke Dinge dabei
 wie Drupal, Wordpress, Nextcloud, Mattermost, Magento, OpenVPN, usw...
 
-**Geschrieben von Achim Wolf. Mail: achim.wolff@achwo.de Web: [https://achwo.de](https://achwo.de)**
+**Geschrieben von {{ page.author }}. Mail: achim.wolff@achwo.de Web: [https://achwo.de](https://achwo.de)**

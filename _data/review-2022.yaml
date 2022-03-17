@@ -1,30 +1,13 @@
 ---
 linuxuser:
-
-
-  - monat: 01
+  - monat: 03a
     inhalt: |-
-      04.01.2022
+      08.03.2022
 
-        <ul><li>One-wire Bus</li>
-        <li>M-Bus</li>
-        <li>Messtechnik Temperatur und Druck</li>
-        <li>Corona Daten (speziell Worms)</li>
-        <li>Github Software Test</li></ul>
-  - monat: 02
-    inhalt: |-
-      01.02.2022
+        <ul><li>Verteilung von Zertifikaten</li>
+        <li>Raspberry Pi Pico</li></ul>
 
-        <ul><li>3D-Drucker bei ALDI</li>
-        <li>Docker ganzes Linux mit XFCE</li>
-        <li>Falkon Browser</li>
-        <li>Sachen mit Attiny steuern</li>
-        <li>Konsole oder Terminator</li>
-        <li>Hardware in die Webcam halten</li>
-        <li>Früher gabs SCSI [ˈskʌzi]</li>
-        <li>Corona Daten (speziell Worms)</li>
-        <li>Alte Männer babbeln Zeugs</li>
-        <li> https://github.com/Wolust/Linkliste/blob/master/wolust220201.txt NEU!</li></ul>
+    link: /SCEP-EST-ACME
 
   - monat: 03
     inhalt: |-
@@ -37,9 +20,28 @@ linuxuser:
         <li>Default Shell wechseln</li>
         <li>Computer aufräumen und Backup</li></ul>
 
-  - monat: 04
+  - monat: 02
     inhalt: |-
-      08.03.2022
+      01.02.2022
 
-        <ul><li>Verteilung von Zertifikaten</li>
-        <li>Raspberry Pi Pico</li></ul>
+        <ul><li>3D-Drucker bei ALDI</li>
+        <li>Docker ganzes Linux mit XFCE</li>
+        <li>Falkon Browser</li>
+        <li>Sachen mit Attiny steuern</li>
+        <li>Konsole oder Terminator</li>
+        <li>Hardware in die Webcam halten</li>
+        <li>Früher gabs SCSI [ˈskʌzi]</li>
+        <li>Corona Daten (speziell Worms)</li>
+        <li>Alte Männer babbeln Zeugs</li></ul>
+    link: /_linkliste/wolust220201
+
+
+  - monat: 01
+    inhalt: |-
+      04.01.2022
+
+        <ul><li>One-wire Bus</li>
+        <li>M-Bus</li>
+        <li>Messtechnik Temperatur und Druck</li>
+        <li>Corona Daten (speziell Worms)</li>
+        <li>Github Software Test</li></ul>

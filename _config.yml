@@ -115,7 +115,8 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
   - jekyll-feed
-
+include:
+ - _linkliste
 exclude:
   - Gemfile
   - Gemfile.lock

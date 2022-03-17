@@ -6,19 +6,26 @@ author: Klaus Ramstöck
 ---
 
 
-## Wie man Zertifikate verteilt ohne verrückt zu werden
+Der Author **{{ page.author}}** hat einen Github-Account:  [{% avatar devcon2012 %}](https://github.com/devcon2012)
 
 (SCEP, EST, ACME)
 
 Vorab: Begriffe? (X.509, RSA, EC, CSR, PKI, SHA, PKCSXXX ...?)
 
 PKI     - Public-Key-Infrastruktur
+
 X.509   - Ein Standard für Public-Key-Infrastruktur
+
 PKCS    - Public-Key Cryptography Standards (PKCS) --> https://de.wikipedia.org/wiki/Public-Key_Cryptography_Standards
+
 CSR     - Certificate Signing Request (PKCS10)
+
 RSA     - (Rivest–Shamir–Adleman) ist ein asymmetrisches kryptographisches Verfahren
+
 EC      - Elliptic Curve Cryptography (ECC) oder deutsch Elliptische-Kurven-Kryptografie
+
 DH      - Diffie-Hellman-Schlüsselaustausch
+
 SHA     - Standard Hash Algorithm
 
 ### 1. Wozu dienen Zertifikate ?
@@ -70,13 +77,21 @@ Automatic Certificate Management Environment (ACME), RFC 8555, erste Drafts ~ 20
 Verwendet von Lets Encrypt- jeder kriegt ein Zertifikat. (Welche Aussagekraft hat es dann?)
 
 A: Hey Bob, ich bin Alice und möchte gerne ein Zertifikat für www.alice-blog.de
+
 B: Kann ja jeder kommen. Poste mal "Bob sagt: ACME ist geil- 7546456" auf deinem Site.
+
 A: (Macht das) - Hey Bob, ich hab das gepostet!
+
 B: (Prüft das) - Ok, stimmt. Kannst jetzt einen Antrag stellen
+
 A: (Stellt einen Antrag, indem sie einen "CSR" einreicht)
+
 B: (Prüft den Antrag, dass wirklich nur www.alice-blog.de drin steht)
+
 A: Schon fertig?
+
 B: Moment noch .. jetzt! Kannst dir dein Zertifikat holen, habs unterschrieben.
+
 A: (Holt sich das Zertifikat) - Danke!
 
 * ACME prüft die Kontrolle über "Identifier" (hier www.alice-bclog.de) mittels "Challenges"
@@ -111,12 +126,20 @@ Zur Aussagekraft: Ja, jeder kriegt ein Zertifikat, Nein, nicht jeder bekommt ein
 
 
 API Endpoint	Operation	Description
+
 /.well-known/est/cacerts	Distribution of CA Certificates	The EST client can request a copy of the current CA certificates with HTTP GET operation (RFC 7030 Section 4.1).
+
 /.well-known/est/simpleenroll	Enrollment of Clients	EST clients request a certificate from the EST server with an HTTPS POST operation (RFC 7030 Section 4.2).
+
 /.well-known/est/simplereenroll	Re-enrollment of Clients	EST clients renew/rekey certificates with an HTTPS POST operation (RFC 7030 Section 4.2.2).
+
 /.well-known/est/fullcmc	Full CMC	An EST client can request a certificate from an EST server with an HTTPS POST operation (RFC 7030 Section 4.3).
+
 /.well-known/est/serverkeygen	Server-Side Key Generation	An EST client may request a private key and associated certificate from an EST server using an HTTPS POST operation (RFC 7030 Section 4.4)
-/.well-known/est/csrattrs	CSR Attributes	CA policy may allow inclusion of client-provided attributes in certificates that it issues, and some of these attributes may describe information that is not available to the CA. In addition, a CA may desire to certify a certain type of public key and a client may not have a priori knowledge of that fact. Therefore, clients SHOULD request a list of expected attributes that are required, or desired, by the CA in an enrollment request or if dictated by local policy. (RFC 7030 Section 4.5)
+
+/.well-known/est/csrattrs	CSR Attributes	CA policy may allow inclusion of client-provided attributes in certificates that it issues, and some of these attributes may describe information that is not available to the CA.
+
+In addition, a CA may desire to certify a certain type of public key and a client may not have a priori knowledge of that fact. Therefore, clients SHOULD request a list of expected attributes that are required, or desired, by the CA in an enrollment request or if dictated by local policy. (RFC 7030 Section 4.5)
 
 * Siehe libest- Server / Clients auf Github
 
