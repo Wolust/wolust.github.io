@@ -1,5 +1,20 @@
 ---
 linuxuser:
+
+
+  - monat: 04
+    inhalt: |-
+      05.04.2022
+
+        <ul><li>Nach langer Coronapause wieder mal im Timescafe</li>
+        <li>Wormatia und Webseite Wormatia</li>
+        <li>MateBook mit Linux Manjaro /Thinkpad </li>
+        <li>Verbindung mit der VHS-Cloud hat geklappt aber kein Ton</li>
+        <li>Snap,Flatpack,Docker die Unterschiede</li>
+        <li>Stefans Universaltracker Raspberrypi</li>
+        <li>Prozessorarchitektur AMD</li>
+        <li>Vobis,Escom Computerläden von früher</li></ul>
+
   - monat: 03a
     inhalt: |-
       08.03.2022
