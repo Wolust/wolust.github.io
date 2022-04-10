@@ -19,7 +19,8 @@ sitemap: false
 7. Tiefgreifende  Änderungen (Neuverlinkung oder Änderungen von Dateinamen)  funktionieren nur  nach einer Generierung mit Jekyll  !
 8. Die Variable date ist tabu, weil sie zur Linkerzeugung benutzt wird. Die leere Variable date_update wird als aktuelles Änderungsdatum geparst. 
 9. Nach jeder  Änderung erzeugtes Html und Links mit Github Actions testen ! [![Jekyll site CI](https://github.com/Wolust/wolust.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/Wolust/wolust.github.io/actions/workflows/jekyll.yml)
-10. Hilfe bei Fehlern: wolust@untergang.de
+10. [![Build](https://github.com/Wolust/wolust.github.io/actions/workflows/build.yaml/badge.svg)](https://github.com/Wolust/wolust.github.io/actions/workflows/build.yaml)
+11. Hilfe bei Fehlern: wolust@untergang.de
 
 ### Nur mal ausprobieren oder spielen.
 
