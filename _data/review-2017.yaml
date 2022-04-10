@@ -1,3 +1,4 @@
+---
 linuxuser:
   - monat: "12"
     inhalt: >-
@@ -24,20 +25,8 @@ linuxuser:
     inhalt: >-
      02.05.2017 Sicherheit von Webseiten mit CMS, Programmierung , Unterschied Klassen und Funktionen, Unittests, Passwortmanager, Essen und Trinken in Las Vegas
   - monat: '04'
-    inhalt: >- 
+    inhalt: >-
      04.04.2017: Glukose messen mit  Bluetooth Services GLS (Android-Iphone), DNS Fehler beim Hoster,  2FA Sinn und Unsinn, Preise für Linux-Notebooks, Android-Tablet als Display für den RaspberryPi.  Nextcloud macht Druck auf Updateverweigerer.
   - monat: '03'
     inhalt: >-
-     07.03.2017: Thema waren SPS auf Raspbery Pi, Modbus, Maschinensteuerung und die Vorteile mit und ohne SPS, Motoransteuerung und das WLAN war Mist im Stadtcafe.
-  - monat: '02'
-    inhalt: >-
-      07.02.2017: Server Umzug und Einstellung am Apache. So funktioniert  eine SPS . Reaktion der SPS auf Ereignisse, die sich während der Zykluszeit ändern. Automatisiertes Messen  in der Medizin. Blut mit dem Laser analysieren. Datensatz händisch anpassen.
-  - monat: '01'
-    inhalt: >-
-      03.01.2017: NFC mit Raspberry, Erfahrung mit Wayland, Github und Travis , nodejs, Raspberry Cluster bauen. Jekyll baut Webseiten
-
-      
-
- 
-      
-      
+     März ohne Inhalt.

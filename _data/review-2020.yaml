@@ -4,28 +4,25 @@ linuxuser:
   - monat: 1230
     inhalt: |-
       30.12.2020
-      
+
       Sonderstammtisch  Wir waren Online in der VHS-Cloud
-      
+
       <ul>
       <li>RC3 ruckelt. Qualität der Vorträge lässt immer mehr nach.</li>
       <li>Coronaregeln in der VHS</li>
       <li>Corona. Grafik erstellen aus Exccelspreadsheet. <a href="https://www.untergang.de/index.php/linux-blog/vom-spreadsheet-zur-grafik.html">Stefans Webseite</a></li>
-      <li>RetroPie. Wo gibts die Spiele ? </li>
+      <li>RetroPie. Wo gibts die Spiele ?</li>
       <li>Darknet, Onion TLD, Suchmaschine für Tor. Eigene Homepage im Tornetzwerk</li>
       <li>C# Wie geht "Hello World" mit Visual Studio Code</li>
       <li>Microsoft und Ubuntu. Das Windows-Subsystem für Linux (WSL)</li>
       </ul>
 
-
-
-
   - monat: 12
     inhalt: |-
       01.12.2020
-      
+
       Wir waren Online in der VHS-Cloud
-      
+
       <ul>
       <li>Kalender mit automatisierten Twitterposts in VueJS  von Christian.</li>
       <li>PostgreSQL Unterschiede zu MySQL</li>
@@ -35,13 +32,13 @@ linuxuser:
       <li>Kaufhaus Österreich</li>
       <li>Ausblick: Ideen / Termine 2021</li>
       </ul>
- 
+
   - monat: 11
     inhalt: |-
       03.11.2020
-      
+
       Wir waren Online
-      
+
       <ul>
       <li>Nvidia und Linux propietär oder nouveau</li>
       <li>git mit CI an verschiedenen Beispielen auch mit Docker</li>
@@ -51,26 +48,24 @@ linuxuser:
       <li>Wormser Bahnhof und die Uhren</li>
       <li>Wolust in der VHS 2021</li>
       </ul>
-      
-      
+
   - monat: 10
     inhalt: |-
       06.10.2020
-     
-      
+
         Wir waren  in der <strong>Volkshochschule Worms</strong><br />
         Vorträge von Christian und Achim<br />
         <strong>Einführung in die Container-Technologie.</strong> Theoretische Einführung gefolgt von kleineren Beispielen. Folgende Fragen werden beantwortet:
-      
+
         <ul>
         <li>- Wie funktioniert das technisch?</li>
         <li>- Wie kommen meine Daten in einen Container?</li>
         <li>- Was brauche ich um mit Docker zu starten?</li>
         <li>- Was sind die Vorteile von Containern?</li>
         <li>- Wie sehen moderne Infrastrukturen aus?</li>
-        <li>- <a href="https://static.muench.dev/presentation/docker/index.html#1">Vortrag Slideshow</a> zum nachlesen.</li> 
+        <li>- <a href="https://static.muench.dev/presentation/docker/index.html#1">Vortrag Slideshow</a> zum nachlesen.</li>
         </ul>
-      
+
         <strong>Virtualisierung am Beispiel von Proxmox VE und VirtualBox</strong><br />
         <ul>
         <li>- Was ist Virtualisierung und welche Technik steckt dahinter?</li>
@@ -83,12 +78,6 @@ linuxuser:
         </ul>
         <br />
         <strong>Hands on</strong> und VHS 2021. Wie gehts weiter ?
-      
-  
-  
-  
-  
-  
   - monat: 09
     inhalt: |-
       01.09.2020

@@ -1,7 +1,6 @@
+---
 linuxuser:
-  
-  
-  
+
   - fortune: '01'
     inhalt: >-
      lolo98
