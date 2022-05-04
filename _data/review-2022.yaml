@@ -1,6 +1,19 @@
 ---
 linuxuser:
 
+  - monat: 05
+    inhalt: |-
+      03.05.2022
+
+        <ul><li>Stefans Bashscripts</li>
+        <li>Bash oder nodejs oder Electron</li>
+        <li>Besuch aus Berliner Usergruppe</li>
+        <li>3D Drucken</li>
+        <li>Tuxmaskottchen gedruckt</li>
+        <li>Hochschule Gitlab/LPD im Nov-</li>
+        <li>Virtuelles Windows auf dem Kundenserver ist nicht erlaubt</li>
+        <li>Pommes auf dem Teller sind weniger geworden.</li></ul>
+
 
   - monat: 04
     inhalt: |-
