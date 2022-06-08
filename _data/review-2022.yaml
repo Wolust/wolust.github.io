@@ -1,9 +1,24 @@
 ---
 linuxuser:
 
+  - monat: 06
+    inhalt: |-
+       07.06.2022
+
+        <ul><li>3D-Druck.Gehäuse und Tasten</li>
+        <li>Steam Deck ist toll :) Michael hat das Teil dabei</li>
+        <li>Windows und der Ärger damit beim Kunden</li>
+        <li>Migration von Webshops und die unfähigen Kunden</li>
+        <li>Panicbutton mit Ton und blinkt. Stefan hat das Teil dabei</li>
+        <li>Attiny programmieren mit Arduino durch einen Arduino</li>
+        <li>Wettervorhersage DWD.</li>
+        <li>Automatisiert Grafik auf Twitter hochladen</li>
+        <li>Anfänger und Ubuntu. Funktioniert Outofthebox</li></ul>
+
+
   - monat: 05
     inhalt: |-
-      03.05.2022
+       03.05.2022
 
         <ul><li>Stefans Bashscripts</li>
         <li>Bash oder nodejs oder Electron</li>
