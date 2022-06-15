@@ -14,8 +14,8 @@ header_pages:
   - talk.md
   - contact.html
   - help.md
-
-lolo: 'lolo is amaster'  
+# github: [metadata] encoding: UTF-8 kramdown: input: GFM hard_wrap: false
+lolo: 'lolo is amaster'
 google_verification: 'fdVYZrBjcMeFQK5MnFi4WhNe3-RVaVgjMZvh6ekvItM'
 google_analytics: null
 google_tag_manager: null
