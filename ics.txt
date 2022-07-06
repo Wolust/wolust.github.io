@@ -1,0 +1,12 @@
+--2022-06-30 11:30:49--  https://wolust.de/wolust.ics
+CA-Zertifikat »/etc/ssl/certs/ca-certificates.crt« wurde geladen
+Auflösen des Hostnamens wolust.de (wolust.de)… 185.199.111.153
+Verbindungsaufbau zu wolust.de (wolust.de)|185.199.111.153|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 1597 (1,6K) [text/calendar]
+Wird in »wolust.ics.1« gespeichert.
+
+     0K .                                                     100% 6,45M=0s
+
+2022-06-30 11:30:49 (6,45 MB/s) - »wolust.ics.1« gespeichert [1597/1597]
+

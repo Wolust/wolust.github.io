@@ -23,10 +23,10 @@ linuxuser:
         <li>Steam Deck ist toll :) Michael hat das Teil dabei</li>
         <li>Windows und der Ärger damit beim Kunden</li>
         <li>Migration von Webshops und die unfähigen Kunden</li>
-        <li>Panicbutton mit Ton und blinkt. Stefan hat das Teil dabei</li>
+        <li>Panicbutton mit Ton und blinkt. <a href="https://www.untergang.de/index.php/linux-blog/arduino-ist-programmer-fuer-attiny45.html">Stefan hat das Teil dabei</a></li>
         <li>Attiny programmieren mit Arduino durch einen Arduino</li>
-        <li>Wettervorhersage DWD.</li>
-        <li>Automatisiert Grafik auf Twitter hochladen</li>
+        <li>Wettervorhersage DWD.<a href="https://nc.stefan-höhn.de/sites/spatzenbrett/sub/wetter-dwd">Stefan testet das</a></li>
+        <li>Automatisiert Grafik auf Twitter hochladen<a href="https://nc.stefan-höhn.de/sites/spatzenbrett/sub/twurl">Stefan testet das</a></li>
         <li>Anfänger und Ubuntu. Funktioniert Outofthebox</li></ul>
 
 
@@ -50,7 +50,7 @@ linuxuser:
 
         <ul><li>Nach langer Coronapause wieder mal im Timescafe</li>
         <li>Wormatia und Webseite Wormatia</li>
-        <li>MateBook mit Linux Manjaro /Thinkpad </li>
+        <li>MateBook mit Linux Manjaro /Thinkpad <a href="https://www.untergang.de/index.php/linux-blog/matebook-d14-intel-und-linux.html">Das Matebook von Stefan</a></li>
         <li>Verbindung mit der VHS-Cloud hat geklappt aber kein Ton</li>
         <li>Snap,Flatpack,Docker die Unterschiede</li>
         <li>Stefans Universaltracker Raspberrypi</li>
