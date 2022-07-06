@@ -6,12 +6,13 @@ linuxuser:
        05.07.2022
 
         <ul><li>Geigerzähler DIY/gezeigt</li>
-        <li>Attiny mit Arduino programmiert/gezeigt</li>
+        <li><a href="https://www.untergang.de/index.php/linux-blog/arduino-ist-programmer-fuer-attiny45.html">Attiny mit Arduino</a> programmiert/gezeigt</li>
         <li>Odroid M1/mitgebracht</li>
         <li>Markdown anwenden die Flavors und Pandoc</li>
         <li>Soundprobleme mit Arch, Manjaro und Intelchipsatz</li>
         <li>Alsa, Pulseaudio, Pipewire, Wireplumber</li>
         <li>Froscon St.Augustin, Makerfaire Hannover, Piandmore Weinheim</li>
+        <li>Alte Männer erzählen von SCSI [ˈskʌzi], ISDN, schweren Großrechnern mit Drehstromanschluss</li>
         <li>Flatpak und Snap</li></ul>
 
   - monat: 06
