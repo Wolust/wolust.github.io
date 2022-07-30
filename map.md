@@ -23,7 +23,7 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  <ul>
  <li>WOLUST jeden Monat am 1. Dienstag</li>
  </ul>
- Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
+ Im [Timescafe](http://www.timescafe.de), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
  <div id="mapid" style="height: 637px;"></div>
 {% elsif ort == "VHS" %}
   Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Volkshochschule Worms <br />
