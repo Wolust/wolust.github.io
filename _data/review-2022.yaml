@@ -1,6 +1,21 @@
 ---
 linuxuser:
 
+  - monat: 08
+    inhalt: |-
+       02.08.2022
+
+        <ul><li>Enterürise Linux , verschiedene Themen</li>
+        <li>Raumschiff Enterprise Lt. Uhura ist tot</li>
+        <li>Fedora soll für den User sehr einfach zu bedienen sein</li>
+        <li>Manjaro im Vergleich zu Arch. Arch hat die schnelleren updates, manchmal hängts aber.</li>
+        <li>Der Arduino-Nerdwecker weckt mit Wakeonlan. Code ist <a href="https://github.com/dewomser/arduino-dcf-wecker">auf github</a></li>
+        <li>Keyboard DIY. Einige Arduinos können Tastatur und Maus</li>
+        <li>Froscon St.Augustin (außer Stefan hat keiner Zeit), Makerfaire Hannover</li>
+        <li>Mikroprozessoren von früher, Achim hat welche mitgebracht</li>
+        <li>Deutscher Wetterdienst und open Data. <a href="https://nc.stefan-höhn.de/sites/spatzenbrett/sub/wetter-dwd">Wetterdaten und Auswertung</a></li></ul>
+
+
   - monat: 07
     inhalt: |-
        05.07.2022
