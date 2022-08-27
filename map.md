@@ -111,7 +111,7 @@ var circle = L.circle([49.627460,8.357028], 500, {
 {% if ort == "Timescafe" %}
 Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
 
-Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe
+<s>Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe</s>
 {% elsif ort == "VHS" %}
 Wir sind in der VHS .
 
