@@ -1,9 +1,25 @@
 ---
 linuxuser:
 
+  - monat: 09
+    inhalt: |-
+      06.09.2022
+
+       <ul><li>Makerfaire Hannover der Micharl und der Jan haben dort einen Stand</li>
+       <li>Froscon und die Fahrt mit dem 9 €-Ticket</li>
+       <li>Simulierte Maus auf einem Arduino fährt im Kreis</li>
+       <li>Sachen über die API vertwittern: Musik, Wetter</li>
+       <li>Manjaro auf dem Laptop und adp Android Debug bridge </li>
+       <li>Tesla, das Auto. Supercharger Fernreisen . Die Modelle </li>
+       <li>11.11.2022 Was wollen wir am L-P-D machen?</li>
+       <li>Einladung Tischreservierung Wolust im Timescafe</li>
+       <li>Es gab Zeiten da waren wir beim Wolust nur zu zweit.</li>
+       <li>Die Domain wolug.de ist wieder zuhause.</li></ul>
+
+
   - monat: 08
     inhalt: |-
-       02.08.2022
+      02.08.2022
 
         <ul><li>Enterprise Linux , verschiedene Themen</li>
         <li>Raumschiff Enterprise Lt. Uhura ist tot</li>
@@ -20,15 +36,15 @@ linuxuser:
     inhalt: |-
        05.07.2022
 
-        <ul><li>Geigerzähler DIY/gezeigt</li>
-        <li><a href="https://www.untergang.de/index.php/linux-blog/arduino-ist-programmer-fuer-attiny45.html">Attiny mit Arduino</a> programmiert/gezeigt</li>
-        <li>Odroid M1/mitgebracht</li>
-        <li>Markdown anwenden die Flavors und Pandoc</li>
-        <li>Soundprobleme mit Arch, Manjaro und Intelchipsatz</li>
-        <li>Alsa, Pulseaudio, Pipewire, Wireplumber</li>
-        <li>Froscon St.Augustin, Makerfaire Hannover, Piandmore Weinheim</li>
-        <li>Alte Männer erzählen von SCSI [ˈskʌzi], ISDN, schweren Großrechnern mit Drehstromanschluss</li>
-        <li>Flatpak und Snap</li></ul>
+         <ul><li>Geigerzähler DIY/gezeigt</li>
+         <li><a href="https://www.untergang.de/index.php/linux-blog/arduino-ist-programmer-fuer-attiny45.html">Attiny mit Arduino</a> programmiert/gezeigt</li>
+         <li>Odroid M1/mitgebracht</li>
+         <li>Markdown anwenden die Flavors und Pandoc</li>
+         <li>Soundprobleme mit Arch, Manjaro und Intelchipsatz</li>
+         <li>Alsa, Pulseaudio, Pipewire, Wireplumber</li>
+         <li>Froscon St.Augustin, Makerfaire Hannover, Piandmore Weinheim</li>
+         <li>Alte Männer erzählen von SCSI [ˈskʌzi], ISDN, schweren Großrechnern mit Drehstromanschluss</li>
+         <li>Flatpak und Snap</li></ul>
 
   - monat: 06
     inhalt: |-
