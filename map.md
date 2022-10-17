@@ -13,6 +13,8 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
   {% assign ort = "VHS" %}
 {% elsif next.ort contains "Timescafe" %}
   {% assign ort = "Timescafe" %}
+{% elsif next.ort contains "Hochschule" %}
+  {% assign ort = "Hochschule" %}
 {% else %}
   {% assign ort = "dummy" %}
 {% endif %}
@@ -23,22 +25,28 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  <ul>
  <li>WOLUST jeden Monat am 1. Dienstag</li>
  </ul>
- Im [Timescafe](http://www.timescafe.de), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
- <div id="mapid" style="height: 637px;"></div>
+ Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
 {% elsif ort == "VHS" %}
   Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Volkshochschule Worms <br />
  Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Computerlabor .
  <br />
  Diesmal nicht im Timescafe !
- <div id="mapid" style="height: 637px;"></div>
+
+ {% elsif ort == "Hochschule" %}
+  Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Hochschule Worms <br />
+ Der Stammtisch ist jährlich in den Räumen der [Hochschule- Worms](https://www.hs-worms.de/lpd-2022-2/), Gebäude N 1. Stock Erenburgerstr. Worms.
+ <br />
+ Diesmal nicht im Timescafe !
+
 {% else %}
  Keine Karte gefunden. Exception 404
  <div id="mapid" style="height: 637px;">
  <pre>
  ________________________________________
-/ Es gibt keinen Stadtplan für {{ ort }} .   \
-| Nur für die Orte \“VHS\” und           |
-| \“Timescafe\” sind Daten hinterlegt.   |
+/ Es gibt keinen Stadtplan für {{ ort }} \
+| Nur für die Orte \“VHS\”,              |
+|\"Hochschule\" und \“Timescafe\”        |
+|sind Daten hinterlegt.                  |
 | Bitte 1.Wert \“ort\” in \“daten.yaml\” |
 \ anpassen !                             /
  ----------------------------------------
@@ -47,75 +55,108 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
                   (__)\       )\/\
                       ||----w |
                       ||     ||
-</pre> 
+</pre>
 </div>
 {% endif %}
 
-
-
-
+<style>
+			#map {
+						height: 637px;
+		}
+	</style>
+<div id='map'></div>
 
 <script>
 
-	var mymap = L.map('mapid').setView([49.63290, 8.36309], 13);
+var cities = L.layerGroup();
 
-	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGV3b21zZXIiLCJhIjoiY2p1NXByNTI1MHF3NjRkbzJ4bzdyemRrayJ9.gs3MZEcigyG_wdlH_q1Q1w', {
-		maxZoom: 18,
-		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-		id: 'mapbox/streets-v11',
-		tileSize: 512,
-		zoomOffset: -1
-	}).addTo(mymap);
-	
-	
-	
-	
-	{% if ort == "Timescafe" %}
- L.marker([49.632493, 8.363262]).addTo(mymap).bindPopup('<b>Linux Stammtisch !</b><br>im Timescafe.').openPopup();
- var circle = L.circle([49.632493, 8.363262], 500, {
+{% if ort == "Timescafe" %}
+ L.marker([49.632493, 8.363262]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>im Timescafe.').openPopup();
+ var circle = L.circle([49.632493, 8.363262], {
 {% elsif ort == "VHS" %}
-L.marker([49.627460,8.357028]).addTo(mymap).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
-var circle = L.circle([49.627460,8.357028], 500, {
+L.marker([49.627460,8.357028]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
+var circle = L.circle([49.627460,8.357028], {
+{% elsif ort == "Hochschule" %}
+L.marker([49.6350742, 8.3454037]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>Hochschule Worms').openPopup();
+var circle = L.circle([49.6350742, 8.3454037], {
+
+
+
 {% endif %}
 	
-	
-	
-	
-	
-	
-	
+    color: 'grey',
+    fillColor: '#f03',
+    fillOpacity: 0.1,
+    radius: 500
+}).addTo(cities);
 
+circle.bindPopup("Noch maximal 500 Meter.");
+
+	function success(position) { 
+ var latitude = position.coords.latitude; 
+ var longitude = position.coords.longitude; 
+ 	 
 	
-		color: 'grey',
-		fillColor: '#f03',
-		fillOpacity: 0.2
-	}).addTo(mymap).bindPopup("Maximal noch 500 Meter");
-
+	L.marker([latitude, longitude]).bindPopup('Dein Standort.').addTo(cities);
 	
-
-	var popup = L.popup();
-
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent("You clicked the map at " + e.latlng.toString())
-			.openOn(mymap);
 	}
+	function error() { 
+	}
+	
+navigator.geolocation.getCurrentPosition(success, error);
 
-	mymap.on('click', onMapClick);
+	var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGV3b21zZXIiLCJhIjoiY2p1NXByNTI1MHF3NjRkbzJ4bzdyemRrayJ9.gs3MZEcigyG_wdlH_q1Q1w';
+		
 
+	
+		
+
+	var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
+		streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
+	var map = L.map('map', {
+{% if ort == "Timescafe" %}
+center: [49.63290, 8.36309],
+{% elsif ort == "VHS" %}
+center: [49.627460,8.357028],
+{% elsif ort == "Hochschule" %}
+center: [49.6350742, 8.3454037],
+{% endif %}	
+
+		
+		zoom: 15,
+		layers: [ streets,cities]
+	});
+
+	var baseLayers = {
+		
+		"Strassen": streets
+	};
+
+	var overlays = {
+		"Standort": cities
+	};
+
+	L.control.layers(baseLayers, overlays).addTo(map);
+	
+ 
 </script>
+
+[Diese Karte](https://www.openstreetmap.org/search?query=Worms%20Ludwigsplatz#map=19/49.63256/8.36326&layers=N) ist von Openstreetmap, veröffentlicht unter <a href="http://opendatacommons.org/licenses/odbl/">ODbL</a>
 
 {% if ort == "Timescafe" %}
 Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
 
-<s>Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe</s>
+Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe
 {% elsif ort == "VHS" %}
 Wir sind in der VHS .
 
 Die Einfahrt zum Lehrerparkplatz ist sehr schmal. Nicht für SUV geeignet.
+{% elsif ort == "Hochschule" %}
+Wege zur Veranstaltung : Bus, Bahn, Auto
+
 {% endif %}
 
 {% include fortune.html %}
