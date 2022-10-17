@@ -39,7 +39,23 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  Diesmal nicht im Timescafe !
 
 {% else %}
- Es gibt keinen Stadtplan für {{ ort }} . Nur für die Orte "VHS", "Hochschule" und "Timescafe" sind Daten hinterlegt. Bitte 1.Wert "ort" in "daten.yaml" anpassen !
+ Keine Karte gefunden. Exception 404
+ <div id="mapid" style="height: 637px;">
+ <pre>
+ ________________________________________
+/ Es gibt keinen Stadtplan für {{ ort }} .   \
+| Nur für die Orte \“VHS\” und           |
+| \“Timescafe\” sind Daten hinterlegt.   |
+| Bitte 1.Wert \“ort\” in \“daten.yaml\” |
+\ anpassen !                             /
+ ----------------------------------------
+              \   ^__^
+               \  (oo)\_______
+                  (__)\       )\/\
+                      ||----w |
+                      ||     ||
+</pre>
+</div>
 {% endif %}
 
 <style>
@@ -60,7 +76,7 @@ var cities = L.layerGroup();
 L.marker([49.627460,8.357028]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
 var circle = L.circle([49.627460,8.357028], {
 {% elsif ort == "Hochschule" %}
-L.marker([49.6350742, 8.3454037]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
+L.marker([49.6350742, 8.3454037]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>Hochschule Worms').openPopup();
 var circle = L.circle([49.6350742, 8.3454037], {
 
 
