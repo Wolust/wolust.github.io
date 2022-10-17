@@ -26,19 +26,19 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  <li>WOLUST jeden Monat am 1. Dienstag</li>
  </ul>
  Im [Timescafe](http://www.timescafe.de/index.php?cafe=Worms&site=Startseite), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
- <div id="mapid" style="height: 637px;"></div>
+ 
 {% elsif ort == "VHS" %}
   Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Volkshochschule Worms <br />
  Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Computerlabor .
  <br />
  Diesmal nicht im Timescafe !
-<div id="mapid" style="height: 637px;"></div>
+
  {% elsif ort == "Hochschule" %}
   Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Hochschule Worms <br />
  Der Stammtisch ist jährlich in den Räumen der [Hochschule- Worms](https://www.hs-worms.de/lpd-2022-2/),<br />Gebäude N 1. Stock Erenburgerstr. Worms.
  <br />
  Diesmal nicht im Timescafe !
-<div id="mapid" style="height: 637px;"></div>
+
 {% else %}
  Keine Karte gefunden. Exception 404
  <div id="mapid" style="height: 637px;">
