@@ -114,16 +114,21 @@ navigator.geolocation.getCurrentPosition(success, error);
 
 	var grayscale   = L.tileLayer(mbUrl, {id: 'mapbox.light', attribution: mbAttr}),
 		streets  = L.tileLayer(mbUrl, {id: 'mapbox.streets',   attribution: mbAttr});
-	var map = L.map('map', {
+	var map = L.map('map').setView {
 {% if ort == "Timescafe" %}
-center: [49.63290, 8.36309],
+([49.63290, 8.36309], 15);
 {% elsif ort == "VHS" %}
-center: [49.627460,8.357028],
+([49.627460,8.357028,14], 15);
 {% elsif ort == "Hochschule" %}
-center: [49.6350742, 8.3454037],
+[49.6350742, 8.3454037], 15);
 {% endif %}	
 
-		
+	
+	var map = L.map('map').setView([51.505, -0.09], 13);	
+	
+	
+	
+	
 		zoom: 15,
 		layers: [ streets,cities]
 	});
