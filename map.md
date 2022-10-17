@@ -7,7 +7,7 @@ permalink: "/map/"
 description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Stammtisch
 ---
 
-<div id="map" style="width: 637px; height: 400px;"></div>
+
 
 {% assign next = site.data.daten.linuxuser[0] %}
 {% if next.ort contains "VHS" %}
@@ -62,7 +62,7 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 {% endif %}
 
 
-
+<div id="map" style="width: 637px; height: 400px;"></div>
 
 <script>
 
