@@ -13,6 +13,8 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
   {% assign ort = "VHS" %}
 {% elsif next.ort contains "Timescafe" %}
   {% assign ort = "Timescafe" %}
+{% elsif next.ort contains "Hochschule" %}
+  {% assign ort = "Hochschule" %}
 {% else %}
   {% assign ort = "dummy" %}
 {% endif %}
@@ -29,8 +31,15 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Computerlabor .
  <br />
  Diesmal nicht im Timescafe !
+
+ {% elsif ort == "Hochschule" %}
+  Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Hochschule Worms <br />
+ Der Stammtisch ist jährlich in den Räumen der [Hochschule- Worms](https://www.hs-worms.de/lpd-2022-2/), Gebäude N 1. Stock Erenburgerstr. Worms.
+ <br />
+ Diesmal nicht im Timescafe !
+
 {% else %}
- Es gibt keinen Stadtplan für {{ ort }} . Nur für die Orte "VHS" und "Timescafe" sind Daten hinterlegt. Bitte 1.Wert "ort" in "daten.yaml" anpassen !
+ Es gibt keinen Stadtplan für {{ ort }} . Nur für die Orte "VHS", "Hochschule" und "Timescafe" sind Daten hinterlegt. Bitte 1.Wert "ort" in "daten.yaml" anpassen !
 {% endif %}
 
 <style>
@@ -50,6 +59,12 @@ var cities = L.layerGroup();
 {% elsif ort == "VHS" %}
 L.marker([49.627460,8.357028]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
 var circle = L.circle([49.627460,8.357028], {
+{% elsif ort == "Hochschule" %}
+L.marker([49.6350742, 8.3454037]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
+var circle = L.circle([49.6350742, 8.3454037], {
+
+
+
 {% endif %}
 	
     color: 'grey',
@@ -89,6 +104,8 @@ navigator.geolocation.getCurrentPosition(success, error);
 center: [49.63290, 8.36309],
 {% elsif ort == "VHS" %}
 center: [49.627460,8.357028],
+{% elsif ort == "Hochschule" %}
+center: [49.6350742, 8.3454037],
 {% endif %}	
 
 		
@@ -120,6 +137,9 @@ Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe
 Wir sind in der VHS .
 
 Die Einfahrt zum Lehrerparkplatz ist sehr schmal. Nicht für SUV geeignet.
+{% elsif ort == "Hochschule" %}
+Wege zur Veranstaltung : Bus, Bahn, Auto
+
 {% endif %}
 
 {% include fortune.html %}
