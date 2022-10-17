@@ -43,9 +43,10 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  <div id="mapid" style="height: 637px;">
  <pre>
  ________________________________________
-/ Es gibt keinen Stadtplan für {{ ort }} .   \
-| Nur für die Orte \“VHS\” und           |
-| \“Timescafe\” sind Daten hinterlegt.   |
+/ Es gibt keinen Stadtplan für {{ ort }} \
+| Nur für die Orte \“VHS\”,              |
+|\"Hochschule\" und \“Timescafe\”        |
+|sind Daten hinterlegt.                  |
 | Bitte 1.Wert \“ort\” in \“daten.yaml\” |
 \ anpassen !                             /
  ----------------------------------------
