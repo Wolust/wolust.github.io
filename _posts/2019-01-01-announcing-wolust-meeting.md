@@ -23,7 +23,7 @@ categories:
 <strong> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} : {{next.ort}} {{next.strasse}} </strong>
 
 <div class="well">
-Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger. Um am Online Stammtisch teilnehmen zu können musst Du an der <a href="https://vhs.cloud">VHS-Cloud</a> angemeldet sein. Kurs : "linux@worms.vhs.cloud" (das ist keine URL)
+Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen. Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger. <s>Um am Online Stammtisch teilnehmen zu können musst Du an der <a href="https://vhs.cloud">VHS-Cloud</a> angemeldet sein. Kurs : "linux@worms.vhs.cloud" (das ist keine URL)</s>
 </div>
 </li>
 </ul>
