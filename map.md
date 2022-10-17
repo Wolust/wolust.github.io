@@ -61,12 +61,8 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 </div>
 {% endif %}
 
-<style>
-			#map {
-						height: 637px;
-		}
-	</style>
-<div id='map'></div>
+
+
 
 <script>
 
