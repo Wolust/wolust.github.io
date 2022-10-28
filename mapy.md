@@ -1,4 +1,4 @@
- ---
+---
 title: Stadtplan
 layout: page
 tags: Stadtplan,  Map, Karte
@@ -47,7 +47,7 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
                   (__)\       )\/\
                       ||----w |
                       ||     ||
-</pre>
+</pre> 
 </div>
 {% endif %}
 
@@ -68,10 +68,10 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 		tileSize: 512,
 		zoomOffset: -1
 	}).addTo(mymap);
-
-
-
-
+	
+	
+	
+	
 	{% if ort == "Timescafe" %}
  L.marker([49.632493, 8.363262]).addTo(mymap).bindPopup('<b>Linux Stammtisch !</b><br>im Timescafe.').openPopup();
  var circle = L.circle([49.632493, 8.363262], 500, {
@@ -79,21 +79,21 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 L.marker([49.627460,8.357028]).addTo(mymap).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
 var circle = L.circle([49.627460,8.357028], 500, {
 {% endif %}
+	
+	
+	
+	
+	
+	
+	
 
-
-
-
-
-
-
-
-
+	
 		color: 'grey',
 		fillColor: '#f03',
 		fillOpacity: 0.2
 	}).addTo(mymap).bindPopup("Maximal noch 500 Meter");
 
-
+	
 
 	var popup = L.popup();
 

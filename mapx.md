@@ -61,25 +61,34 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 </div>
 {% endif %}
 
-
-<div id="map" style="width: 637px; height: 400px;"></div>
-
 <script>
 
-var cities = L.layerGroup();
+	var mymap = L.map('mapid').setView([49.63290, 8.36309], 13);
+
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGV3b21zZXIiLCJhIjoiY2p1NXByNTI1MHF3NjRkbzJ4bzdyemRrayJ9.gs3MZEcigyG_wdlH_q1Q1w', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+	}).addTo(mymap);
+
+
+
 
 {% if ort == "Timescafe" %}
  L.marker([49.632493, 8.363262]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>im Timescafe.').openPopup();
  var circle = L.circle([49.632493, 8.363262], {
-{% elsif ort == "VHS" %}
-L.marker([49.627460,8.357028]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
+ {% endif %}
+{% if ort == "VHS" %}
+ L.marker([49.627460,8.357028]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
 var circle = L.circle([49.627460,8.357028], {
-{% elsif ort == "Hochschule" %}
-L.marker([49.6350742, 8.3454037]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>Hochschule Worms').openPopup();
+{% endif %}
+{% if ort == "Hochschule" %}
+ L.marker([49.6350742, 8.3454037]).addTo(cities).bindPopup('<b>Linux Stammtisch !</b><br>Hochschule Worms').openPopup();
 var circle = L.circle([49.6350742, 8.3454037], {
-
-
-
 {% endif %}
 	
     color: 'grey',
@@ -117,9 +126,11 @@ navigator.geolocation.getCurrentPosition(success, error);
 	var map = L.map('map').setView {
 {% if ort == "Timescafe" %}
 ([49.63290, 8.36309], 15);
-{% elsif ort == "VHS" %}
+{% endif %}
+{% if ort == "VHS" %}
 ([49.627460,8.357028,14], 15);
-{% elsif ort == "Hochschule" %}
+{% endif %}
+{% if ort == "Hochschule" %}
 [49.6350742, 8.3454037], 15);
 {% endif %}	
 
@@ -151,15 +162,16 @@ navigator.geolocation.getCurrentPosition(success, error);
 
 {% if ort == "Timescafe" %}
 Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
+{% endif %}
 
-Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe
-{% elsif ort == "VHS" %}
+
+{% if ort == "VHS" %}
 Wir sind in der VHS .
-
 Die Einfahrt zum Lehrerparkplatz ist sehr schmal. Nicht für SUV geeignet.
-{% elsif ort == "Hochschule" %}
-Wege zur Veranstaltung : Bus, Bahn, Auto
+{% endif %}
 
+{% if ort == "Hochschule" %}
+Wege zur Veranstaltung : Bus, Bahn, Auto
 {% endif %}
 
 {% include fortune.html %}
