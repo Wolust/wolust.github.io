@@ -84,13 +84,6 @@ var circle = L.circle([49.6350742, 8.3454037], 500, {
 {% endif %}
 
 
-
-
-
-
-
-
-
 		color: 'grey',
 		fillColor: '#f03',
 		fillOpacity: 0.2
