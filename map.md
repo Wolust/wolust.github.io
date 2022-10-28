@@ -1,4 +1,4 @@
- ---
+---
 title: Stadtplan
 layout: page
 tags: Stadtplan,  Map, Karte
@@ -9,10 +9,11 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 
 
 {% assign next = site.data.daten.linuxuser[0] %}
-{% if next.ort contains "VHS" %}
-  {% assign ort = "VHS" %}
+{% if next.ort contains "Hochschule" %}
+  {% assign ort = "Hochschule" %}
 {% elsif next.ort contains "Timescafe" %}
   {% assign ort = "Timescafe" %}
+
 {% else %}
   {% assign ort = "dummy" %}
 {% endif %}
@@ -25,11 +26,12 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  </ul>
  Im [Timescafe](http://www.timescafe.de), Worms Ludwigsplatz / im Sommer sitzen wir gern draußen.
  <div id="mapid" style="height: 637px;"></div>
-{% elsif ort == "VHS" %}
-  Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Volkshochschule Worms <br />
- Der Stammtisch ist 3 mal jährlich in  den Räumen der [VHS- Worms](https://www.vhs-worms.de/), Neusatzschule Worms Willi-Brandt-Ring 5 / 4.Stock Computerlabor .
+{% elsif ort == "Hochschule" %}
+Wir sind am {{next.tag}}.{{next.monat}}.{{next.jahr}} um {{next.start}} in der Hochschule Worms <br />
+Der Stammtisch ist jährlich in den Räumen der [Hochschule- Worms](https://www.hs-worms.de/lpd-2022-2/),<br />Gebäude N 1. Stock Erenburgerstr. Worms.
  <br />
- Diesmal nicht im Timescafe !
+ Diesmal nicht im Timescafe
+
  <div id="mapid" style="height: 637px;"></div>
 {% else %}
  Keine Karte gefunden. Exception 404
@@ -37,7 +39,7 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  <pre>
  ________________________________________
 / Es gibt keinen Stadtplan für {{ ort }} .   \
-| Nur für die Orte \“VHS\” und           |
+| Nur für die Orte \“Hochschule\” und           |
 | \“Timescafe\” sind Daten hinterlegt.   |
 | Bitte 1.Wert \“ort\” in \“daten.yaml\” |
 \ anpassen !                             /
@@ -72,12 +74,13 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 
 
 
-	{% if ort == "Timescafe" %}
+{% if ort == "Timescafe" %}
  L.marker([49.632493, 8.363262]).addTo(mymap).bindPopup('<b>Linux Stammtisch !</b><br>im Timescafe.').openPopup();
  var circle = L.circle([49.632493, 8.363262], 500, {
-{% elsif ort == "VHS" %}
-L.marker([49.627460,8.357028]).addTo(mymap).bindPopup('<b>Linux Stammtisch !</b><br>VHS Neusatzschule').openPopup();
-var circle = L.circle([49.627460,8.357028], 500, {
+{% elsif ort == "Hochschule" %}
+ L.marker([49.635074, 8.345403]).addTo(mymap).bindPopup('<b>Linux Stammtisch !</b><br>Hochschule.').openPopup();
+var circle = L.circle([49.6350742, 8.3454037], 500, {
+
 {% endif %}
 
 
@@ -112,10 +115,8 @@ var circle = L.circle([49.627460,8.357028], 500, {
 Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
 
 <s>Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe</s>
-{% elsif ort == "VHS" %}
-Wir sind in der VHS .
-
-Die Einfahrt zum Lehrerparkplatz ist sehr schmal. Nicht für SUV geeignet.
+{% elsif ort == "Hochschule" %}
+Wege zur Veranstaltung : zu Fuß, Bus, Bahn, Auto
 {% endif %}
 
 {% include fortune.html %}

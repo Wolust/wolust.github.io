@@ -46,7 +46,7 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
  <pre>
  ________________________________________
 / Es gibt keinen Stadtplan für {{ ort }} \
-| Nur für die Orte \“VHS\”,              |
+| Nur für die Orte \“Hochschule\”,              |
 |\"Hochschule\" und \“Timescafe\”        |
 |sind Daten hinterlegt.                  |
 | Bitte 1.Wert \“ort\” in \“daten.yaml\” |
