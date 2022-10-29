@@ -80,7 +80,8 @@ Der Stammtisch ist jährlich in den Räumen der [Hochschule- Worms](https://www.
 {% elsif ort == "Hochschule" %}
  L.marker([49.635074, 8.345403]).addTo(mymap).bindPopup('<b>Linux Stammtisch !</b><br>Hochschule.').openPopup();
 var circle = L.circle([49.6350742, 8.3454037], 500, {
-
+{% else %}
+lolo
 {% endif %}
 
 
@@ -110,6 +111,8 @@ Das TimesCafe ist vom Bahnhof zu Fuß in circa 10 Minuten erreichbar.
 <s>Eine Tiefgarage gibt es unter dem Ludwigsplatz, direkt vor dem Cafe</s>
 {% elsif ort == "Hochschule" %}
 Wege zur Veranstaltung : zu Fuß, Bus, Bahn, Auto
+{% else %}
+lolo
 {% endif %}
 
 {% include fortune.html %}
