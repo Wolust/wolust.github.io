@@ -2,6 +2,24 @@
 linuxuser:
   - monat: 10
     inhalt: |-
+      08.11.2022
+
+       <ul><li>"Linux presntation day" in der HS Worms 18.11.2022</li>
+       <li>Multimeter mit serieller Schnittstelle</li>
+       <li>Parkside Geräte überhaupt</li>
+       <li>SPS - PLC beobachten übers Netzwerk. Maschinensteuerung in der Nachtschicht</li>
+       <li>KDE auf dem Windowsdesktop. Zum Beispiel der Editor Kate</li>
+       <li>WSL mit und ohne sudo</li>
+       <li>Frau Professor E. Heinemann</li>
+       <li>Cyberabend in der Hochschule Worms</li>
+       <li>Winzige WLAN-Platinen von WIZnet</li>
+       <li>Raspberrypi 4 als Computemodul</ul>
+
+
+
+
+  - monat: 10
+    inhalt: |-
       04.10.2022
 
        <ul><li>"Linux presntation day" in der HS Worms 18.11.2022</li>
@@ -14,11 +32,6 @@ linuxuser:
        <li>Mainz 05 und Fengschui</li>
        <li>Jekyll und die Tücken mit Dockercontainern. Version steht in gem</li>
        <li>Magento Event <a href="https://muench.dev/post/2022/10/mageunconf-2022/">mageunconf-2022</a></li></ul>
-
-
-
-
-
 
   - monat: 09
     inhalt: |-
