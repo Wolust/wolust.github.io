@@ -4,8 +4,8 @@ linuxuser:
     inhalt: |-
       08.11.2022
 
-       <ul><li>"Linux presntation day" in der HS Worms 18.11.2022</li>
-       <li>Multimeter mit serieller Schnittstelle</li>
+       <ul><li>"Linux presentation day" in der HS Worms 18.11.2022</li>
+       <li>Multimeter mit serieller Schnittstelle zu USB und Python</li>
        <li>Parkside Geräte überhaupt</li>
        <li>SPS - PLC beobachten übers Netzwerk. Maschinensteuerung in der Nachtschicht</li>
        <li>KDE auf dem Windowsdesktop. Zum Beispiel der Editor Kate</li>
@@ -22,7 +22,7 @@ linuxuser:
     inhalt: |-
       04.10.2022
 
-       <ul><li>"Linux presntation day" in der HS Worms 18.11.2022</li>
+       <ul><li>"Linux presentation day" in der HS Worms 18.11.2022</li>
        <li>Wer macht was am L.P.D</li>
        <li>Natürlich wieder alle Sorten von Containern</li>
        <li>QGIS und Wetterradar vom Deutschen Wettterdienst <a href="https://github.com/dewomser/Wettervorhersage">Wetterradar</a></li>
