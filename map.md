@@ -8,10 +8,12 @@ description: Open-Streetmap Karte.  Hier trifft sich  der Wormser Linux User Sta
 ---
 
 
-{% assign next = site.data.daten.linuxuser[0].ort %}
-{% if next contains "Hochschule" %}
+{% assign next = site.data.daten.linuxuser[0] %}
+{% if next.ort contains "Hochschule" %}
   {% assign ort = "Hochschule" %}
-{% elsif next contains "Timescafe" %}
+
+
+{% elsif next.ort contains "Timescafe" %}
   {% assign ort = "Timescafe" %}
 
 {% else %}
