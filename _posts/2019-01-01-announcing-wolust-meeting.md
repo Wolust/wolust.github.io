@@ -15,7 +15,7 @@ categories:
 <li>Wormser Linux Stammtisch Termine. Jeden 1. Dienstag im Monat</li>
 
 <!--Wer sich für Linux oder andere freie Betriebssysteme interessiert und aus der Gegend in und um Worms kommt, der ist bei uns herzlich willkommen.Stelle Deine Projekte, Probleme und Lösungen vor! Tipps für Anfänger und Umsteiger. -->
-<li>Eine Openstreetmap-Karte zeigt unseren aktuellen Treffpunkt</li>
+<li>Eine <a href="{{ site.baseurl }}/map">Openstreetmap-Karte</a> zeigt unseren aktuellen Treffpunkt</li>
 
 <li>
 {% assign next = site.data.daten.linuxuser[0] %}
