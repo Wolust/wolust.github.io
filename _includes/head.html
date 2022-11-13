@@ -8,7 +8,7 @@
     {% endif %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1, noarchive" />
+
     <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}</title>
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
@@ -18,7 +18,7 @@
     {% assign next = site.data.daten.linuxuser[0] %}
     <meta name="description" content="Nächster Wormser Linux User Stammtisch ist am {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} : {{next.ort}}  {% if page.description %}{{ page.description | xml_escape | prepend: ' ' | prepend: page.summary | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}"> 
     {% if page.meta_robots %}<meta name="robots" content="{{ page.meta_robots }}">
-    {% else %}<meta name="robots" content="all">{% endif %}
+    {% else %}<meta name="robots" content="all, max-snippet:-1, max-image-preview:large, max-video-preview:-1, noarchive" />{% endif %}
     <meta name="author" content="{{ site.author }}">
     {% if site.fb_page %}<meta property="fb:pages" content="{{ site.fb_page_id }}" />{% endif %}
     {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
