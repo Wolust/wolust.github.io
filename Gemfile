@@ -12,5 +12,3 @@ gem 'html-proofer'
 # gem 'rack', '>= 2.1.4'
 gem 'sassc', group: :jekyll_plugins
 gem "jekyll-github-metadata", "~> 2.13"
-
-
