@@ -17,14 +17,14 @@ linuxuser:
       08.11.2022
 
        <ul><li>"Linux presentation day" in der HS Worms 18.11.2022</li>
-       <li>Multimeter mit serieller Schnittstelle zu USB und Python</li>
+       <li>Multimeter mit serieller Schnittstelle zu USB und Python <a href="https://nc.stefan-höhn.de/sites/spatzenbrett/sub/multimeter">Stefan bastelt</a></li>
        <li>Parkside Geräte überhaupt</li>
        <li>SPS - PLC beobachten übers Netzwerk. Maschinensteuerung in der Nachtschicht</li>
        <li>KDE auf dem Windowsdesktop. Zum Beispiel der Editor Kate</li>
        <li>WSL mit und ohne sudo</li>
        <li>Frau Professor E. Heinemann</li>
-       <li>Cyberabend in der Hochschule Worms</li>
-       <li>Winzige WLAN-Platinen von WIZnet</li>
+       <li>Cyberabend in der Hochschule Worms <a href="https://satware.com/blog/folien-und-video-zum-cyber-security-vortrag-der-satware-ag-336">mit Michael</a></li>
+       <li>Winzige WLAN-Platinen von <a href="https://docs.wiznet.io/Product/Wi-Fi-Module/WizFi360">WIZnet</a></li>
        <li>Raspberrypi 4 als Computemodul</li></ul>
 
 
@@ -50,15 +50,15 @@ linuxuser:
       06.09.2022
 
        <ul><li>Makerfaire Hannover der Michael und der Jan haben dort einen Stand</li>
-       <li>Froscon und die Fahrt mit dem 9 €-Ticket</li>
-       <li>Simulierte Maus auf einem Arduino fährt im Kreis</li>
-       <li>Sachen über die API vertwittern: Musik, Wetter</li>
+       <li>Froscon und die Fahrt mit dem 9 €-Ticket <a href="https://www.untergang.de/index.php/konferenz-und-jam/ich-war-auf-der-froscon-2022.html">Stefan berichtet</a></li>
+       <li>Simulierte Maus auf einem Arduino fährt im Kreis<a href="https://www.untergang.de/index.php/linux-blog/automatisierte-maus-mit-arduino.html">Stefan zeigt Bastelarbeit</a></li>
+       <li>Sachen über die API vertwittern: Musik, Wetter <a href="https://nc.stefan-höhn.de/sites/spatzenbrett/sub/twurl">Stefan testet das</a></li>
        <li>Manjaro auf dem Laptop und adp Android Debug bridge </li>
        <li>Tesla, das Auto. Supercharger Fernreisen . Die Modelle </li>
        <li>11.11.2022 Was wollen wir am L-P-D machen?</li>
        <li>Einladung Tischreservierung Wolust im Timescafe</li>
-       <li>Es gab Zeiten da waren wir beim Wolust nur zu zweit.</li>
-       <li>Die Domain wolug.de ist wieder zuhause.</li></ul>
+       <li>Es gab Zeiten da waren wir beim Wolust nur zu zweit.<a href="https://wolust.de/linux_worms/">Wolust-Seite</a></li>
+       <li>Die Domain <a href="https://wolug.de">wolug.de</a> ist wieder zuhause.</li></ul>
 
 
   - monat: 08
@@ -84,7 +84,7 @@ linuxuser:
          <li><a href="https://www.untergang.de/index.php/linux-blog/arduino-ist-programmer-fuer-attiny45.html">Attiny mit Arduino</a> programmiert/gezeigt</li>
          <li>Odroid M1/mitgebracht</li>
          <li>Markdown anwenden die Flavors und Pandoc</li>
-         <li>Soundprobleme mit Arch, Manjaro und Intelchipsatz</li>
+         <li>Soundprobleme mit Arch, Manjaro und Intelchipsatz. <a href="https://www.untergang.de/index.php/linux-blog/matebook-d14-intel-und-linux.html">Stefan hat ein Problem</a> (gelöst)</li>
          <li>Alsa, Pulseaudio, Pipewire, Wireplumber</li>
          <li>Froscon St.Augustin, Makerfaire Hannover, Piandmore Weinheim</li>
          <li>Alte Männer erzählen von SCSI [ˈskʌzi], ISDN, schweren Großrechnern mit Drehstromanschluss</li>
@@ -176,5 +176,5 @@ linuxuser:
         <ul><li>One-wire Bus</li>
         <li>M-Bus</li>
         <li>Messtechnik Temperatur und Druck</li>
-        <li>Corona Daten (speziell Worms)</li>
+        <li>Corona Daten (speziell Worms)<a href="https://www.untergang.de/index.php/linux-blog/vom-spreadsheet-zur-grafik.html">Stefan scriptet mit Gnuplot</a></li>
         <li>Github Software Test</li></ul>
