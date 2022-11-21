@@ -27,8 +27,12 @@ am 06.07.2016 beginnen die Aufzeichnung der neu gegründeten WOLUST mit [Christi
 
 Wir haben in Worms mehrere Gastwirtschaften ausprobiert und sind jetzt im Timescafe am Ludwigsplatz, wegen des guten Essens und kostenlosem WLAN.
 
-Juli 2018 haben wir mal für 8 Personen einen Tisch reserviert. Die Gruppen der Linuxuser ist gut gewachsen. Klaus , Niels, [Achim](https://achwo.de/)
+Juli 2018 haben wir mal für 8 Personen einen Tisch reserviert. Die Gruppen der Linuxuser ist gut gewachsen. Klaus , Nils, [Achim](https://achwo.de/)
 
 Ab dem 01.10.2018 hat der Christian den Domainnamen Wolust.de für uns reserviert. 
 
-Seit Dezember 2019 bekommen wir 3 mal  jährlich bei der [Volkshochschule Worms](https://www.vhs-worms.de/index.php?id=9&kathaupt=26%3B&suchesetzen=false%3B&kfs_stichwort_schlagwort=linux&tx_indexedsearch%5Bsubmit_button%5D=) einen Raum mit Beamer.  Die Veranstaltungen dort sind öffentlich und kostenlos.  (Wer nicht regelmäßig am Stammtisch teilnimmt, soll sich bitte vorher bei der VHS-Worms anmelden. ) Am 3.12. 2019 fand das Treffen erstmals bei der VHS statt.  Termine werden auf Wolust.de bekanntgegeben.
+Seit Dezember 2019 bekommen wir 3 mal  jährlich bei der [Volkshochschule Worms](https://www.vhs-worms.de/index.php?id=9&kathaupt=26%3B&suchesetzen=false%3B&kfs_stichwort_schlagwort=linux&tx_indexedsearch%5Bsubmit_button%5D=) einen Raum mit Beamer.  Die Veranstaltungen dort sind öffentlich und kostenlos.  (Wer nicht regelmäßig am Stammtisch teilnimmt, soll sich bitte vorher bei der VHS-Worms anmelden. ) Am 3.12. 2019 fand das Treffen erstmals bei der VHS statt.
+In den Coronajahren haben wir uns meistens online in der Cloud der VHS-getroffen (Bigbluebutton). Anfang 2022 haben wir uns wieder im Timescafe getroffen.
+Michael und Tobias sind jetz dabei.
+
+Am 18.Oktober2022 haben wir zusammen mit der Hochschule Worms einen "Linux Presentation day" gemacht.
