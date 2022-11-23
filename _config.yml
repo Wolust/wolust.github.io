@@ -10,7 +10,6 @@ date_format_day: '%-d .'
 date_format_year: '%Y'
 date_format : '%-d . %m . %Y %H:%M'
 header_pages:
-  - map.md
   - talk.md
   - contact.html
   - help.md
