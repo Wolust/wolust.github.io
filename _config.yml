@@ -114,6 +114,7 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
   - jekyll-feed
+  - jekyll-avatar
 include:
  - _linkliste
 exclude:
