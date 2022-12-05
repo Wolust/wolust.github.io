@@ -11,7 +11,7 @@ linuxuser:
   - monat: 02
     inhalt: |-
       03.02.2023
-       - Test Weblink: [https://www.untergang.de](geile Linux Webseite)
+       - Test Weblink: [geile Webseite](https://www.untergang.de)
        - feb Fröhliche Weihnachten und ein Gutes neues Jahr 2023 !
        - feb wünscht der Wolust
     editor: dewomser
