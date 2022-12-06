@@ -1,6 +1,21 @@
 ---
 linuxuser:
 
+  - monat: 12
+    inhalt: |-
+      06.12.2022
+
+       <ul><li>Linksys Router und OpenWRT</li>
+       <li>Shop selbst nach Magento migrieren</li>
+       <li>Wie schnell ist das Netz? Debian image in ein paar Sekunden</li>
+       <li>Shop früher ging das ohne großen Aufwand </li>
+       <li>Docker findet die Ports nicht. nodejs und mongoDB</li>
+       <li>Wie war der L.P.D</li>
+       <li>ATtiny</li>
+       <li>PHP macht PDF-Katalog im DINA4 Format und druckt die Rechnung als PDF</li>
+       <li>Googlesuche auf der Shell ein <a href="https://twitter.com/dewomser/status/1599019264962617345">1-Liner</a></li>
+       <li>Der Sinn von bunten Diagrammen,wenn man nur einen Wert will.</li> </ul>
+
   - monat: 11a
     inhalt: |-
       18.11.2022
