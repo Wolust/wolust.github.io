@@ -7,8 +7,13 @@ permalink: "/talk/"
 description: Vorträge, Folien, Talks bei Wolust,  die man hier nachlesen kann
 sitemap: true
 ---
+### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2022.2
 
-### Hier gibts Vorträge zum nachlesen.
+1. Stefan: [Sein Schieberegister und Wolust](https://www.untergang.de/pi-more-schieberegister/index.pdf) Extern pdf
+2. Tobias: [OpenWrt - Die Entwicklung vom Routerbetriebssystem zur Linuxdistribution für Embedded Systems](https://gitlab.rlp.net/fsl/l-p-d/-/blob/main/slides/lpd-2022-2_hswo_welz_openwrt.pdf) Extern pdf
+3. Klaus: [Sicheres Linux / Videokonferenzlösung SCC](https://gitlab.rlp.net/fsl/l-p-d/-/blob/main/slides/lpd-2022-2_hswo_ramst%C3%B6ck_sicheres-linux.pdf) Extern pdf
+
+### Hier gibts Vorträge zum nachlesen bis 2022.
 
 1. Klaus: [SCEP-EST-ACME]({{ site.baseurl }}/SCEP-EST-ACME)
 2. Achim: [Ceph und Proxmox]({{ site.baseurl }}/ceph-und-proxmox)
