@@ -113,11 +113,15 @@
    {% if page.title == "Nächster Wolust"or"index &#8211; Wormser Linux User Stammtisch" %}
    
      
-
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "InformAction",
+"event": [
  {% for treffen in site.data.daten.linuxuser %}
- <script type="application/ld+json"> [
-  { "@context": "http://schema.org", 
-"@type": "Event",
+
+
+{
 "name": "Wormser Linux User Stammtisch", 
 "startDate": "{{treffen.jahr}}-{{treffen.monat}}-{{ treffen.tag }}T{{treffen.start}}+01:00", 
 "location": { "@type": "Place", 
@@ -150,13 +154,16 @@
             },
 "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
 "eventStatus": "https://schema.org/EventScheduled"           
+{% unless forloop.last %} }, {% endunless -%}
 
-}
-]</script>
 
 {% endfor %}
-
-
+}
+],
+        "image": "https://wolust.de/images/tux-wolust.jpg",
+        "name": "Wormser Linux User Stammtisch"
+}
+</script>
    
    
   {% endif %} 
