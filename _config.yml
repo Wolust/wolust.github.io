@@ -10,7 +10,7 @@ date_format_day: '%-d .'
 date_format_year: '%Y'
 date_format : '%-d . %m . %Y %H:%M'
 header_pages:
-  - talk.md
+  - talk-repo.md
   - contact.html
   - help.md
 # github: [metadata] encoding: UTF-8 kramdown: input: GFM hard_wrap: false
