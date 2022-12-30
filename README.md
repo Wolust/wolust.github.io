@@ -15,7 +15,7 @@
 Markdown Beispiele: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
  <hr />
  
-## Extra Features bgi Wolust.de
+## Extra Features bei Wolust.de
 
 + Kalender
 + Variablen in YAML

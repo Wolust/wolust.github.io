@@ -6,14 +6,13 @@ meta_robots: noindex,nofollow
 description: Wer macht alles mit bei Wolust und hat einen Github account.
 sitemap: false
 ---
-## Anleitung und Hilfe zum bearbeiten der Wolust.de - Webseite ist jetzt auf readme.md zu finden.
+## Anleitung und Hilfe zum bearbeiten der Wolust.de - Webseite
+ist jetzt auf <a href="https://github.com/Wolust/wolust.github.io">readme.md</a> zu finden.
 
 ## Schreibt hier:
-
 [{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench)
 
 ## Geht zum Wolust und hat ein Github-Account:
-
 [{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench) [{% avatar devcon2012 %}](https://github.com/devcon2012) [{% avatar doppeldau %}](https://github.com/doppeldau) [{% avatar satwareAG-ironMike %}](https://github.com/satwareAG-ironMike)
 
 <strong>Aktuelle Server Einstellung</strong>
