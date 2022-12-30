@@ -1,7 +1,7 @@
 # Wolust-Pixyll
 <hr />
 
-## So macht man daraus die eigenen Homepage bei Github.
+## So funktionieren Homepages bei Github (allgemein)
 
 1. git repostory auf PC updaten : git pull https://github.com/Wolust/wolust.github.io.git master 
 2. git repository auf PC kopieren. (das erste mal) :git clone https://github.com/Wolust/wolust.github.io.git 
@@ -10,12 +10,12 @@
 5. git add foo (foo ist was du neu hinzugefügt hast)
 6. git commit -a (Was du geändert hast)
 7. git push --set-upstream "https://github.com/Wolust/wolust.github.io.git" master
-8.  Wenn das nicht geht : git push mit -f benutzen (brutal)
+8. Wenn das nicht geht : git push mit -f benutzen (brutal)
 
 Markdown Beispiele: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
  <hr />
  
-## Extra Features.
+## Extra Features bgi Wolust.de
 
 + Kalender
 + Variablen in YAML
@@ -23,7 +23,31 @@ Markdown Beispiele: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheats
 + github-metatags
 + Hauptmenue angepasst
 
- <hr />
+## So kann man einen Eintrag bei Wolust.de anlegen oder bearbeiten
+
+
+1. Du brauchst einen Github-Account [github.com](https://github.com/)
+2. Du mußt Mitglied werden bei [Organisation Wolust](https://github.com/Wolust) Bei  Christian @cmuench melden.
+3. Um Einträge zu editieren, gehe nach wolust.github.io  -> data_
+13. <span class="red">Einrückungen, Doppelpunkt, -Zeichen und Variablennamen nicht verändern !</span>
+4. Dort gibt es [daten.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/daten.yaml) Hier können neue Termine angelegt oder editiert werden .
+5. Dort gibt es [review-2022.yaml](https://github.com/Wolust/wolust.github.io/blob/master/_data/review-2021.yaml) Hier können Stichpunkte zu vergangenen Treffen editiert und neu eingetragen werden.
+7. Tiefgreifende  Änderungen (Neuverlinkung oder Änderungen von Dateinamen)  funktionieren nur  nach einer Generierung mit Jekyll  !
+8. Die Variable date ist tabu, weil sie zur Linkerzeugung benutzt wird. Die leere Variable date_update wird als aktuelles Änderungsdatum geparst.
+9. Nach jeder  Änderung erzeugtes Html und Links mit Github Actions testen ! [![Build](https://github.com/Wolust/wolust.github.io/actions/workflows/build.yaml/badge.svg)](https://github.com/Wolust/wolust.github.io/actions/workflows/build.yaml)
+11. Hilfe bei Fehlern: wolust@untergang.de
+
+## Sa Jekyll von Wolust.de nur mal ausprobieren oder damit spielen.
+
+Du willst Ruby, die Gems und Jekyll gar nicht installieren.  Wenns bei dir Docker und Git gibt, wir haben ein Docker-YAML auf unserer Webseite.
+und so gehts:
+1. Klone unsere Webseite von Github. git clone https://github.com/Wolust/wolust.git
+2. Öffne eine Shell: cd in_den_clone_ordner
+3. docker -compose up
+4. Wenn alles geklappt hat. öffne einen Webbrowser http://0.0.0.0:4000
+5. Mit http://0.0.0.0:4000/admin/ kannst du testweise Änderungen an der Homepage machen.
+6. Viel Spaß mit Jekyll und der Wolustwebseite.
+
  
  ## Die folgende Orginalanleitung ist voll gültig.
  
