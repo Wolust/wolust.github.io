@@ -25,7 +25,7 @@ sitemap: true
 7. Christian: [Linux Dateisystem](https://speakerdeck.com/cmuench/linux-dateisystem)
 
 ### Repos
-Alle Repos die im Rootverzeichnis von Wolustliegen, werden hier automatisch angezeigt. (Es muss nichts verlinkt werden)
+Alle Repos die im Rootverzeichnis von Wolust liegen, werden hier automatisch angezeigt. (Es muss nichts verlinkt werden)
 
 <strong>Wolust Git-Liste:</strong>
 <ul>
