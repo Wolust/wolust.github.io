@@ -12,4 +12,18 @@ linuxuser:
        - E-Autos und Entwicklung von Batterie und Motor
        - Wasserstoff
 
-    editor: dewomser
+     editor: dewomser
+
+  - monat: 02
+    inhalt: |-
+      07.02.2023
+
+       - AI und Auswirkung im Beruf
+       - Ubuntu und die Bootpartition
+       - sicheres Linux auf einem Stick
+       - 3D-Druck (eigener Tisch)
+       - Neuer User Rekord . wir waren zu 10.
+       - Plakate für die nächsten L-P-D in der HS-Worms
+       - Zusammenarbeit mit VHS wenig Feedback
+
+     editor: dewomser
