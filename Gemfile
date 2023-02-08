@@ -3,16 +3,16 @@ source 'https://rubygems.org'
 # A simple Ruby Gem to bootstrap dependencies for setting up and
 # maintaining a local Jekyll environment in sync with GitHub Pages
 # https://github.com/github/pages-gem
-#gem 'jekyll', '~> 3.8.5'
-gem 'jekyll'
+gem 'jekyll', '~> 3.8.5'
+#gem 'jekyll'
 gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-sitemap', group: :jekyll_plugins
 gem 'html-proofer'
-gem 'rack'
+#gem 'rack'
 gem 'sassc', group: :jekyll_plugins
 gem "jekyll-github-metadata", "~> 2.13"
 gem 'jekyll-avatar'
 
-#gem "webrick", "~> 1.8"
-gem "webrick"
+gem "webrick", "~> 1.8"
+#gem "webrick"
