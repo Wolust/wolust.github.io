@@ -3,8 +3,8 @@ version: '3.6'
 services:
   jekyll:
     image: jekyll/jekyll:latest
-    #command: bundle update
-    command: jekyll serve --watch --incremental --open-url --livereload
+    #command: bundler
+    command: jekyll serve
     ports:
       - 4000:4000
       - 35729:35729
