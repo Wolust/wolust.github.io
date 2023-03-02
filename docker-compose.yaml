@@ -3,8 +3,10 @@ version: '3.6'
 services:
   jekyll:
     image: jekyll/jekyll:latest
-    #command: bundler
-    command: jekyll serve
+
+    command: gem install kramdown ~ 2.0.0
+    command: bundler
+    command: jekyll serve --watch --incremental --open-url --livereload
     ports:
       - 4000:4000
       - 35729:35729

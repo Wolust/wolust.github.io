@@ -3,8 +3,10 @@ source 'https://rubygems.org'
 # A simple Ruby Gem to bootstrap dependencies for setting up and
 # maintaining a local Jekyll environment in sync with GitHub Pages
 # https://github.com/github/pages-gem
-gem 'jekyll'
-#gem 'jekyll', '~> 3.9.3'
+#gem 'jekyll'
+#gem 'cramdown','~> 2.0.0'
+gem "kramdown-parser-gfm"
+gem 'jekyll', '~> 3.9.3'
 #gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-sitemap', '~> 1.4.0'
