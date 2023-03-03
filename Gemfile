@@ -7,7 +7,7 @@ source 'https://rubygems.org'
 #gem 'cramdown','~> 2.0.0'
 gem "kramdown-parser-gfm"
 gem 'jekyll', '~> 3.9.3'
-#gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-sitemap', '~> 1.4.0'
 #gem 'html-proofer'
