@@ -1,5 +1,32 @@
 ---
 linuxuser:
+  - monat: 03
+    inhalt: |-
+      08.03.2023
+
+       - Neu Webseite für Wolust . Wechsel von Jekyll nach Hugo ?
+       - VHS Engagment. 4 würden evtl mitmachen. das aind zu wenig. Entgültig gescheitert
+       - Linux Presentationday. Was ist mit den Terminen. Warten auf Antwort.
+       - Tesla
+       - Die API von Twitter und Mastodon
+       - Besuch von Linux Konferenzen Piandmore, Linuxtage, Froscon
+       - WLAN im Timescafe ist gesperrt für ssh, vpn … usw.
+       - EEPROM, E-Ink und Spannungsversorung von Kleinststeuerungen
+
+    editor: dewomser
+  - monat: 02
+    inhalt: |-
+      07.02.2023
+
+       - AI und Auswirkung im Beruf
+       - Ubuntu und die Bootpartition
+       - sicheres Linux auf einem Stick
+       - 3D-Druck (eigener Tisch)
+       - Neuer User Rekord . wir waren zu 10.
+       - Plakate für die nächsten L-P-D in der HS-Worms
+       - Zusammenarbeit mit VHS wenig Feedback
+
+    editor: dewomser
   - monat: 01
     inhalt: |-
       03.01.2023
@@ -14,16 +41,3 @@ linuxuser:
 
     editor: dewomser
 
-  - monat: 02
-    inhalt: |-
-      07.02.2023
-
-       - AI und Auswirkung im Beruf
-       - Ubuntu und die Bootpartition
-       - sicheres Linux auf einem Stick
-       - 3D-Druck (eigener Tisch)
-       - Neuer User Rekord . wir waren zu 10.
-       - Plakate für die nächsten L-P-D in der HS-Worms
-       - Zusammenarbeit mit VHS wenig Feedback
-
-    editor: dewomser
