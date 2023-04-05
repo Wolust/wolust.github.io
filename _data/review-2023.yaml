@@ -1,5 +1,21 @@
 ---
 linuxuser:
+
+  - monat: 04
+    inhalt: |-
+      04.04.2023
+
+       - Der Stammtisch fand diesmal in den Räumen der satware AG statt. 
+       - Wir hatten Redebedarf und im Timescafe geht das schlecht.
+       - Wir brauchen wieder einen Raum zum Reden und Handson. VHS wieder aktivieren.
+       - Der Linux-Presentation-day 23.1  Wir wollen mitmachen 
+       - Homepage restaurieren Jekyll evtl mit eigenem Build auf Github
+       - Open Bike Sensor und Makerlab  eine Idee von Michael
+       - Ist Matrix der richtige Chat für uns? Stammtischtermine und Rückmeldung
+       - Pizza was gut.
+
+    editor: dewomser
+
   - monat: 03
     inhalt: |-
       08.03.2023
