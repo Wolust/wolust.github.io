@@ -28,4 +28,6 @@ gem "jekyll-mentions", "~> 1.6.0"
 
 gem "jekyll-feed", "~> 0.15.1"
 
-gem "sass-embedded", "~> 1.58"
+#gem "sass-embedded", "~> 1.58"
+
+gem "jekyll-sass-converter", "~> 1.0"

@@ -10,3 +10,4 @@ services:
       - 35729:35729
     volumes:
       - .:/srv/jekyll
+      - ./vendor/bundle/:/usr/local/bundle
