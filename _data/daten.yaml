@@ -9,16 +9,16 @@ linuxuser:
     letztes: 0
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
+    tag: '26'
+    monat: '05'
+    jahr: 2023
+    ort: Hochschule Worms
+    strasse: Gebäude N 1.OG
+    letztes: 1
+    start: '15:00 Uhr'
+  - meeting: Weitere Treffen
     tag: '06'
     monat: '06'
-    jahr: 2023
-    ort: Timescafe Worms
-    strasse: Ludwigsplatz
-    letztes: 1
-    start: '19:30 Uhr'
-  - meeting: Weitere Treffen
-    tag: '04'
-    monat: '07'
     jahr: 2023
     ort: Timescafe Worms
     strasse: Ludwigsplatz

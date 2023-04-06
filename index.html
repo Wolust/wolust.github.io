@@ -3,15 +3,19 @@ title: index
 layout: default
 ---
 
-{% assign next = site.data.daten.linuxuser[0] %}
+{% assign next = site.data.daten.linuxuser %}
 {% assign posts_count = paginator.posts | size %}
 
 <div class="home">
   <div class="well">
   <strong>WOLUST</strong> ist ein Acronym für <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. Wie alles begann: <a href="/linux_worms">tl;dr</a>.
    <br /> Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu ! <br />
+<img style="float: left;padding-right: 10px;"  src="./images/Linux_presentation_day.png" alt="Icon Linux Presentation day" title="Wir sind auf dem Wormser LPD 2023.1"/ />
 
-<strong>Freitag, 26. Mai 2023, von 15:00 bis 18:00 Uhr ist der <a href=https://www.hs-worms.de/linux-2023-1/>"Linux-Presentation-Day Worms"</a> an der Hochschule Worms</strong>. Wir werden dabei sein.
+<div style="clear: right">
+<strong>Freitag, 26. Mai 2023, von 15:00 bis 18:00 Uhr ist der <a href=https://www.hs-worms.de/linux-2023-1/>"Linux-Presentation-Day Worms"</a> an der Hochschule Worms</strong>. Wir machen mit.
+</div>
+
 </div>
    </div>
 
@@ -32,8 +36,10 @@ layout: default
                 <p>{{ post.summary }}</br>
                 <a href="{{ post.url | prepend: site.baseurl }}">lesen</a></p>
               {% else %}
-                <p> {{next.tag}}.{{next.monat}}.{{next.jahr}} {{next.start}} : {{next.ort}} </p>
-                <a href="{{ post.url | prepend: site.baseurl }}">lesen</a>
+                <p> {{next[0].tag}}.{{next[0].monat}}.{{next[0].jahr}} {{next[0].start}} : {{next[0].ort}} </p>
+                <p> {{next[1].tag}}.{{next[1].monat}}.{{next[1].jahr}} {{next[1].start}} : {{next[1].ort}} </p>
+                <p> {{next[2].tag}}.{{next[2].monat}}.{{next[2].jahr}} {{next[2].start}} : {{next[2].ort}} </p>
+                <a href="{{ post.url | prepend: site.baseurl }}">Stadtplan + Info</a>
               {% endif %}
             </span>
         </div>
