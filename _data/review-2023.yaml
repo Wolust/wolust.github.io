@@ -1,6 +1,24 @@
 ---
 linuxuser:
 
+  - monat: 05
+    inhalt: |-
+      02.05.2023
+
+       - Neue Leute am Stammtisch
+       - Versuchen die Volkshochschule zu reaktivieren.
+       - L.P.D wer macht was. Rücksprache mit der Hochschule
+       - Eine Ampelanlage mit Raspberry Pi. Dankward hat das mitgebracht
+       - Funken die Vorrausetzungen
+       - Piandmore ein kurzer Bericht und Stefan sein Vortrag dort
+       - Der Proxmox Backup Server
+       - API auf der Kommandozeile mit curl, Pipes und jq
+       - Offener Kanal, Wolust stellt sich vor. Sendung noch im Mai
+
+    editor: dewomser
+
+
+
   - monat: 04
     inhalt: |-
       04.04.2023
