@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/admin/static/css/main.913a54c0.chunk.css",
+    "main.js": "/admin/static/js/main.2e88166c.chunk.js",
+    "main.js.map": "/admin/static/js/main.2e88166c.chunk.js.map",
+    "runtime-main.js": "/admin/static/js/runtime-main.95f94e60.js",
+    "runtime-main.js.map": "/admin/static/js/runtime-main.95f94e60.js.map",
+    "static/css/2.b74256fb.chunk.css": "/admin/static/css/2.b74256fb.chunk.css",
+    "static/js/2.dc118925.chunk.js": "/admin/static/js/2.dc118925.chunk.js",
+    "static/js/2.dc118925.chunk.js.map": "/admin/static/js/2.dc118925.chunk.js.map",
+    "index.html": "/admin/index.html",
+    "precache-manifest.aff7726cf55090e9b1a563d77344218e.js": "/admin/precache-manifest.aff7726cf55090e9b1a563d77344218e.js",
+    "service-worker.js": "/admin/service-worker.js",
+    "static/css/2.b74256fb.chunk.css.map": "/admin/static/css/2.b74256fb.chunk.css.map",
+    "static/css/main.913a54c0.chunk.css.map": "/admin/static/css/main.913a54c0.chunk.css.map",
+    "static/js/2.dc118925.chunk.js.LICENSE.txt": "/admin/static/js/2.dc118925.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/admin/static/media/lato-regular.059514c9.ttf",
+    "static/media/react-widgets.css": "/admin/static/media/rw-widgets.eceddf47.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95f94e60.js",
+    "static/css/2.b74256fb.chunk.css",
+    "static/js/2.dc118925.chunk.js",
+    "static/css/main.913a54c0.chunk.css",
+    "static/js/main.2e88166c.chunk.js"
+  ]
+}

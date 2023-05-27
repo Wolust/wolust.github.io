@@ -1,6 +1,24 @@
 ---
 linuxuser:
 
+  - monat: 05a
+    inhalt: |-
+      26.05.2023
+
+       - Außerordentlicheer Stammtisch an der Hochschule Worms
+       - Linux Presentationday in Zusammenarbeit mit der HS-Worms
+       - Mitgebrachte Projekte:
+       - Modifizierte Ampelanlage mit Raspberry Pi. Dankward hat das mitgebracht
+       - Multimeter mit Drangebastelter serieller Schnittstelle
+       - Laptop mit Wasserkühlung. As läuft stabele Diffussion
+       - 2 Laptops Mac und Linux. Grafisches Design ist kaum unterscheidbar
+       - Vorträge:
+       - Klaus hält ein Vortrag. WSL – Windows Subsystem for Linux
+       - Stefan erzählt was über APIs. Schwerpunkt #Worms,Wetter,Medien
+    link: /_linkliste/wolust230526
+    editor: dewomser
+
+
   - monat: 05
     inhalt: |-
       02.05.2023
