@@ -9,12 +9,12 @@ linuxuser:
        - Linux Presentationday in Zusammenarbeit mit der HS-Worms
        - Mitgebrachte Projekte:
        - Modifizierte Ampelanlage mit Raspberry Pi. Dankward hat das mitgebracht
-       - Multimeter mit drangebastelter serieller Schnittstelle von Stefan
+       - [Multimeter mit drangebastelter serieller Schnittstelle](https://nc.stefan-höhn.de/sites/spatzenbrett/sub/multimeter) von Stefan
        - Laptop mit Wasserkühlung. Es läuft Stable Diffusion
        - 2 Laptops mit Mac und Linux. Desktop Layout ist kaum unterscheidbar
        - Vorträge:
        - Klaus hält einen Vortrag. WSL – Windows Subsystem for Linux
-       - Stefan erzählt was über APIs. Schwerpunkt Worms,Wetter,Medien
+       - Stefan erzählt was über [APIs Schwerpunkt Worms,Wetter,Medien](https://www.untergang.de/index.php/konferenzen-thema-linux/lpd-23-1-in-worms.html)
     link: /_linkliste/wolust230526
     editor: dewomser
 
