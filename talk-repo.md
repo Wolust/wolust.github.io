@@ -11,8 +11,9 @@ sitemap: true
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2022.2
 
 1. Stefan: [Sein Schieberegister und Wolust](https://www.untergang.de/pi-more-schieberegister/index.pdf) Extern pdf
-2. Tobias: [OpenWrt - Die Entwicklung vom Routerbetriebssystem zur Linuxdistribution für Embedded Systems](https://gitlab.rlp.net/fsl/l-p-d/-/blob/main/slides/lpd-2022-2_hswo_welz_openwrt.pdf) Extern pdf
-3. Klaus: [Sicheres Linux / Videokonferenzlösung SCC](https://gitlab.rlp.net/fsl/l-p-d/-/blob/main/slides/lpd-2022-2_hswo_ramst%C3%B6ck_sicheres-linux.pdf) Extern pdf
+2. Tobias: [OpenWrt - Die Entwicklung vom Routerbetriebssystem zur Linuxdistribution für Embedded Systems](https://gitlab.rlp.net/fsl/l-p-d/-/blob/lpd-2022-2/slides/lpd-2022-2_hswo_welz_openwrt.pdf) Extern pdf
+3. Klaus: [Sicheres Linux / Videokonferenzlösung SCC](https://gitlab.rlp.net/fsl/l-p-d/-/blob/lpd-2022-2/slides/lpd-2022-2_hswo_ramst%C3%B6ck_sicheres-linux.pdf) Extern pdf
+
 
 ### Hier gibts Vorträge zum nachlesen bis 2022.
 
