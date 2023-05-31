@@ -1,12 +1,14 @@
 ---
 title: Talk & Repo
 layout: page
-date: '2022-03-16 05:00:00'
+date: '2023-05-31 20:00:00'
 meta_robots: index,follow
 permalink: "/talk/"
 description: Vorträge, Folien, Talks bei Wolust,  die man hier nachlesen kann
 sitemap: true
 ---
+### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2023.1
+1. Stefan: [APIund Bash](https://www.untergang.de/index.php/konferenzen-thema-linux/lpd-23-1-in-worms.html) Extern Webseite
 
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2022.2
 
