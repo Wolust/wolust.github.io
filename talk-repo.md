@@ -8,7 +8,8 @@ description: Vorträge, Folien, Talks bei Wolust,  die man hier nachlesen kann
 sitemap: true
 ---
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2023.1
-1. Stefan: [APIund Bash](https://www.untergang.de/index.php/konferenzen-thema-linux/lpd-23-1-in-worms.html) Extern Webseite
+1. Michael: [Macht Werbung für Linux und den LPD im Offenen Kanal](https://www.youtube.com/watch?v=i6Qo5j2VIsw) Youtube Video
+2. Stefan: [APIund Bash](https://www.untergang.de/index.php/konferenzen-thema-linux/lpd-23-1-in-worms.html) Extern Webseite
 
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2022.2
 
