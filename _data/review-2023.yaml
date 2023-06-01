@@ -10,8 +10,8 @@ linuxuser:
        - Mitgebrachte Projekte:
        - Modifizierte Ampelanlage mit Raspberry Pi. Dankward hat das mitgebracht
        - [Multimeter mit drangebastelter serieller Schnittstelle](https://nc.stefan-höhn.de/sites/spatzenbrett/sub/multimeter) von Stefan
-       - Laptop mit Wasserkühlung. Es läuft Stable Diffusion
-       - 2 Laptops mit Mac und Linux. Desktop Layout ist kaum unterscheidbar
+       - Laptop mit Wasserkühlung. Es läuft Stable Diffusion von Michael W.
+       - 2 Laptops mit Mac und Linux. Desktop Layout ist kaum unterscheidbar von Christian
        - Vorträge:
        - Klaus hält einen Vortrag. WSL – Windows Subsystem for Linux
        - Stefan erzählt was über [APIs Schwerpunkt Worms,Wetter,Medien](https://www.untergang.de/index.php/konferenzen-thema-linux/lpd-23-1-in-worms.html)
@@ -28,7 +28,7 @@ linuxuser:
        - L.P.D wer macht was. Rücksprache mit der Hochschule
        - Eine Ampelanlage mit Raspberry Pi. Dankward hat das mitgebracht
        - Funken die Vorrausetzungen
-       - Piandmore ein kurzer Bericht und Stefan sein Vortrag dort
+       - Piandmore ein kurzer Bericht und Stefan [sein Vortrag](https://www.untergang.de/index.php/konferenzen-thema-linux/piandmore-13-ich-war-sprecher.html) dort
        - Der Proxmox Backup Server
        - API auf der Kommandozeile mit curl, Pipes und jq
        - Offener Kanal, Wolust stellt sich vor. Sendung noch im Mai
