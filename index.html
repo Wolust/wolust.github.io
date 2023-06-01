@@ -36,10 +36,12 @@ layout: default
                 <p>{{ post.summary }}</br>
                 <a href="{{ post.url | prepend: site.baseurl }}">lesen</a></p>
               {% else %}
-                <p> {{next[0].tag}}.{{next[0].monat}}.{{next[0].jahr}} {{next[0].start}} : {{next[0].ort}} </p>
+                <p> {{next[0].tag}}.{{next[0].monat}}.{{next[0].jahr}} {{next[0].start}} : {{next[0].ort}}
+                <br><a href="{{ post.url | prepend: site.baseurl }}">Stadtplan + Info</a>
+                </p>
                 <p> {{next[1].tag}}.{{next[1].monat}}.{{next[1].jahr}} {{next[1].start}} : {{next[1].ort}} </p>
                 <p> {{next[2].tag}}.{{next[2].monat}}.{{next[2].jahr}} {{next[2].start}} : {{next[2].ort}} </p>
-                <a href="{{ post.url | prepend: site.baseurl }}">Stadtplan + Info</a>
+
               {% endif %}
             </span>
         </div>
