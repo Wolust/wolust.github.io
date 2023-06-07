@@ -1,6 +1,24 @@
 ---
 linuxuser:
 
+  - monat: 06
+    inhalt: |-
+      06.06.2023
+
+       - Kleiner Stammtisch nur Mike und ich
+       - Rückblick L.P.D. 23.1
+       - Zeit nehmen für Linux, keine Zeit haben
+       - Günstig Essen (Fleischkäsebrötchen)
+       - Früher war der Wolust auch nur wir 2.
+       - Docker compose up
+       - Unit-Tests
+       - Zertifikate für IOTs
+
+    editor: dewomser
+
+
+
+
   - monat: 05a
     inhalt: |-
       26.05.2023
