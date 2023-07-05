@@ -1,6 +1,24 @@
 ---
 linuxuser:
 
+  - monat: 07
+    inhalt: |-
+      04.07.2023
+
+       - Wolust bei Google als Stammtisch gefunden
+       - RedHat und GPL. Wo geht das hin ?
+       - flatpak, snap, NIXOS
+       - Ventilatorsteuerung mit PWM über WLAN. Stefan [bastelt](https://www.untergang.de/index.php/liste-linux/tischkuehler-vpm-lidl-gepimpt.html).
+       - Javascriptzeugs
+       - Virtualbox kompiliert nicht
+       - crypto, elliptische Kurven, random, urandom
+       - Wetter APIs
+       - Wurstsalat mit Pommes
+
+    editor: dewomser
+
+
+
   - monat: 06
     inhalt: |-
       06.06.2023
