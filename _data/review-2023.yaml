@@ -1,10 +1,26 @@
 ---
 linuxuser:
 
+
+  - monat: 08
+    inhalt: |-
+      01.08.2023
+       - Schweden und Urlaub in Skandinavien
+       - RedHat und GPL. Ububntu und GPL. Verträge mit Linuxentwickler
+       - Github Workflows und Tests und PGP-Zertifizierung beim Push
+       - Stable Diffusion online oder selbst installieren. Die Unterschiede
+       - Froscon, so wars früher. Am Wochenende ist wieder Konferenz
+       - Shellcheck und die nervigen Anführungszeichen-Fehler
+       - Dateinamen beginnt mit Leerzeichen oder anderen Space chars. Fehlersuche
+       - Wettervorhersage mit Regenradar vom DWD 2 Stunden im vorraus. Regen um 19:30 Uhr
+       - 50 Hz im europaweitem Stromnetz. Wenn die Uhr am Backofen vor geht.
+       - LPD Worms im November
+
+    editor: dewomser
+
   - monat: 07
     inhalt: |-
       04.07.2023
-
        - Wolust bei Google als Stammtisch gefunden
        - RedHat und GPL. Wo geht das hin ?
        - flatpak, snap, NIXOS
