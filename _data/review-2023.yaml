@@ -1,6 +1,23 @@
 ---
 linuxuser:
 
+  - monat: 09
+    inhalt: |-
+      05.09.2023
+       - Themen waren:
+       - Docker und Firewall.
+       - Docker und 0.0.0.0
+       - AI und React
+       - AI mit Bilderzeugung
+       - AI kann programmieren
+       - Umstieg von Windows auf Linux
+       - Bericht von der Froscon
+       - NixOS installieren
+       - Azure schluckt alle M$ Server
+       - Festplatte löschen. Was bleibt.
+       - Homeautomation und Messfehler
+
+    editor: dewomser
 
   - monat: 08
     inhalt: |-
