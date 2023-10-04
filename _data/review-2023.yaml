@@ -1,6 +1,19 @@
 ---
 linuxuser:
 
+  - monat: 10
+    inhalt: |-
+      03.10.2023
+       - Linux Xubuntu  auf ein älteres Notebook installieren. Live !
+       - Glasfaser
+       - IPv6 und IPv6 in China
+       - Stable Diffusion lokal
+       - AI und Nextcloud
+       - Umstieg von Windows auf Linux
+       - LPD Worms im November
+
+    editor: dewomser
+
   - monat: 09
     inhalt: |-
       05.09.2023
