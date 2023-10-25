@@ -4,22 +4,17 @@ date: '2019-03-04 16:29:00'
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:http://wolust.de/
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
 METHOD:PUBLISH
-{% for treffen  in site.data.daten.linuxuser %}
+{% for treffen in site.data.daten.linuxuser %}
 BEGIN:VEVENT
-UID:{{ page.date | date: "%Y%m%d" }}{{treffen.tag}}{{treffen.monat}}{{treffen.jahr}}@wolust.de
-ORGANIZER;CN="Stefan Höhn":MAILTO:webmaster@untergang.de
-LOCATION:{{treffen.ort}}
+UID:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}@wolust.de
+DTSTAMP:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T170000Z
+DTSTART:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T193000Z
+DTEND:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T230000Z
 SUMMARY:Wolust {{ treffen.meeting }}
-DESCRIPTION:Hallo  !\nDas ist der Terminkalender des Wormser Linux User 
- Stammtisches.\n{{treffen.tag }}.{{treffen.monat}}.{{treffen.jahr}} {{treffen.ort}}\nBitte melden 
- \,wer kommt. bei mehr als 4 Personen reserviere ich einen Tisch\nhttps:
- //wolust.de\n
+DESCRIPTION:Hallo! Das ist der Terminkalender des Wormser Linux User Stammtisches am {{ treffen.tag }}.{{ treffen.monat }}.{{ treffen.jahr }} in {{ treffen.ort }}. Bitte melden Sie sich, wenn Sie kommen möchten. Bei mehr als 4 Personen reserviere ich einen Tisch.\nhttps://wolust.de/
+LOCATION:{{ treffen.ort }}
 CLASS:PUBLIC
-RECURRENCE-ID;TZID=Europe/Berlin
-DTSTART:{{treffen.jahr}}{{treffen.monat}}{{treffen.tag}}T193000
-DTEND:{{treffen.jahr}}{{treffen.monat}}{{treffen.tag}}T230000
-DTSTAMP:{{ page.date | date: "%Y%m%d" }}T170000
 END:VEVENT{% endfor %}
 END:VCALENDAR
