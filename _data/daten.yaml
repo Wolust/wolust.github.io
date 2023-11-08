@@ -1,25 +1,26 @@
 ---
 linuxuser:
+
   - meeting: Nächstes Treffen
-    tag: '07'
-    monat: '11'
-    jahr: 2023
-    ort: Timescafe Worms
-    strasse: Ludwigsplatz
-    letztes: 0
-    start: '19:30 Uhr'
-  - meeting: Weitere Treffen
     tag: '24'
     monat: '11'
     jahr: 2023
     ort: Hochschule Worms
     strasse: Erenburgerstraße, Gebäude N, 1.Stock
-    letztes: 1
+    letztes: 0
     start: '15:00 Uhr'
   - meeting: Weitere Treffen
     tag: '05'
     monat: '12'
     jahr: 2023
+    ort: Timescafe Worms
+    strasse: Ludwigsplatz
+    letztes: 1
+    start: '19:30 Uhr'
+  - meeting: Weitere Treffen
+    tag: '02'
+    monat: '01'
+    jahr: 2024
     ort: Timescafe Worms
     strasse: Ludwigsplatz
     letztes: 2

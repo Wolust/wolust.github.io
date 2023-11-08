@@ -1,6 +1,22 @@
 ---
 linuxuser:
 
+  - monat: 11
+    inhalt: |-
+      07.11.2023
+       - API:  Tanken, Ladesäulen, Fitness
+       - API:  Bahn. Wetter, Klima
+       - Nextcloud oft unterschätzt
+       - NoAPI Webseiten scrapen
+       - Bash und jq (jquery)
+       - Post DHL Paketstation
+       - Glasfaser, IPv6  (einer hält das für Schnichschnack )
+       - Temperatur und andere Werte . Schönheit  der Grafik vs.Alarm. Was sagt die Kurve wirklich aus,
+       - LPD, nix geplant, nicht gekümmert, ahnungslos
+       - E-Paper Hands on mit ESP umd RPI2040
+
+    editor: dewomser
+
   - monat: 10
     inhalt: |-
       03.10.2023
