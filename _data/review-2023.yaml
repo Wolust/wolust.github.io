@@ -1,6 +1,19 @@
 ---
 linuxuser:
 
+  - monat: 11a
+    inhalt: |-
+      24.11.2023
+       - Nachmittag an der Hochschule
+       - Bash ganz einfach Stefan
+       - Micropython und Raspbery 2040 Dankwart
+       - Linux auf dem Handy Klaus
+       - Distributionen und Lizenzen Prof Thielen
+
+    link: /_linkliste/wolust230526
+    editor: dewomser
+
+
   - monat: 11
     inhalt: |-
       07.11.2023
