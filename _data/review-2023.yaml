@@ -4,13 +4,13 @@ linuxuser:
   - monat: 11a
     inhalt: |-
       24.11.2023
-       - Nachmittag an der Hochschule
-       - Bash ganz einfach Stefan
-       - Micropython und Raspbery 2040 Dankwart
-       - Linux auf dem Handy Klaus
+       - Linux Presentation Day 23-2 Nachmittag an der Hochschule Worms
+       - Bash ganz einfach Stefan [Folie](https://github.com/dewomser/BASH-LPD2023/)
+       - Micropython und Raspbery pico Dankward
+       - Linux und Android auf dem Handy Klaus
        - Distributionen und Lizenzen Prof Thielen
 
-    link: /_linkliste/wolust230526
+    link: /_linkliste/wolust231124
     editor: dewomser
 
 
@@ -33,7 +33,7 @@ linuxuser:
   - monat: 10
     inhalt: |-
       03.10.2023
-       - Linux Xubuntu  auf ein älteres Notebook installieren. Live !
+       - Linux Xubuntu auf ein älteres Notebook installieren. Live !
        - Glasfaser
        - IPv6 und IPv6 in China
        - Stable Diffusion lokal
