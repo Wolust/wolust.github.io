@@ -42,3 +42,5 @@ Am 18.November 2022 haben wir zusammen mit der Hochschule Worms einen "Linux Pre
 Im 02.Mai 2023 haben sich 11 Personen an unserem Stammtisch im Timescafe getroffen. Wir wachsen.
 
 Am 26.Mai 2023 haben wir zusammen mit der Hochschule Worms einen "Linux Presentation Day" gemacht.
+
+Am 24.November 2023 haben wir zusammen mit der Hochschule Worms einen "Linux Presentation Day" gemacht.
