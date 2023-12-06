@@ -4,12 +4,12 @@ layout: page
 date: '2023-05-31 20:00:00'
 meta_robots: index,follow
 permalink: "/talk/"
-description: Vorträge, Folien, Talks bei Wolust,  die man hier nachlesen kann
+description: Vorträge, Folien, Talks bei Wolust, die man hier nachlesen kann
 sitemap: true
 ---
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2023.2
 1. Stefan: [Bash einfach](https://github.com/dewomser/BASH-LPD2023/) bei Github
-
+2. Danward: [Workshop Micropython]({{ site.baseurl }}/dankward_lpd23_2_vortrag)
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2023.1
 1. Michael: [Macht Werbung für Linux und den LPD im Offenen Kanal](https://www.youtube.com/watch?v=i6Qo5j2VIsw) Youtube Video
 2. Stefan: [APIund Bash](https://www.untergang.de/index.php/konferenzen-thema-linux/lpd-23-1-in-worms.html) Extern Webseite
