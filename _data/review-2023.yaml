@@ -1,6 +1,21 @@
 ---
 linuxuser:
 
+  - monat: 12
+    inhalt: |-
+      05.12.2023
+       - Bierbrauen in Franken speziell in Erlangen Burgberg
+       - Bierbrauen in Worms, in NRW und Berlin
+       - LPD23-2, Wie es gelaufen ist.
+       - Spezieller Proxy und Paywall bei Zeitungen
+       - Übersetzen mit Lizenz und mit Firefox
+       - Nextcloud  Analytics und OCS API
+       - X.org oder Wayland . Sceensaver Spectacle geht mit beiden
+       - Impfen und Respiration Venen und Aterien
+       - Ukrainekrieg. Es wird viel gelogen
+
+    editor: dewomser
+
   - monat: 11a
     inhalt: |-
       24.11.2023
