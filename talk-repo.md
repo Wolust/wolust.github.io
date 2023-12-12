@@ -10,7 +10,7 @@ sitemap: true
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2023.2
 
 1. Stefan: [Bash einfach](https://github.com/dewomser/BASH-LPD2023/) bei Github
-2. Danward: [Workshop Micropython]({{ site.baseurl }}/dankward_lpd23_2_vortrag)
+2. Dankward: [Workshop Micropython]({{ site.baseurl }}/dankward_lpd23_2_vortrag)
 
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2023.1
 
