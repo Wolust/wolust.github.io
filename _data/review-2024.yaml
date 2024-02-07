@@ -1,7 +1,21 @@
 ---
 linuxuser:
 
+  - monat: 02
+    inhalt: |-
+      06.02.2024
 
+       - Meisenkamera mit motion
+       - Vogelerkennung mit der App
+       - Mastodon_Musik App miit vielen APIs
+       - Wormser Computerclub ist …
+       - Früher gabs 1 Raum für uns in der VHS
+       - dd im Usersspace mit udev ?
+       - 3D Drucken  mit Karbonfaser-Nylon
+       - 3D Drucker Bamboo + Kurzschluss
+       - Unfallverhütung in Großbetrieben.
+
+    editor: dewomser
 
   - monat: 01
     inhalt: |-
