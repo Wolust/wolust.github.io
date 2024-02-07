@@ -7,12 +7,13 @@ linuxuser:
 
        - Meisenkamera mit motion
        - Vogelerkennung mit der App
-       - Mastodon_Musik App miit vielen APIs
+       - [Mastodon_Musik App](https://github.com/dewomser/Toot_music_is_playing) Dieses Bashskript benutzt 3 verschiedenen APIs
        - Wormser Computerclub ist …
        - Früher gabs 1 Raum für uns in der VHS
-       - dd im Usersspace mit udev ?
+       - dd im Usersspace mit udev ? Beispiel: [Raspi-auto-downloader](https://github.com/dewomser/Raspi-auto-downloader)
        - 3D Drucken  mit Karbonfaser-Nylon
        - 3D Drucker Bamboo + Kurzschluss
+       - XCA ist eine GUI zum einfachen erstellen,verwalten etc von Schlüsseln und Zertifikaten
        - Unfallverhütung in Großbetrieben.
 
     editor: dewomser
@@ -24,7 +25,7 @@ linuxuser:
        - Schönes neues Jahr,
        - und einen guten Rutsch !
 
-       - Magenta  Werkzeug Magerun
+       - Magenta Werkzeug [Magerun](https://github.com/netz98/n98-magerun2)
        - Firefox Extensions Beispiel open-with und ublock-origin
        - Firefox Container Beispiel Facebook
        - AI macht Bilder ,Text, Code
