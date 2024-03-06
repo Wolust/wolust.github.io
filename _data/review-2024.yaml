@@ -1,6 +1,24 @@
 ---
 linuxuser:
 
+
+
+  - monat: 03
+    inhalt: |-
+      05.03.2024
+
+       - git, github, gitlab, gitea
+       - Github-Actions, Workflow am Bsp. Wettervorhersage
+       - Docker, Podman und die Rootrechte
+       - Ukrainekrieg und Taurusleaks
+       - Mikroprozessor und Bluetooth Dankwart hat was mitgebracht
+       - GPL, MIT und andere Lizenzen
+       - WWW Cache auf dem Server und im Browser aktualisieren
+       - Borland Turbopascal
+       - Simone ist wieder da.
+
+    editor: dewomser
+
   - monat: 02
     inhalt: |-
       06.02.2024
