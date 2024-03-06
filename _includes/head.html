@@ -51,6 +51,9 @@
     {% if site.bing_verification %}
       <meta name="msvalidate.01" content="{{ site.bing_verification }}" />
     {% endif %}
+    <!-- Browser Cache verhindern 060324 dewomser -->
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
     <!-- SEO -->
     <!-- Open Graph -->
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
