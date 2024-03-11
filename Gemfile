@@ -18,6 +18,7 @@ gem 'sassc', group: :jekyll_plugins
 gem 'jekyll-avatar', '~> 0.7.0'
 
 gem "webrick", "~> 1.8"
+gem 'rack', '~> 2.2'
 #gem "webrick"
 
 gem "jekyll-paginate", "~> 1.1"
