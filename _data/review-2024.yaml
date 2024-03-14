@@ -8,7 +8,7 @@ linuxuser:
       05.03.2024
 
        - git, github, gitlab, gitea
-       - Github-Actions, Workflow am Bsp. Wettervorhersage
+       - Github-Actions, Workflow am Bsp. [Wettervorhersage](https://github.com/dewomser/Wettervorhersage)
        - Docker, Podman und die Rootrechte
        - Ukrainekrieg und Taurusleaks
        - Mikroprozessor und Bluetooth Dankwart hat was mitgebracht
