@@ -27,6 +27,14 @@ ist jetzt auf <a href="https://github.com/Wolust/wolust.github.io">readme.md</a>
 Theme crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).
 &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">GitHub</a>.
 
+  <div class="home">
+  <div class="well">
 
+  <img style="float: left; padding: 10px; width: 8%; height: 8%;" src="{{ site.url }}/images/u10.png" alt="Makerspace Worms" title="Makerspace Worms wir finden das gut"/>
+  Den Makerspace Worms <br />finden wir gut.<br />
+  <a href="https://u10.makercloud.de/#support_us" title="externer Link">U.10</a>
+
+  </div>
+</div>
 
  {% include fortune.html %}
