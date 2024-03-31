@@ -18,10 +18,10 @@ linuxuser:
     letztes: 1
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
-    tag: '04'
-    monat: '06'
+    tag: '17'
+    monat: '05'
     jahr: 2024
-    ort: Timescafe Worms
-    strasse: Ludwigsplatz
+    ort: Hochschule Worms
+    strasse: Gebäude N1
     letztes: 2
-    start: '19:30 Uhr'
+    start: '14:00 Uhr'
