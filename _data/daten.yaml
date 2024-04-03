@@ -2,20 +2,12 @@
 linuxuser:
 
   - meeting: Nächstes Treffen
-    tag: '02'
-    monat: '04'
-    jahr: 2024
-    ort: Timescafe Worms
-    strasse: Ludwigsplatz
-    letztes: 0
-    start: '19:30 Uhr'
-  - meeting: Weitere Treffen
     tag: '07'
     monat: '05'
     jahr: 2024
     ort: Timescafe Worms
     strasse: Ludwigsplatz
-    letztes: 1
+    letztes: 0
     start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '17'
@@ -23,5 +15,13 @@ linuxuser:
     jahr: 2024
     ort: Hochschule Worms
     strasse: Gebäude N1
+    letztes: 1
+    start: '14:30 Uhr'
+  - meeting: Weitere Treffen
+    tag: '04'
+    monat: '06'
+    jahr: 2024
+    ort: Timescafe Wprms
+    strasse: Ludwigsplatz
     letztes: 2
-    start: '14:00 Uhr'
+    start: '19:30 Uhr'

@@ -1,7 +1,23 @@
 ---
 linuxuser:
 
+  - monat: 04
+    inhalt: |-
+      03.04.2024
 
+       - 3D-Druck eines  Wolust-Logos
+       - Froscon  und Chemn.Linuxtage
+       - a)Vorträge von Harald König
+       - b)Bash und Gnuplot
+       - yaml,toml und json
+       - Nextcloud API und Webdav(s)
+       - node und react, Javascript allgemein und früher.
+       - Webcam und Wlan mit RaspberryPi Zero. Dankwart hat das mitgebracht.
+       - a)Ubuntu auf einem älteren Medion Notebook. Stefan hat das mitgebracht.
+       - b)Ubuntu Pro nervt
+       - Werbung für den LPD-Worms. Wer kann das ?
+
+    editor: dewomser
 
   - monat: 03
     inhalt: |-
