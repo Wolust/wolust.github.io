@@ -10,7 +10,7 @@ linuxuser:
        - a)Vorträge von Harald König
        - b)Bash und Gnuplot
        - yaml,toml und json
-       - Nextcloud API und Webdav(s)
+       - Nextcloud Fotoupload mit Raspberry Pi über API und [Webdav](https://www.untergang.de/index.php/liste-linux/raspberry-pi-cam-synct-mit-nextcloud.html)
        - node und react, Javascript allgemein und früher.
        - Webcam und Wlan mit RaspberryPi Zero. Dankwart hat das mitgebracht.
        - a)Ubuntu auf einem älteren Medion Notebook. Stefan hat das mitgebracht.
