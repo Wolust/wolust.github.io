@@ -63,7 +63,7 @@ linuxuser:
         <li>- Was brauche ich um mit Docker zu starten?</li>
         <li>- Was sind die Vorteile von Containern?</li>
         <li>- Wie sehen moderne Infrastrukturen aus?</li>
-        <li>- <a href="https://static.muench.dev/presentation/docker/index.html#1">Vortrag Slideshow</a> zum nachlesen.</li>
+        <li>- <a href="https://muench.dev/slides/docker/#1">Vortrag Slideshow</a> zum nachlesen.</li>
         </ul>
 
         <strong>Virtualisierung am Beispiel von Proxmox VE und VirtualBox</strong><br />

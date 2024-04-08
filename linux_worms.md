@@ -23,7 +23,7 @@ Beim allerletzten Treffen am 24.10.2013 kamen plötzlich ein paar neue Leute. Ho
 
 #### Am 3.11 2015 gründet sich der Wormser Linux User Stammtisch ####
 
-am 06.07.2016 beginnen die Aufzeichnung der neu gegründeten WOLUST mit [Christian](https://blog.muench-worms.de/) ,Mike und [Stefan](https://stefan-höhn.de/)
+am 06.07.2016 beginnen die Aufzeichnung der neu gegründeten WOLUST mit [Christian](https://muench.dev/) ,Mike und [Stefan](https://stefan-höhn.de/)
 
 Wir haben in Worms mehrere Gastwirtschaften ausprobiert und sind jetzt im Timescafe am Ludwigsplatz, wegen des guten Essens und kostenlosem WLAN.
 
