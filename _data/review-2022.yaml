@@ -70,8 +70,8 @@ linuxuser:
       06.09.2022
 
        <ul><li>Makerfaire Hannover der Michael und der Jan haben dort einen Stand</li>
-       <li>Froscon und die Fahrt mit dem 9 €-Ticket <a href="https://www.untergang.de/index.php/konferenz-und-jam/ich-war-auf-der-froscon-2022.html">Stefan berichtet</a></li>
-       <li>Simulierte Maus auf einem Arduino fährt im Kreis<a href="https://www.untergang.de/index.php/linux-blog/automatisierte-maus-mit-arduino.html">Stefan zeigt Bastelarbeit</a></li>
+       <li>Froscon und die Fahrt mit dem 9 €-Ticket <a href="https://www.untergang.de/index.php/konferenzen-thema-linux/ich-war-auf-der-froscon-2022.html">Stefan berichtet</a></li>
+       <li>Simulierte Maus auf einem Arduino fährt im Kreis<a href="https://www.untergang.de/index.php/liste-linux/automatisierte-maus-mit-arduino.html">Stefan zeigt Bastelarbeit</a></li>
        <li>Sachen über die API vertwittern: Musik, Wetter <a href="https://nc.stefan-höhn.de/sites/spatzenbrett/sub/twurl">Stefan testet das</a></li>
        <li>Manjaro auf dem Laptop und adp Android Debug bridge </li>
        <li>Tesla, das Auto. Supercharger Fernreisen . Die Modelle </li>
@@ -101,10 +101,10 @@ linuxuser:
        05.07.2022
 
          <ul><li>Geigerzähler DIY/gezeigt</li>
-         <li><a href="https://www.untergang.de/index.php/linux-blog/arduino-ist-programmer-fuer-attiny45.html">Attiny mit Arduino</a> programmiert/gezeigt</li>
+         <li><a href="https://www.untergang.de/index.php/liste-linux/arduino-ist-programmer-fuer-attiny45.html">Attiny mit Arduino</a> programmiert/gezeigt</li>
          <li>Odroid M1/mitgebracht</li>
          <li>Markdown anwenden die Flavors und Pandoc</li>
-         <li>Soundprobleme mit Arch, Manjaro und Intelchipsatz. <a href="https://www.untergang.de/index.php/linux-blog/matebook-d14-intel-und-linux.html">Stefan hat ein Problem</a> (gelöst)</li>
+         <li>Soundprobleme mit Arch, Manjaro und Intelchipsatz. <a href="https://www.untergang.de/index.php/liste-linux/matebook-d14-intel-und-linux.html">Stefan hat ein Problem</a> (gelöst)</li>
          <li>Alsa, Pulseaudio, Pipewire, Wireplumber</li>
          <li>Froscon St.Augustin, Makerfaire Hannover, Piandmore Weinheim</li>
          <li>Alte Männer erzählen von SCSI [ˈskʌzi], ISDN, schweren Großrechnern mit Drehstromanschluss</li>
@@ -118,7 +118,7 @@ linuxuser:
         <li>Steam Deck ist toll :) Michael hat das Teil dabei</li>
         <li>Windows und der Ärger damit beim Kunden</li>
         <li>Migration von Webshops und die unfähigen Kunden</li>
-        <li>Panicbutton mit Ton und blinkt. <a href="https://www.untergang.de/index.php/linux-blog/arduino-ist-programmer-fuer-attiny45.html">Stefan hat das Teil dabei</a></li>
+        <li>Panicbutton mit Ton und blinkt. <a href="https://www.untergang.de/index.php/liste-linux/arduino-ist-programmer-fuer-attiny45.html">Stefan hat das Teil dabei</a></li>
         <li>Attiny programmieren mit Arduino durch einen Arduino</li>
         <li>Wettervorhersage DWD.<a href="https://nc.stefan-höhn.de/sites/spatzenbrett/sub/wetter-dwd">Stefan testet das</a></li>
         <li>Automatisiert Grafik auf Twitter hochladen<a href="https://nc.stefan-höhn.de/sites/spatzenbrett/sub/twurl">Stefan testet das</a></li>
@@ -145,7 +145,7 @@ linuxuser:
 
         <ul><li>Nach langer Coronapause wieder mal im Timescafe</li>
         <li>Wormatia und Webseite Wormatia</li>
-        <li>MateBook mit Linux Manjaro /Thinkpad <a href="https://www.untergang.de/index.php/linux-blog/matebook-d14-intel-und-linux.html">Das Matebook von Stefan</a></li>
+        <li>MateBook mit Linux Manjaro /Thinkpad <a href="https://www.untergang.de/index.php/liste-linux/matebook-d14-intel-und-linux.html">Das Matebook von Stefan</a></li>
         <li>Verbindung mit der VHS-Cloud hat geklappt aber kein Ton</li>
         <li>Snap,Flatpack,Docker die Unterschiede</li>
         <li>Stefans Universaltracker Raspberrypi</li>
@@ -196,5 +196,5 @@ linuxuser:
         <ul><li>One-wire Bus</li>
         <li>M-Bus</li>
         <li>Messtechnik Temperatur und Druck</li>
-        <li>Corona Daten (speziell Worms)<a href="https://www.untergang.de/index.php/linux-blog/vom-spreadsheet-zur-grafik.html">Stefan scriptet mit Gnuplot</a></li>
+        <li>Corona Daten (speziell Worms)<a href="https://www.untergang.de/index.php/liste-linux/vom-spreadsheet-zur-grafik.html">Stefan scriptet mit Gnuplot</a></li>
         <li>Github Software Test</li></ul>
