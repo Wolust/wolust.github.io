@@ -5,8 +5,7 @@ date: '2019-03-04 16:29:00'
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//hacksw/handcal//NONSGML v1.0//EN
-METHOD:PUBLISH
-{% for treffen in site.data.daten.linuxuser %}
+METHOD:PUBLISH{% for treffen in site.data.daten.linuxuser %}
 BEGIN:VEVENT
 RECURRENCE-ID:TZID=Europe/Berlin
 UID:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}@wolust.de
@@ -14,7 +13,7 @@ DTSTAMP:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T100000Z
 DTSTART:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T{{ treffen.start | slice: 0,2  }}0000Z
 DTEND:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T230000Z
 SUMMARY:Wolust {{ treffen.meeting }}
-DESCRIPTION:Hallo! Das ist der Terminkalender des Wormser Linux User Stammtisches am {{ treffen.tag }}.{{ treffen.monat }}.{{ treffen.jahr }} in {{ treffen.ort }}. Bitte melden Sie sich, wenn Sie kommen möchten. Bei mehr als 4 Personen reserviere ich einen Tisch.\nhttps://wolust.de/
+DESCRIPTION:Terminkalender des Wormser Linux User Stammtisches
 LOCATION:{{ treffen.ort }}
 CLASS:PUBLIC
 END:VEVENT{% endfor %}
