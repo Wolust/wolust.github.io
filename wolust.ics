@@ -1,13 +1,11 @@
 ---
 layout: none
-date: '2019-03-04 16:29:00'
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+PRODID:wolust.de/DE
 METHOD:PUBLISH{% for treffen in site.data.daten.linuxuser %}
 BEGIN:VEVENT
-RECURRENCE-ID:TZID=Europe/Berlin
 UID:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}@wolust.de
 DTSTAMP:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T100000Z
 DTSTART:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T{{ treffen.start | slice: 0,2  }}0000Z
