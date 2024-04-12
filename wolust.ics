@@ -4,15 +4,34 @@ layout: none
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:wolust.de/DE
-METHOD:PUBLISH{% for treffen in site.data.daten.linuxuser %}
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:STANDARD
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
+END:VTIMEZONE
+{% for treffen in site.data.daten.linuxuser %}
 BEGIN:VEVENT
 UID:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}@wolust.de
 DTSTAMP:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T100000Z
-DTSTART:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T{{ treffen.start | slice: 0,2  }}0000Z
-DTEND:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T230000Z
+DTSTART;TZID=Europe/Berlin:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T{{ treffen.start | slice: 0,2 }}0000
+DTEND;TZID=Europe/Berlin:{{ treffen.jahr }}{{ treffen.monat }}{{ treffen.tag }}T230000
 SUMMARY:Wolust {{ treffen.meeting }}
 DESCRIPTION:Terminkalender des Wormser Linux User Stammtisches
 LOCATION:{{ treffen.ort }}
 CLASS:PUBLIC
-END:VEVENT{% endfor %}
+END:VEVENT
+{% endfor %}
 END:VCALENDAR
