@@ -1,6 +1,23 @@
 ---
 linuxuser:
 
+  - monat: 05
+    inhalt: |-
+      07.05.2024
+
+       - zx gehackt. und der Fix bei verschiedenen Linux-Distributionen
+       - Was passiert wenn man openssl mit dem Paketmanager entfernen will.
+       - Github Repository als HTML-Liste . Mit Ki erzeugt
+       - Wolust. Der Name und wie alles anfing
+       - Die Vorträge und Workshops beim LPD 24.1
+       - In Worms Informatik studieren
+       - Wetter-API DWD und Hochschule Worms
+       - Professor Thielen macht Reklame für Wolust und LPD
+       - Bash oder Python? Beide haben eine Shell
+       - Verschiedene Anwendungen für das Schieberegister
+
+    editor: dewomser
+
   - monat: 04
     inhalt: |-
       03.04.2024
