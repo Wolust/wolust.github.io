@@ -7,14 +7,15 @@ linuxuser:
 
        - zx gehackt. und der Fix bei verschiedenen Linux-Distributionen
        - Was passiert wenn man openssl mit dem Paketmanager entfernen will.
-       - Github Repository als HTML-Liste . Mit Ki erzeugt
-       - Wolust. Der Name und wie alles anfing
+       - Erdmagnetfeld abschirmen und Anomalien am Standort
+       - Github [Repository als HTML-Liste](https://gist.github.com/dewomser/91b38cf433174b605483cc6200dcc51a) . Mit Ki erzeugt
+       - Wolust. Der Name und [wie alles anfing](https://wolust.de/linux_worms/)
        - Die Vorträge und Workshops beim LPD 24.1
        - In Worms Informatik studieren
-       - Wetter-API DWD und Hochschule Worms
+       - [Wetter-API DWD](https://www.untergang.de/index.php/liste-linux/wettervorhersage-worms.html) und Hochschule Worms auswerten
        - Professor Thielen macht Reklame für Wolust und LPD
        - Bash oder Python? Beide haben eine Shell
-       - Verschiedene Anwendungen für das Schieberegister
+       - Besondere Anwendungen für [das Schieberegister](https://www.untergang.de/index.php/konferenzen-thema-linux/piandmore-12-in-trier.html)
 
     editor: dewomser
 
