@@ -1,5 +1,16 @@
 ---
 linuxuser:
+  - monat: 05a
+    inhalt: |-
+      07.05.2024
+
+       - LPD 24.1 an der Hochschule Worms
+       - Wolust stellt sich vor mit Stefan
+       - Micropython Workshop mit Mike und Dankwart
+       - SSL mit Klaus
+       - Mediadings, das[Smarpt](https://smarpt.de) mit Stefan
+       - Es kommt demnächst noch mehr Infos. Bitte wiederkommen!
+    editor: dewomser
 
   - monat: 05
     inhalt: |-
