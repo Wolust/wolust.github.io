@@ -4,7 +4,7 @@ services:
   jekyll:
     image: jekyll/jekyll:latest
 
-    command: jekyll serve --watch --incremental --open-url --livereload
+    command: jekyll serve --watch --open-url --livereload --force_polling
     ports:
       - 4000:4000
       - 35729:35729
