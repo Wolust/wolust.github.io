@@ -1,6 +1,20 @@
 ---
 linuxuser:
 
+  - monat: 07
+    inhalt: |-
+      02.07.2024
+
+       - Schweden und die Aarlandinseln
+       - Motorräder und Bier  und Tschechien
+       - MQTT.Braucht man das für IOT und für wen ist das gut ?
+       - Vielleicht doch wieder einen Vortrag in fer VHS
+       - Raspberry + Breadboard Gehäuse selbstgedruckt
+       - Homeautomation
+       - Gründe um Informatik zu studieren (Karriere oder Interesse)
+
+    editor: dewomser
+
   - monat: 06
     inhalt: |-
       04.06.2024
@@ -10,7 +24,7 @@ linuxuser:
        - Swagger
        - U10-was machen die da?
        - Raspberry mit extra Hardware. Kann da wirklich AI?
-       - Kindeunfallvorraussage beim Tesla
+       - Kinderunfallvorraussage beim Tesla
        - Homeautomation Licht schalten mit Lichtschranken,Radar,Bewegungsmelder
        - Homeassistant, diverse Anwendungen
        - Radon messen im Keller mit dem Zählrohr und Raspberry Pi
