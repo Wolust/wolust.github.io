@@ -1,6 +1,26 @@
 ---
 linuxuser:
 
+  - monat: 08
+    inhalt: |-
+      06.08.2024
+
+       - APIs und Bash
+       - Nextcloud nicht nur Backupserver
+       - BananaPi Singleboard Router mit vielen Antennen
+       - Wenn der Server plötzlich abstürzt
+       - Batterie aufladen
+       - Kühe und Kinder
+       - KDE-Connect
+       - Zustand der CPU :lscpu
+       - Neofetch ohne Maintainer
+       - shellcheck
+       - Froscon 2024 Programm und Stände
+       - Dateisystem statt /bin jetzt /usr/bin …
+       - Sonderbare Applewelt,hab ich alles nicht bestellt
+
+    editor: dewomser
+
   - monat: 07
     inhalt: |-
       02.07.2024
