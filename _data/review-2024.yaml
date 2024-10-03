@@ -1,12 +1,29 @@
 ---
 linuxuser:
 
+  - monat: 10
+    inhalt: |-
+      01.10.2024
+
+      - Akkuladeplatine DIYS für Mikrocontroller. Live dabei
+      - Opensource LED-Batch.  Auch dabei
+      - Stefan hat die Stände auf der Froscon heimgesucht
+      - Nextcloud als Dockercontainer
+      - LPD Worms. Neue Ideen
+      - Krieg, Ingenieure, und organisiertes Verbrechen
+      - Lorawan
+      - Zigbee routet nach China . Verhinderungsstrategien
+      - Bashskripte mit AI erzeugen
+    link: /_linkliste/wolust241001
+    editor: dewomser
+
+
   - monat: 09
     inhalt: |-
       03.09.2024
 
-       - Wir ware nur zu zweit
-       - Themen waren Froscon. Besonders die Stände
+       - Wir waren nur zu zweit
+       - Themen waren Froscon.
        - Programmierbare Namensschilder  (verschiedene)
        - Längere Zugfahrten in Zeiten der Migration und Verspätungen
        - Messerangriffe (auf die Polizei)
