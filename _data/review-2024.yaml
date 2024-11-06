@@ -1,6 +1,30 @@
 ---
 linuxuser:
 
+  - monat: 11
+    inhalt: |-
+      05.11.2024
+
+      - Tischende A :
+      - KI beim programmieren
+      - Programmieren ist Rust und Go
+      - Leyrer (Froscon) Bashbefehle in Rust.
+      - Klickibunti in Bash / blink und Farben
+      - Github Actions. Spaß mit Linux und Yaml-Dateien. gezeigt
+      - Alter Laptop mit neuem Debian, mitgebracht
+      - Pinguin mit Wolust-Schild.Selbst 3D-gedruckt. mitgebracht
+      - LPD 24/2 ohne Wolust
+      - Tischende B :
+      - Angewandte Informatik an Hochschule Worms
+      - Alte Programmiersprachen Cobol,Pascal,Fortran
+      - Entwicklung von Treibern in Python in verschiedenen Systemen
+      - Vanilla-OS kann Pakete aus anderen Distros integrieren
+      - Vorteil von Arch-Linux
+      - Historie der Linuxrechner
+
+    editor: dewomser
+
+
   - monat: 10
     inhalt: |-
       01.10.2024
