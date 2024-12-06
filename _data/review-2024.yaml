@@ -1,6 +1,22 @@
 ---
 linuxuser:
 
+
+  - monat: 11
+    inhalt: |-
+      03.12.2024
+
+      - Veranstaltungen mit Wolust 2017-2025
+      - PHP Shopsystem Magento
+      - Aufgabenplaner  mit nodejs
+      - Serieller Input mit cat lesen. #bash
+      - Smarpt und die Apps .
+      - Meisencam und Knödel
+      - Beschleunigung und Drehimpuls mit Arduino RP2040
+      - Informatikstudium und BWL
+      - Fröhliche Weihnachten und guten Rutsch
+    editor: dewomser
+
   - monat: 11
     inhalt: |-
       05.11.2024
