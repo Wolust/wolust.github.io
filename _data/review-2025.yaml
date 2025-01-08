@@ -5,10 +5,19 @@ linuxuser:
 
   - monat: 01
     inhalt: |-
-      01.01.2025
+      07.01.2025
 
-       - Schönes neues Jahr,
-       - und einen guten Rutsch !
-
+       - Schönes neues Jahr!
+       - Silvesterknallerei und Verwüstung vor dem Timescafe
+       - 38C3: Volkswagen Leak und EPA Hack
+       - KDE Plugins foo.desktop sind jetzt in ~/…/kio/…
+       - KDE Plugin für Dolphin [Media-converter](https://github.com/dewomser/dolphin-context-convert)
+       - Cups Druckerserver auf dem PI
+       - Schieberegister auf dem PI 2040 für Laufschrift.
+       - Temp- Magnet- Druck Sensoren am Pi
+       - GPS Genauigkeit und Zeitstempel
+       - 3D-Drucker
+       - Kalibrieren von relativer Feuchte in der Industrie
+       - LPD 2025 wollen wir an der HS-Worms machen
 
     editor: dewomser
