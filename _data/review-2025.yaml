@@ -1,6 +1,22 @@
 ---
 linuxuser:
+  - monat: 02
+    inhalt: |-
+      04.02.2025
 
+       - STRG+R , Z, Zoxide
+       - Dynamische Kunst vor dem Internet:
+       - 1. Honipumpe Beuys
+       - 2. Videokunst Nam June Paik
+       - 3. Objekte von Jean Tinguely
+       - 4. Welt weites Netz mit Van Gogh TV
+       - NFS ist besser als SMB .
+       - Seltsame Programmiersprachen
+       - Homepage bauen
+       - Linux Presentation Day
+       - Nächster Wolusttermin ist Fastnacht.
+
+    editor: dewomser
 
 
   - monat: 01
