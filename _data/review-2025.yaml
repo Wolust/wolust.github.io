@@ -1,5 +1,24 @@
 ---
 linuxuser:
+
+  - monat: 3
+    inhalt: |-
+      04.03.2025
+
+       - Begrüßung Moin, Hallo oder Grüßgott?
+       -.Wir hassen Windows !
+       - VMs Docker und Podman und alles
+       - Mastodon selbsthosten
+       - Mastodon Profile URLs tauschen
+       - Vor und Nachteile von Elektron
+       - Python gibt globale Variablen aber keine Konstanten.
+       - Javascript vor 20 Jahren und heute
+       - Gimp. Keiner kann das von uns richtig
+       - Screenshot mit KDE und Wayland
+       - Textverarbeitung  in JSON und jq
+
+    editor: dewomser
+
   - monat: 02
     inhalt: |-
       04.02.2025
