@@ -1,12 +1,35 @@
 ---
 linuxuser:
 
+  - monat: 4
+    inhalt: |-
+      01.04.2025
+
+       - Löschen mit >/dev/null , rm, shred
+       - LPD kommt näher
+       - Bericht vom CLT25 (Lego Mitbringsel)
+       - Variablen a-z in Source eine Unsitte ?
+       - Dokumtieren im Sourcecode
+       - Code erklärt sich selbst
+       - Statische Webseiten mit Jekyll und anderen
+       - Mainframe gibts noch und früher
+       - Funkamateure
+       - Linuxtag mitten im Pfälzerwald
+       - Distrovergleich mit rolling release
+       - Die Twitter API früher und jetzt
+       - OSM APi und Python
+       - [Github Backup als Bash Einzeiler](https://gist.github.com/dewomser/8b5e025d9a80df85743e87973e201da9) von @dewomser
+
+    editor: dewomser
+
+
+
   - monat: 3
     inhalt: |-
       04.03.2025
 
        - Begrüßung Moin, Hallo oder Grüßgott?
-       -.Wir hassen Windows !
+       - Wir hassen Windows !
        - VMs Docker und Podman und alles
        - Mastodon selbsthosten
        - Mastodon Profile URLs tauschen
