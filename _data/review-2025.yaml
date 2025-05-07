@@ -1,7 +1,21 @@
 ---
 linuxuser:
 
-  - monat: 4
+  - monat: 05
+    inhalt: |-
+      06.05.2025
+
+       - (mobile) User Experience
+       - Zorin Linux  mitgebracht  auf Notebook
+       - Tracking mit Raspberry Pi.  Projekt
+       - Datenstrom serielle Schnittstelle bei Satellitennavigation
+       - Login mit User/Passwort  oder Token
+       - WebAPI ECWMF
+       - Docker ignoriert ufw  Firewall ?
+       - Wer möchte was auf dem LPD machen ?
+    editor: dewomser
+
+  - monat: 04
     inhalt: |-
       01.04.2025
 
@@ -24,7 +38,7 @@ linuxuser:
 
 
 
-  - monat: 3
+  - monat: 03
     inhalt: |-
       04.03.2025
 
