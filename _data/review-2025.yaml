@@ -3,6 +3,17 @@ linuxuser:
 
   - monat: 05
     inhalt: |-
+      16.05.2025
+
+       - Linux Presentation Day an der Hochschule Worms
+       - Zorin Linux vorgestellt
+       - Workshop Micropython
+       - Livetracking mit Raspberry Pi. Einkauf Supermarkt
+    link: /_linkliste/wolust250516
+    editor: dewomser
+
+  - monat: 05
+    inhalt: |-
       06.05.2025
 
        - (mobile) User Experience
