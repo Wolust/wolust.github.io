@@ -1,6 +1,22 @@
 ---
 linuxuser:
 
+  - monat: 06
+    inhalt: |-
+      03.06.2025
+
+       - LPD Review: Workshop Micropython
+       - LPD Review: Livetracking mit Raspberry Pi. Einkauf Supermarkt
+       - 3D Drucken. Das ist günstig und schnell
+       - KDE ist unser Desktopsieger
+       - Noch mehr Windowmanager: Gnome, Mint, LXDE
+       - Mit dem Fahrrad über die Alpen
+       - Bald geht "alles" mit Systemd
+       - Nix, NIXOS und Zorin Linux
+       - Umstieg von Windows auf Linux
+
+    editor: dewomser
+
   - monat: 05
     inhalt: |-
       16.05.2025
