@@ -1,6 +1,22 @@
 ---
 linuxuser:
 
+  - monat: 07
+    inhalt: |-
+      01.07.2025
+
+       - Linux auf alte PCs (k)eine gute Idee.
+       - Raspberry Pi Typen. Welchen sollte man für was nehmen
+       - uv, pip und pipx. Was ist so toll an uv
+       - Teslas gehen kaputt. Werkstattgespräche
+       - Metavers loswerden.Trotzdem noch 3D
+       - Verschiedene Tests mit LLM und AI
+       - AI local und was bringt die Zukunft.
+       - Das macht einen AI-Agent gefährlich
+       - Drehspießmotor mit Arduinosteuerung
+    editor: dewomser
+
+
   - monat: 06
     inhalt: |-
       03.06.2025
