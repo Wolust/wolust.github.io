@@ -4,7 +4,7 @@ name: Docs Build Test
 on:
   push:
     branches:
-      - "master"
+      - "wolust25"
       - "develop"
       - "bugfix/*"
       - "feature/*"
