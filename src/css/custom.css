@@ -30,6 +30,7 @@ html[data-theme='dark'] {
 
 .navbar__link, .navbar__title {
   color: var(--ifm-navbar-link-color);
+  font-size: 1.15rem;
 }
 
 body, .main-wrapper, .container {
