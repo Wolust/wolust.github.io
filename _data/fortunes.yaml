@@ -1,9 +1,0 @@
----
-linuxuser:
-
-  - fortune: '01'
-    inhalt: >-
-     lolo98
-  - fortune: '02'
-    inhalt: >-
-     lolo99
