@@ -5,3 +5,23 @@
   --ifm-navbar-background-color: #0b0d11;
   --ifm-background-color: #0b0d11;
 }
+
+/* Fix for invisible navbar and text on dark background */
+.navbar, .navbar__inner, .navbar__items, .navbar__brand, .navbar__link, .navbar__title {
+  background: var(--ifm-navbar-background-color, #fff) !important;
+  color: #fff !important;
+}
+
+.navbar__link, .navbar__title {
+  color: #fff !important;
+}
+
+body, .main-wrapper, .container {
+  background: var(--ifm-background-color, #0b0d11) !important;
+  color: #fff !important;
+}
+
+/* Optional: Make sure links are visible */
+a {
+  color: #4fd1c5 !important;
+}

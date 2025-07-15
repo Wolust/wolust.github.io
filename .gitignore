@@ -12,3 +12,7 @@ build/
 # Bundler leftovers
 .bundle/
 vendor/
+
+node_modules
+
+.idea
