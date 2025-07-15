@@ -317,4 +317,4 @@ standard_19.04-1_amd64.tar.gzcontainer       debian-9-ansible_15.0-
 Da sind neben kompletten Betriebssystemen auch so schicke Dinge dabei
 wie Drupal, Wordpress, Nextcloud, Mattermost, Magento, OpenVPN, usw...
 
-**Geschrieben von {{ page.author }}. Mail: achim.wolff@achwo.de Web: [https://achwo.de](https://achwo.de)**
+**Geschrieben von Achim Wolff. Mail: achim.wolff@achwo.de Web: [https://achwo.de](https://achwo.de)**

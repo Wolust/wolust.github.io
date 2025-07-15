@@ -4,7 +4,7 @@ title: Wie man Zertifikate verteilt ohne verrückt zu werden
 
 
 
-Der Author **{{ page.author}}** hat einen Github-Account:  [{% avatar devcon2012 %}](https://github.com/devcon2012)
+Der Author **Klaus** hat einen GitHub-Account: [devcon2012](https://github.com/devcon2012)
 
 (SCEP, EST, ACME)
 

@@ -2,4 +2,4 @@
 title: Thanks For Your Message
 ---
 
-{{ site.text.thanks }}
+Danke für deine Nachricht! Wir melden uns bei dir.
