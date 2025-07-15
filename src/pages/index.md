@@ -2,7 +2,7 @@
 title: Willkommen bei WOLUST
 ---
 
-**WOLUST** steht für *Wormser Linux User Stammtisch*. Wir treffen uns jeden ersten Dienstag im Monat zum lockeren Austausch über Linux, Open Source und andere nerdige Themen.
+**WOLUST** steht für den *Wormser Linux User Stammtisch*. Wir treffen uns jeden ersten Dienstag im Monat zum lockeren Austausch über Linux, Open Source und andere nerdige Themen.
 
 Wenn Dich Linux interessiert, komm vorbei und setz dich dazu!
 
