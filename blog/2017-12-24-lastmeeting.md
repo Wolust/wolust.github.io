@@ -5,6 +5,8 @@ date: '2017-12-11 15:31:19 +0000'
 
 Themenüberblick. Darüber haben wir geredet:
 
+<!-- truncate -->
+
 ### Monat 12
 05.12.2017  Modbus/TCP Layer 7 doch kein Bus sondern Protokoll , Zerifikate verteilen für Applegeräte, Linux-presentation-day, Physik, Arduino und Raspberry Pi, Temperaturerfassung mit 1-Wire, Proxy- und DNS- Server, Meetings bringen nur wenig und sind viel zu oft.
 
@@ -21,7 +23,7 @@ Themenüberblick. Darüber haben wir geredet:
 01.08.2017 Vorteile und Features der zsh , der Filebrowser ranger, Hochschule Worms Wetter Datums Bug, ist https sicher?, Jekyll Webseite machen. Pharma Projekt, Radiusserver, Fefe, Pipe und grep Bsp. Störung bei der Bahn
 
 ### Monat '07'
-04.07.2017 SPS auf dem Raspberry Pi,  <span class="_Tgc">EEPROM </span>für Onewire Bus, Python, schlechte Zugverbindungen.
+04.07.2017 SPS auf dem Raspberry Pi,  EEPROM für Onewire Bus, Python, schlechte Zugverbindungen.
 
 ### Monat '06'
 06.06.2017 SmaRPt besteht UX-Test am Stammtisch, Yubikey firmware ist propietär, Kotlin eine besondere Programmiersprache, Bananapi:  SATA ist echt (oder doch nur USB), IntelNUC, I2C und Optokoppler

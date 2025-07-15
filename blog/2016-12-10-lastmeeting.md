@@ -5,11 +5,13 @@ date: '2016-12-11 15:31:19 +0000'
 
 Themenüberblick. Darüber haben wir geredet:
 
+<!-- truncate -->
+
 ### Monat '12'
 06.12.2016 : Umzug Opensuse nach Debian, ufw IP-tables, NFC, WLAN-Stick für Raspi vergessen ????, Arbeitsunfälle.
 
 ### Monat '11'
-15.11.2016 : GCC 7.0, KDE und Akonadi, X startet nicht, Zertifikate aller Art, Industrie Standards , Single Malt <br />
+15.11.2016 : GCC 7.0, KDE und Akonadi, X startet nicht, Zertifikate aller Art, Industrie Standards , Single Malt
 01.11.2016 : Nextcloud, Threads und Instanzen, Gimp-Layer, Mikrokontroller, 1-wirebus, SPI mit Optokoppler
 
 ### Monat '10'

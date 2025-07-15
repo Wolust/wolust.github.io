@@ -2,7 +2,6 @@
 title: Wissenswertes zur LUG in Worms
 ---
 
-
 ### Geschichte Wolust ###
 
 Gegründet wurde WOLUST als WOLUG von [Thomas Peterek](http://www.computertp.de). Am 17.Januar 2012 trafen wir uns zum ersten mal. Stefan war dabei.

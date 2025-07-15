@@ -5,6 +5,8 @@ date: '2018-09-05 17:00:00'
 
 Themenüberblick. Darüber haben wir geredet:
 
+<!-- truncate -->
+
 ### Monat '12'
 04.12.1018 C++ und Pointer, Javascript Bibliothek für Sudoku, Sir Tim Berners-Lee das neue Internet mit Bsp.,MQTT und Apache, NSA hört uns ab, Nach dem Studium?, Zertifikat für alles mögliche.
 

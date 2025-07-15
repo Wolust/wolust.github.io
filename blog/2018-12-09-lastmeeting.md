@@ -5,48 +5,54 @@ date: '2018-12-03 06:34:00'
 
 Themenüberblick. Darüber haben wir geredet:
 
+<!-- truncate -->
+
 ### Monat 12
 03.12.2019
-<ul><li><strong>Erster Stammtisch im Gebäude der  VHS-Worms</strong></li>
-<li>Mike eröffnet: Init und Vorstellung der Anwesenden</li>
-<li>Klaus erklärt Zertifikate </li>
-<li>Christian erklärt Ordnerstruktur in Linux</li>
-<li>Achim zeigt: LED am Raspberry blinkt weihnachtlich</li>
-<li>Stefan gibt einen Ausblick auf 2020</li></ul>
+
+**Erster Stammtisch im Gebäude der VHS-Worms**
+- Mike eröffnet: Init und Vorstellung der Anwesenden
+- Klaus erklärt Zertifikate
+- Christian erklärt Ordnerstruktur in Linux
+- Achim zeigt: LED am Raspberry blinkt weihnachtlich
+- Stefan gibt einen Ausblick auf 2020
 
 ### Monat 11
 05.11.2019
-<ul><li>Smartwatch oder Casio </li>
-<li>Schieberegister am Förderband</li>
-<li>Shell ZShell tmux screen</li>
-<li>Maninthemiddle-Proxy ein Perlscript selbst gebaut </li>
-<li>Verschiedene Raspberry Pis 1-4 und Odroid mitgebracht</li>
-<li>VNC, Real-VNC, RPC</li>
-<li>Hacker im Wordpress. Christian war betroffen</li>
-<li>Smarpt 1-3 Multimediagadget vom Stefan</li> 
-<li>Wie gehts weiter mit Wolust im Dezember; VHS-Worms ?</li></ul>
+
+- Smartwatch oder Casio
+- Schieberegister am Förderband
+- Shell ZShell tmux screen
+- Maninthemiddle-Proxy ein Perlscript selbst gebaut
+- Verschiedene Raspberry Pis 1-4 und Odroid mitgebracht
+- VNC, Real-VNC, RPC
+- Hacker im Wordpress. Christian war betroffen
+- Smarpt 1-3 Multimediagadget vom Stefan
+- Wie gehts weiter mit Wolust im Dezember; VHS-Worms ?
 
 ### Monat 10
 01.10.2019
-<ul><li>UKW Weinheim/Piandmore </li>
-<li>Smartwatch für 15€ Kamera Bluetooth Livetest</li>
-<li>huginn sowas wie Ifttt nur zum Selbsthosten</li>
-<li>Scratch für Arduino selbst programmiert mit Java / Processing</li>
-<li>Früher: ZX81 Programmieren in Basic sowas wie Angry_Bird</li>
-<li>Früher: GFA-Basic Programm öffnet im Window: midi und Animation</li>
-<li>RMS tritt zurück Hintergründe</li>
-<li>Rechner mit Ubuntu für die Eltern ist eine gute Idee</li> 
-<li>Traben-Trarbach mehr als ein Tor Exitnode?</li></ul>
+
+- UKW Weinheim/Piandmore
+- Smartwatch für 15€ Kamera Bluetooth Livetest
+- huginn sowas wie Ifttt nur zum Selbsthosten
+- Scratch für Arduino selbst programmiert mit Java / Processing
+- Früher: ZX81 Programmieren in Basic sowas wie Angry_Bird
+- Früher: GFA-Basic Programm öffnet im Window: midi und Animation
+- RMS tritt zurück Hintergründe
+- Rechner mit Ubuntu für die Eltern ist eine gute Idee
+- Traben-Trarbach mehr als ein Tor Exitnode?
 
 ### Monat 09
 03.09.2019
-<ul><li>Mumble Sprachkonferenzsoftware</li>
-<li>BluetoothLE Beispiel Calliope</li>
-<li>Pi und Radio in Weinheim Sa 07.09</li>
-<li>Autoreifen werden überwacht Druck, Temperatur</li>
-<li>Sind Digitalpotis stackbar?</li>
-<li>Datenbanken mysql, mongo.db, CAP-Theorem</li>
-<li>Docker skalierbar, replizierbar, Datensicherung</li></ul>
+
+- Mumble Sprachkonferenzsoftware
+- BluetoothLE Beispiel Calliope
+- Pi und Radio in Weinheim Sa 07.09
+- Autoreifen werden überwacht Druck, Temperatur
+- Sind Digitalpotis stackbar?
+- Datenbanken mysql, mongo.db, CAP-Theorem
+- Docker skalierbar, replizierbar, Datensicherung
 
 ### Monat 08a
 20.08.2019
