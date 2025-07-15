@@ -1,27 +1,43 @@
+/*
+  Use Docusaurus theme variables for light and dark mode support.
+  Remove forced dark colors and !important for global elements.
+*/
 :root {
   --ifm-color-primary: #1f2937;
   --ifm-color-primary-dark: #151a25;
   --ifm-font-family-base: "Fira Code", monospace;
-  --ifm-navbar-background-color: #0b0d11;
-  --ifm-background-color: #0b0d11;
 }
 
-/* Fix for invisible navbar and text on dark background */
-.navbar, .navbar__inner, .navbar__items, .navbar__brand, .navbar__link, .navbar__title {
-  background: var(--ifm-navbar-background-color, #fff) !important;
-  color: #fff !important;
+/* Light mode overrides */
+:root {
+  --ifm-navbar-background-color: #fff;
+  --ifm-background-color: #fff;
+  --ifm-navbar-link-color: #1f2937;
+  --ifm-color-content: #1f2937;
+}
+
+/* Dark mode overrides */
+html[data-theme='dark'] {
+  --ifm-navbar-background-color: #0b0d11;
+  --ifm-background-color: #0b0d11;
+  --ifm-navbar-link-color: #fff;
+  --ifm-color-content: #fff;
+}
+
+.navbar, .navbar__inner, .navbar__items, .navbar__brand {
+  background: var(--ifm-navbar-background-color);
 }
 
 .navbar__link, .navbar__title {
-  color: #fff !important;
+  color: var(--ifm-navbar-link-color);
 }
 
 body, .main-wrapper, .container {
-  background: var(--ifm-background-color, #0b0d11) !important;
-  color: #fff !important;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
 }
 
 /* Optional: Make sure links are visible */
 a {
-  color: #4fd1c5 !important;
+  color: #4fd1c5;
 }
