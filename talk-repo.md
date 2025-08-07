@@ -7,6 +7,9 @@ permalink: "/talk/"
 description: Vorträge, Folien, Talks bei Wolust, die man hier nachlesen kann
 sitemap: true
 ---
+### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2025.1
+1. Stefan: [{% avatar dewomser %}](https://github.com/dewomser) Einkauf  bei REWE   Auf dem Weg von der Hochschule zum Supermarkt werden Daten geloggt und danach in einem kurzen Vortrag als Visualisierug gezeigt. [Link](https://www.untergang.de/index.php/mein-beitrag-zum-lpd25-1-in-worms)
+
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2024.1
 
 1. Stefan: [{% avatar dewomser %}](https://github.com/dewomser) [Wolust](https://github.com/dewomser/LPD_2024/blob/main/LPD_24.1_Wolust.md) bei Github
