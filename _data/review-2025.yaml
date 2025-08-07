@@ -1,6 +1,27 @@
 ---
 linuxuser:
 
+  - monat: 08
+    inhalt: |-
+      05.08.2025
+
+       - Radarsensor Bewegungserfassung mit Arduino.
+       - Grillmotor Steuerung
+       - KI erstellt neue Webseite für Wolust …  in progress
+       - Sprechen mit der KI während der Fahrt zur Arbeit. Vorbereitung / Prblemlösung
+       - KI macht einen Podcast mit mehreren Personen
+       - Pazifist ist automatisch Putinversteher ?
+       - Politik und, und mit Mastodon
+       - Das "Hamburger Tor" war da."
+       - Cookies und Cookiebanner sind notwendig oder Grrrr
+       - Der Tod von Bekannten, Verwandten ist überall
+       - Katzen und wie sie Beute machen.
+       - Programmieren mit Perl, Bash, Rust, Javascript mit VSCode.
+       - Valides Yaml und die Syntax
+
+    link: /_linkliste/wolust250804
+    editor: dewomser
+
   - monat: 07
     inhalt: |-
       01.07.2025
