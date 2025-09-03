@@ -3,6 +3,26 @@ linuxuser:
 
   - monat: 08
     inhalt: |-
+      02.09.2025
+
+       - Mit Bash programmieren.Vorteilist die Pipe
+       - Das neue apt
+       - Vergleich Systemd und Wayland hinkt.
+       - Froscon , @dewomser war dort
+       - Whiskey Gin
+       - Raid 0-5 Festplattenverwaltung früher
+       - ventoy,iventoy
+       - Mit Electron  arbeiten und Javascript
+       - Linux Presentation Day im Oktober
+       - Hands on für Wolust  ist schwierig
+       - UUGRN So machen die das.
+       - Dr.Bauer,  BOFH, 1.Level Support
+
+    editor: dewomser
+
+
+  - monat: 08
+    inhalt: |-
       05.08.2025
 
        - Radarsensor Bewegungserfassung mit Arduino.
