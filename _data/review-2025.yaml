@@ -1,6 +1,20 @@
 ---
 linuxuser:
 
+  - monat: 10
+    inhalt: |-
+      07.10.2025
+
+       - Was macht wer am kommemden LPD?
+       - 3 haben ein Programm und 3 wollen da sein/helfen
+       - Arduino jetzt mit Qualcom Prozessor
+       - Arduino früher waren die für Kleinsteuerung. LED blinkt
+       - Kühe privat halten. Ohne Landwirtschaft
+       - Gin und Single malt Vergleich, Preise
+       - Schottland. Stefan war vor Jahren mit dem Fahrrad dort
+       - Große alte Festplatten und die Geräusche
+    editor: dewomser
+
   - monat: 09
     inhalt: |-
       02.09.2025
