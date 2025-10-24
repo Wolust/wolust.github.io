@@ -8,7 +8,7 @@ linuxuser:
     ort: 'Timescafe Worms'
     strasse: 'Ludwigsplatz'
     letztes: 0
-    start: '14:00 Uhr'
+    start: '19:30 Uhr'
   - meeting: Weitere Treffen
     tag: '02'
     monat: '12'
