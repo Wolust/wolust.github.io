@@ -1,6 +1,20 @@
 ---
 linuxuser:
 
+  - monat: 11
+    inhalt: |-
+      04.11.2025
+
+       - Es kamen 3 Besucher vom LPD25-2, alle mit Linux versorgt, aber mit Fragen.
+       - LPD25-2 so wars
+       - Einer gegen alle. IPv6 macht (keinen)Sinn
+       - Einer gegen alle. 2-Faktor ist Sicherheit für den Zugangsanbieter ?
+       - GUI für die Pflege der Webseite Wolust?
+       - Zusätzlicher Wolust-Termin in der VHS.
+       - Tor-Netz
+       - 10 Jahre Wolust
+    editor : dewomser
+
   - monat: 10
     inhalt: |-
       17.10.2025
