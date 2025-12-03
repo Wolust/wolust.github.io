@@ -1,6 +1,23 @@
 ---
 linuxuser:
 
+  - monat: 12
+    inhalt: |-
+      03.12.2025
+       - LLMs bei der Programmierung
+       - So findet man Fehler bei Linux
+       - Fehler bei Windows der Unterschied
+       - Einführungsabend für Newbies
+       - Raspberrypi mit Touchdisplay (mitgebracht)
+       - Wolustlampe 3D-Druck (mitgebracht)
+       - IPv6 ist super und warum
+       - IPv4 ist genug für zuhause
+       - Pornoseiten auf dem  Firmenhandy sperren
+       - Drogen und  die Nebenwirkungen
+       - Linux bei den Eltern und Datensicherung
+       - Fröhliche Weihnachten und guten Rutsch
+    editor : dewomser
+
   - monat: 11
     inhalt: |-
       04.11.2025
