@@ -1,6 +1,28 @@
 ---
 linuxuser:
 
+  - monat: 02
+    inhalt: |-
+      04.02.2026
+
+      - ZFS und BTRFS Snapshots
+      - Apps werden riesig. Platz ist kein Prob
+      - ssh -X
+      - Alles X11 wird zu Wayland
+      - Backupserver selbst hosten
+      - Homeautomation gibts in fertig
+      - Homeautomation sinnvoll
+      - Collani war mal in der Kaiserpassage
+      - Rlp-Statistik war mal In der Kaiserp.
+      - I still don't care about cookies für FF
+      - Google ohne Werbung uBlock, pihole  +++
+      - Die Zukunft von Firefox
+      - Was genau ist GNU? RMS hats erfunden.
+      - emacs auch
+      - Wordpress im Fedivers ein Hype
+      - Sichere USB-Sticks
+      - Fröhliche Weihnachten und guten Rutsch
+    editor: dewomser
 
   - monat: 01
     inhalt: |-
