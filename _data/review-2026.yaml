@@ -1,6 +1,23 @@
 ---
 linuxuser:
 
+  - monat: 03
+    inhalt: |-
+      03.03.2026
+
+      - Mysteriöse Autoreparaturen
+      - Bash und KI
+      - 3D Druck und KI  (mitgebracht)
+      - Verknüpfung von LLMs
+      - Werkzeug-Gimmik als Weihnachtsgeschenk
+      - echte  Bilder im Terminal mit Framebuffer
+      - Pfeddersheimer Unwetter visualisiert
+      - Reifendruck Hack
+      - IPv6 und Netzwerkdrucker
+      - Ping mit IPv4 und IPv6
+      - Javascript, Typescript; mag das jemand ?
+    editor: dewomser
+
   - monat: 02
     inhalt: |-
       04.02.2026
