@@ -3,6 +3,22 @@ linuxuser:
 
   - monat: 03
     inhalt: |-
+      07.04.2026
+
+      - Programmierbare Tasten am Arduino /USB
+      - attiny programmieren
+      - Raspberry Pi
+      - Pulldown und Entprellung
+      - -3,3V -5 V -24 V  Wandler
+      - Kondensatoren
+      - Homeautomation ist sinnvoll ?
+      - Knoppix  und Klaus Knopper
+      - Linux auf Arch Basis
+      - LPD Hochschule Worms
+    editor: dewomser
+
+  - monat: 03
+    inhalt: |-
       03.03.2026
 
       - Mysteriöse Autoreparaturen
