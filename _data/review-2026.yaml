@@ -1,7 +1,25 @@
 ---
 linuxuser:
 
-  - monat: 03
+  - monat: 05
+    inhalt: |-
+      05.05.2026
+
+      - SPS Step5 Homeautomation legacy
+      - SPS Automation in der Industrie
+      - copyfail und der sudo-Angriff auf den Kernel
+      - Ubuntu goes Rust v.26,04
+      - Bei Ubuntu gabs DDOS
+      - Knoppix letzte Version von 2023 ?
+      - PV Anlage mit negativem Strpmpreis
+      - Stromzähler in der Cloud Kontrolle übers Handy
+      - Stromzähler selbst basteln/programmieren. Kontrolle auf einer Webseite
+      - Firma schickte uns auf diverse Lehrgänge
+    editor: dewomser
+
+
+
+  - monat: 04
     inhalt: |-
       07.04.2026
 
