@@ -1,6 +1,23 @@
 ---
 linuxuser:
 
+  - monat: 06
+    inhalt: |-
+      02.06.2026
+
+      - Nachvollziehbare Packetierung bei Debian
+      - Nicht im Snartphone, dann gibts das auch nicht?
+      - Mint mit Debianunterbau
+      - KI macht Bilder/Fotos. [Stefan](https://www.untergang.de/index.php/multimedia/fotoalben/ki-erzeugte-bilder-fotoalbum) und Klaus zeigen sich ihren Output
+      - KI AGI macht menschliche Arbeit obsolet
+      - KI Mit Bash skripten funktioniert
+      - Australien nach 100 km rechts durchs grüne Tor
+      - Ist Singlemalt und Spargel wiklich ein Genuss oder nur teuer?
+      - Im Herbst wieder an der Hochschule ? Gute Chancen, dass das klappt.
+
+    editor: dewomser
+
+
   - monat: 05
     inhalt: |-
       05.05.2026
