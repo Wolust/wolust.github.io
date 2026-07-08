@@ -1,6 +1,26 @@
 ---
 linuxuser:
 
+  - monat: 07
+    inhalt: |-
+      07.07.2026
+
+      - Firefox 32 Bit und Rasüberry Pi
+      - Computer waren früher sehr teuer >30 Jahre
+      - Roboterauto. Dankward hat sein Modell mitgebracht
+      - CVE in libssh gefunden und bestätigt von Klaus
+      - Was machen wir auf dem Linuxtag  an der Hochschule Worms
+      - SGPT lokal hosten mit Beispiel. Bashskript von Stefan
+      - Es gab keine Schnitzel und Pommes waren kalt. Wir bekammen neue
+      - MQTT Einer war früher begeistert und jetzt nicht mehr
+      - Biere aus NRW. Veltins und andere .
+
+    editor: dewomser
+
+
+
+
+
   - monat: 06
     inhalt: |-
       02.06.2026
