@@ -1,6 +1,21 @@
 ---
 linuxuser:
 
+  - monat: 08
+    inhalt: |-
+      04.09.2026
+
+      - Alle sind für 2FA und ein Verweigerer
+      - KI  alles mögliche
+      - Pegelstände
+      - Ein Neuer mit Windows7 aufm Computer
+      - Wurstsalat und Pommes gabs früher auch
+      - Froscon: 2 von uns gehen hin
+      - Piandmore: 1 Vortrag angemeldet
+      - Roboterauto fällt nicht mehr vom Tisch.
+
+    editor: dewomser
+
   - monat: 07
     inhalt: |-
       07.07.2026
@@ -16,9 +31,6 @@ linuxuser:
       - Biere aus NRW. Veltins und andere .
 
     editor: dewomser
-
-
-
 
 
   - monat: 06
