@@ -1,6 +1,28 @@
 ---
 linuxuser:
 
+  - monat: 09
+    inhalt: |-
+      01.09.2026
+
+      - KI und Humanoide ersetzen (alle) Arbeitsplätze
+      . KI Beim erstellen von Code, Kernel Bugfix mit KI. Linux-Distos und KI.
+      - Krieg / Drohne Leipzig
+      - Froscon 2026 Eindrücke [Stefan war dort](https://www.untergang.de/index.php/de/inhalt/froscon21-review)
+      - XOR verschlüsselt mit RFID ist 2FA ? [Bastelprojekt Stefan](https://www.untergang.de/index.php/de/inhalt/arduino-als-2fa-passwortspeicher)
+      - Openstreetmap Die Layer und Leaflet. Beispiel; [Wolust](https://wolust.de/2025/11/27/lolo/)
+      - Autos, Funktionen müssen erst bezahlt werden
+      - LPD Worms. Immerhin war keiner dagegen
+      - Darum  hat Wolust keinen Raum mehr bei der VHS
+      - Als der Wolust noch Wolug hieß. Historie [Wolust history](https://wolust.de/linux_worms/)
+      - Der Wormser Computer Club
+      - Piandmore in Trier: 2 von uns gehen hin
+
+    editor: dewomser
+
+
+
+
   - monat: 08
     inhalt: |-
       04.08.2026
