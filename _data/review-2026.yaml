@@ -1,12 +1,34 @@
 ---
 linuxuser:
 
+  - monat: 10
+    inhalt: |-
+      06.10.2026
+
+      - KI und Agent
+      - Platzt die KI-Blase ?
+      - KI im eigenen Keller oder bezahlen
+      - KI Ram und Prozessor
+      - Ollama + SGPT . Lokale KI für Shellskripte
+      - Nextcloud ist gescheitert oder falsch konfiguriert?
+      - Die Apps auf dem Handy und im Auto
+      - Apps, bargeldlos machen Überwachung?
+      - Den KI-Bot auf Worms.de ausblenden
+      - PIandMore Veranstaltung und Bahnfahrt
+      - LPD in Worms
+      - Haxe auf der Speisekarte
+    editor: dewomser
+
+
+
+
+
   - monat: 09
     inhalt: |-
       01.09.2026
 
       - KI und Humanoide ersetzen (alle) Arbeitsplätze
-      . KI Beim erstellen von Code, Kernel Bugfix mit KI. Linux-Distos und KI.
+      - KI Beim erstellen von Code, Kernel Bugfix mit KI. Linux-Distos und KI.
       - Krieg / Drohne Leipzig
       - Froscon 2026 Eindrücke [Stefan war dort](https://www.untergang.de/index.php/de/inhalt/froscon21-review)
       - XOR verschlüsselt mit RFID ist 2FA ? [Bastelprojekt Stefan](https://www.untergang.de/index.php/de/inhalt/arduino-als-2fa-passwortspeicher)
