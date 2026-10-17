@@ -1,5 +1,11 @@
 ---
 linuxuser:
+  - monat: 10a
+    inhalt: |-
+      16.10.2026
+      - LPD 26.2 an der Hochschule Worms
+    editor: dewomser
+
 
   - monat: 10
     inhalt: |-
@@ -19,10 +25,6 @@ linuxuser:
       - Haxe auf der Speisekarte
       - Intel GPUs
     editor: dewomser
-    coeditor: paul
-
-
-
 
   - monat: 09
     inhalt: |-
