@@ -104,5 +104,138 @@
     </script>
     {% endif %}
 
+    {% if page.title == "Nächster Wolust" or page.title == "index &#8211; Wormser Linux User Stammtisch" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://wolust.de",
+      "events": [
+        {% for treffen in site.data.daten.linuxuser %}
+        {
+          "name": "Wormser Linux User Stammtisch",
+          "startDate": "{{ treffen.jahr }}-{{ treffen.monat }}-{{ treffen.tag }}T{{ treffen.start }}",
+          "location": {
+            "@type": "Place",
+            "name": "{{ treffen.ort }}",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "{{ treffen.strasse }}",
+              "addressLocality": "{{ treffen.ort }}",
+              "postalCode": "67547",
+              "addressRegion": "RLP",
+              "addressCountry": "De"
+            }
+          },
+          "image": "{{ site.url }}/images/tux-wolust.jpg",
+          "description": "Wormser Linux User treffen sich einmal im Monat. Wenn du Interesse an Linux hast, komm vorbei und setz dich dazu !",
+          "endDate": "{{ treffen.jahr }}-{{ treffen.monat }}-{{ treffen.tag }}T22:00",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://wolust.de",
+            "price": "0",
+            "priceCurrency": "EUR",
+            "availability": "http://schema.org/InStock",
+            "validFrom": "{{ site.time | date: '%Y-%m-%d' }}T17:30"
+          },
+          "performer": {
+            "@type": "PerformingGroup",
+            "name": "Wormser Linux User Stammtisch"
+          },
+          "organizer": {
+            "@type": "Person",
+            "name": "Stefan Höhn",
+            "url": "https://stefan-höhn.de"
+          },
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled"
+          {% unless forloop.last %}},{% else %}}{% endunless %}
+        }
+        {% endfor %}
+      ],
+      "image": "https://wolust.de/images/tux-wolust.jpg",
+      "name": "Wormser Linux User Stammtisch",
+      "logo": "https://wolust.de/images/logo.png",
+      "description": "Wormser Linux User Stammtisch Austausch über Erfahrungen mit diesem Betriebssystem",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Götzstr.6",
+        "addressLocality": "Worms",
+        "addressRegion": "RLP",
+        "postalCode": "67547",
+        "addressCountry": "Germany"
+      }
+    }
+    </script>
+    {% endif %}
+
+    {% if page.title == "Stammtische 2019" %}
+    <script type="application/ld+json">
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Die Treffen 2019", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2019-03-25", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review in site.data.review-2019.linuxuser %} {{ review.inhalt | strip_html }} {% endfor %}", "url": "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}" , "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
+    </script>
+    {% endif %}
+
+    {% if page.title == "Stammtische 2018" %}
+    <script type="application/ld+json">
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Die Treffen 2018", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2018-09-25", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review in site.data.review-2018.linuxuser %} {{ review.inhalt | strip_html }} {% endfor %}", "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
+    </script>
+    {% endif %}
+
+    {% if page.title == "Stammtische 2017" %}
+    <script type="application/ld+json">
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2017", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2017-12-11", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review in site.data.review-2017.linuxuser %} {{ review.inhalt | strip_html }} {% endfor %}", "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}","publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
+    </script>
+    {% endif %}
+
+    {% if page.title == "Stammtische 2016" %}
+    <script type="application/ld+json">
+    { "@context" : "http://schema.org", "@type" : "Article", "name" : "Rückblick 2016", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2016-12-11", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.title }}", "articleSection" : "{% for review in site.data.review-2016.linuxuser %} {{ review.inhalt | strip_html }} {% endfor %}", "url" : "{{ site.url }}{{ page.url }}", "dateModified" : "{{ site.time }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } }
+    </script>
+    {% endif %}
+
+    {% if page.title == "Termine" %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      .leaflet-container {
+        height: 400px;
+        width: 600px;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    </style>
+    {% endif %}
+
+    {% if page.title == "Wissenswertes zur LUG in Worms" %}
+    <script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Article", "name" : "{{ page.title }}", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2019-03-25", "dateModified" : "{{ site.time }}", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.description }}", "articleSection" : "{{ page.content | markdownify | strip_html }}", "url" : "{{ site.url }}{{ page.url }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } } </script>
+    {% endif %}
+
+    <script type="text/javascript">
+    document.cookie = "klicker";
+    function change()
+    {
+      document.getElementById("d").style.display = "none";
+    }
+    function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+    var x = getCookie('klicker');
+    </script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
