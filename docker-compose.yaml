@@ -1,13 +1,10 @@
-# version: '3.6'
+name: wolust
 
 services:
   jekyll:
-    image: jekyll/jekyll:latest
-
-    command: jekyll serve --watch --open-url --livereload --force_polling
-    ports:
-      - 4000:4000
-      - 35729:35729
+    build: .
     volumes:
       - .:/srv/jekyll
-      - ./vendor/bundle/:/usr/local/bundle
+    ports:
+      - '127.0.0.1:4000:4000'
+      - '127.0.0.1:35729:35729'

@@ -37,16 +37,37 @@ Markdown Beispiele: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheats
 9. Nach jeder  Änderung erzeugtes Html und Links mit Github Actions testen ! [![Build](https://github.com/Wolust/wolust.github.io/actions/workflows/build.yaml/badge.svg)](https://github.com/Wolust/wolust.github.io/actions/workflows/build.yaml)
 11. Hilfe bei Fehlern: wolust@untergang.de
 
-## Sa Jekyll von Wolust.de nur mal ausprobieren oder damit spielen.
+## Jekyll lokal mit Docker starten
 
-Du willst Ruby, die Gems und Jekyll gar nicht installieren.  Wenns bei dir Docker und Git gibt, wir haben ein Docker-YAML auf unserer Webseite.
-und so gehts:
-1. Klone unsere Webseite von Github. git clone https://github.com/Wolust/wolust.git
-2. Öffne eine Shell: cd in_den_clone_ordner
-3. docker -compose up
-4. Wenn alles geklappt hat. öffne einen Webbrowser http://0.0.0.0:4000
-5. Mit http://0.0.0.0:4000/admin/ kannst du testweise Änderungen an der Homepage machen.
-6. Viel Spaß mit Jekyll und der Wolustwebseite.
+Voraussetzungen: Git und Docker mit Docker Compose. Eine lokale Installation
+von Ruby, Bundler oder Jekyll ist nicht erforderlich.
+
+```sh
+git clone https://github.com/Wolust/wolust.github.io.git
+cd wolust.github.io
+docker compose up --build
+```
+
+Die Vorschau ist unter http://localhost:4000 erreichbar, die lokale
+Administrationsoberfläche unter http://localhost:4000/admin/.
+Änderungen an Inhalten werden automatisch neu gebaut. Beenden mit `Strg+C`.
+Die Ports sind nur auf dem eigenen Rechner erreichbar.
+
+Das Docker-Image installiert die Gems beim Bauen mit festgelegtem Ruby und
+Bundler. `Gemfile.lock` hält die Abhängigkeiten fest und gehört ins Repository.
+Lokale Installationen in `vendor/bundle` und die lokale `.bundle/config`
+werden für die Gem-Installation im Image nicht verwendet. Nach Änderungen an
+`Gemfile`, `Gemfile.lock` oder `Dockerfile` erneut `docker compose up --build`
+ausführen.
+
+Nur den Seitenaufbau prüfen, ohne Vorschau-Server:
+
+```sh
+docker compose run --rm jekyll bundle exec jekyll build --trace
+```
+
+Die erzeugten Dateien liegen in `_site/`. Die Online-Veröffentlichung wird
+durch diese lokalen Befehle nicht verändert.
 
  
  ## Die folgende Orginalanleitung ist voll gültig.
