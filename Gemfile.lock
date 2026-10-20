@@ -249,7 +249,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (5.1.1)
     racc (1.6.2)
-    rack (2.2.7)
+    rack (2.2.23)
     rack-protection (3.0.6)
       rack
     rb-fsevent (0.11.2)
