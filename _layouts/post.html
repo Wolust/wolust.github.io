@@ -8,7 +8,7 @@ layout: default
 {% endif %}
 
 <div class="post-header mb2">
-  <h2>{{ page.title }}</h2>
+  <h1 class="h2">{{ page.title }}</h1>
   <span class="post-meta small">
   {% if page.minutes %}
     {{ page.minutes }} {{ site.text.post.minute_read }}
@@ -65,7 +65,7 @@ layout: default
 
 {% include fortune.html %}
 
-<span class="post-meta"> Erstellt: {{ page.date | date: site.date_format }} </span> / 
-  {% if page.update_date %}
-  <span class="post-meta">{{ site.text.post.updated }}: {{ site.time | date: site.date_format }}</span><br>
-  {% endif %}
+<p class="post-meta post-dates">
+  <span>Erstellt: {{ page.date | date: site.date_format }}</span>
+  {% if page.update_date %}<span>{{ site.text.post.updated }}: {{ site.time | date: site.date_format }}</span>{% endif %}
+</p>

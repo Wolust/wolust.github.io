@@ -47,13 +47,12 @@ sitemap: true
 Alle Repos die im Rootverzeichnis von Wolust liegen, werden hier automatisch angezeigt. (Es muss nichts verlinkt werden)
 
 <strong>Wolust Git-Liste:</strong>
-<ul>
- {% for repository in site.github.public_repositories %}
-<li> <a href="{{ repository.html_url }}">{{ repository.name }}</a>
-<br />
-{{ repository.description }}
-<br />
-Zuletzt upgedatet: {{ repository.updated_at | date: "%-d.%m.%Y %H:%M" }}
+<ul class="repo-list">
+{% for repository in site.github.public_repositories %}
+<li>
+  <a class="repo-name" href="{{ repository.html_url }}">{{ repository.name }}</a>
+  {% if repository.description %}<span class="repo-desc">{{ repository.description }}</span>{% endif %}
+  <span class="repo-meta">Zuletzt upgedatet: <time datetime="{{ repository.updated_at | date_to_xmlschema }}">{{ repository.updated_at | date: "%-d.%m.%Y %H:%M" }}</time></span>
 </li>
 {% endfor %}
 </ul>

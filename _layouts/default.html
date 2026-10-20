@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 {% include head.html %}
-<body class="site{% if site.animated %} animated fade-in-down{% endif %}">
+<body class="site">
+  <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
   {% if site.google_tag_manager %}
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -21,11 +22,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- <div class="site-wrap center"> -->
    {% include header.html %}
 
-    <div class="post p2 p-responsive wrap" role="main">
+    <main id="main-content" class="site-main wrap" tabindex="-1">
       <div class="measure">
         {{ content }}
        </div>
-    </div>
+    </main>
    </div>
   
   {% include footer.html %}

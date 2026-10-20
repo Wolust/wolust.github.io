@@ -1,32 +1,77 @@
-<header class="site-header px2 px-responsive">
-<div class="mt2 wrap">
-<div class="measure">
-<div id="d" class ="small" style="background-color:lightgrey;"><span style="margin-left: 10px;"> Diese Seite benutzt Cookies Info: <a href="/datenschutz">🍪</a></span>
-<span style="float:right; margin-right: 10px;"> <a href="#" onclick="document.cookie = 'klicker=Gedruckt; path=/'; change();">ok</a>
-</span>
-<script>
-if (x == 'Gedruckt'){
-change();
-}
-</script>
-</div>
-       <nav class="site-nav.left">
-      <span>
-      <a href="{{ site.baseurl }}/">Index</a>
-      </span>
-      
-      <span class="site-nav">
-      {% include navigation.html %}
-      </span> 
-      </nav>          
-      <h1 class="site-title">
-          <a href="{{ site.baseurl }}/"><img id="logo" src="{{ site.baseurl }}/images/logo.png" alt="Wolust Logo"/>
-          {{ site.title }}</a>
-      </h1>
-      <div class="clearfix"></div>
+<header class="site-header">
+  <div class="measure">
+    <div class="man-bar" aria-hidden="true">
+      <span>WOLUST(1)</span>
+      <span class="man-bar-title">Wormser Linux User Stammtisch</span>
+      <span>WOLUST(1)</span>
+    </div>
+    <div class="cookie-notice" id="cookie-notice">
+      <span><span class="cookie-tag" aria-hidden="true">[info]</span> Diese Seite benutzt Cookies. <a href="{{ '/datenschutz' | relative_url }}">Datenschutz</a></span>
+      <button type="button" id="cookie-dismiss" aria-label="Hinweis schließen">:q</button>
+    </div>
+    <div class="header-main">
+      <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="WOLUST – Startseite">
+        <img id="logo" src="{{ '/images/logo.png' | relative_url }}" alt="Wolust" width="340" height="122">
+        <span class="brand-prompt" aria-hidden="true"><span class="prompt-user">wolust@worms</span>:<span class="prompt-path">~</span>$ <span class="cursor"></span></span>
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Start</a>
+        {% include navigation.html %}
+      </nav>
+    </div>
+    <div class="header-sub">
+      <button type="button" class="theme-switch" id="theme-switch" aria-label="Farbschema: automatisch. Klicken zum Wechseln">
+        <span class="ts-cmd">:set bg=</span><span class="ts-val" id="theme-switch-val">auto</span>
+      </button>
       {% if site.show_social_icons %}
-        {% include social_links.html %}
+        <nav class="community-links" aria-label="Community und Abonnements">
+          <a href="webcal://wolust.de/wolust.ics">kalender.ics</a>
+          {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">github</a>{% endif %}
+          <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+          {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}">twitter/x</a>{% endif %}
+          {% if site.email %}<a href="mailto:{{ site.email }}">mail</a>{% endif %}
+        </nav>
       {% endif %}
     </div>
   </div>
- </header>
+</header>
+<script>
+  (function () {
+    var names = { auto: 'automatisch', light: 'hell', dark: 'dunkel' };
+    var btn = document.getElementById('theme-switch');
+    var val = document.getElementById('theme-switch-val');
+    function stored() {
+      try { return localStorage.getItem('wolust-theme') || 'auto'; } catch (e) { return 'auto'; }
+    }
+    function apply(mode) {
+      var root = document.documentElement;
+      if (mode === 'auto') root.removeAttribute('data-theme'); else root.setAttribute('data-theme', mode);
+      val.textContent = mode;
+      btn.setAttribute('aria-label', 'Farbschema: ' + names[mode] + '. Klicken zum Wechseln');
+      var dark = mode === 'dark' || (mode === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      document.querySelectorAll('meta[name="theme-color"]').forEach(function (m) {
+        m.setAttribute('content', dark ? '#141612' : '#f3efe4');
+      });
+    }
+    apply(stored());
+    btn.addEventListener('click', function () {
+      // First click always flips what you see: auto -> opposite of OS -> same as OS -> auto.
+      var sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var flip = sysDark ? 'light' : 'dark', same = sysDark ? 'dark' : 'light';
+      var cur = stored();
+      var next = cur === 'auto' ? flip : cur === flip ? same : 'auto';
+      try { localStorage.setItem('wolust-theme', next); } catch (e) {}
+      apply(next);
+    });
+  }());
+  (function () {
+    var notice = document.getElementById('cookie-notice');
+    if (document.cookie.split(';').some(function (cookie) {
+      return cookie.trim() === 'klicker=Gedruckt';
+    })) notice.hidden = true;
+    document.getElementById('cookie-dismiss').addEventListener('click', function () {
+      document.cookie = 'klicker=Gedruckt; path=/; max-age=31536000; SameSite=Lax';
+      notice.hidden = true;
+    });
+  }());
+</script>

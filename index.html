@@ -1,58 +1,83 @@
 ---
-title: index
+title: Start
 layout: default
 ---
 
-{% assign next = site.data.daten.linuxuser %}
+{% assign meetings = site.data.daten.linuxuser %}
+{% assign next = meetings[0] %}
+{% assign weekdays = "Mo,Di,Mi,Do,Fr,Sa,So" | split: "," %}
 {% assign posts_count = paginator.posts | size %}
+{% assign termine = site.posts | where: "title", "Termine" | first %}
 
 <div class="home">
-  <div class="well">
-  <strong>WOLUST</strong> ist ein Acronym für <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch. Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. Wie alles begann: <a href="/linux_worms">tl;dr</a>.
-   <br /> Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu ! <br />
-<img style="float: left; padding: 10px;"  src="{{ site.baseurl }}/images/Linux_presentation_day.png" alt="Icon Linux Presentation day" title="Wir warten auf dem Wormser LPD 2025.1"/ />
+  <h1 class="visually-hidden">Wormser Linux User Stammtisch</h1>
 
-<div style="clear: right">
-Am 16.Oktober.2026 gab es einen <a href="https://www.hs-worms.de/lpd-2026-2/" alt="externer Link" title="Geht zur Hochschule Worms">Linux Presentation Day</a> Worms<br>
-Bisherige <a href="{{ site.url }}/talk/">LPDs</a> mit Wolust.
-</div>
-
-</div>
-   </div>
-
-
-  <figure id="home_tux">
-      <img src="{{ site.baseurl }}/images/tux-wolust.jpg" alt="Tux auf einem Biertisch" title="Der Tux ist immer dabei"/>
-      <figcaption style="text-align: center;">Tux ist auf dem Tisch</figcaption>
-  </figure>
-  {% if posts_count > 0 %}
-    <div class="posts">
-      {% for post in paginator.posts %}
-        <div class="post py3">
-        <!--  <p class="post-meta">{{ post.date | date: site.date_format }}</p> -->
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-            <h2 class="post-title">{{ post.title }}</h2></a>
-            <span class="post-summary">
-              {% if post.summary %}
-                <p>{{ post.summary }}</br>
-                <a href="{{ post.url | prepend: site.baseurl }}">lesen</a></p>
-              {% else %}
-                <p> {{next[0].tag}}.{{next[0].monat}}.{{next[0].jahr}} {{next[0].start}} : {{next[0].ort}}
-                <br><a href="{{ post.url | prepend: site.baseurl }}">Stadtplan + Info</a>
-                </p>
-                <p> {{next[1].tag}}.{{next[1].monat}}.{{next[1].jahr}} {{next[1].start}} : {{next[1].ort}} </p>
-                <p> {{next[2].tag}}.{{next[2].monat}}.{{next[2].jahr}} {{next[2].start}} : {{next[2].ort}} </p>
-
-              {% endif %}
-            </span>
-        </div>
-      {% endfor %}
+  {% if paginator.page == 1 or paginator.page == nil %}
+  <section class="intro" aria-labelledby="intro-name">
+    <div class="intro-text">
+      <h2 class="man-section" id="intro-name">NAME</h2>
+      <p class="intro-lead"><strong>wolust</strong> — <strong>Wo</strong>rmser <strong>L</strong>inux <strong>U</strong>ser <strong>S</strong>tamm<strong>t</strong>isch</p>
+      <h2 class="man-section">DESCRIPTION</h2>
+      <p>Die Themen sind meist frei wählbar. Es geht um aktuelle Erfahrungen, beruflich, schulisch oder aus Hobby. Wie alles begann: <a href="{{ '/linux_worms' | relative_url }}">tl;dr</a>.</p>
+      <p class="welcome">Wenn Dich Linux interessiert, komm vorbei, setz Dich dazu!</p>
     </div>
 
-    {% include pagination.html %}
-  {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
-  {% endif %}
-  <p>
-  </p>
+    {% if next %}
+    {% capture next_iso %}{{ next.jahr }}-{{ next.monat }}-{{ next.tag }}{% endcapture %}
+    {% assign next_wd = next_iso | date: "%u" | minus: 1 %}
+    <div class="tty" role="region" aria-label="Nächste Treffen">
+      <div class="tty-bar" aria-hidden="true"><span>tty1</span><span>bash</span></div>
+      <div class="tty-body">
+        <p class="tty-cmd" aria-hidden="true"><span class="tty-ps1">$</span> wolust --next</p>
+        <p class="tty-label">Nächstes Treffen</p>
+        <p class="tty-date"><time datetime="{{ next_iso }}">{{ next.tag }}.{{ next.monat }}.<span>{{ next.jahr }}</span></time></p>
+        <p class="tty-meta">{{ weekdays[next_wd] }} · {{ next.start }}<br>{{ next.ort }}{% if next.strasse %}, {{ next.strasse }}{% endif %}</p>
+        {% if meetings.size > 1 %}
+        <p class="tty-cmd" aria-hidden="true"><span class="tty-ps1">$</span> wolust --upcoming</p>
+        <ul class="tty-list">
+          {% for meeting in meetings offset: 1 %}
+          {% capture m_iso %}{{ meeting.jahr }}-{{ meeting.monat }}-{{ meeting.tag }}{% endcapture %}
+          {% assign m_wd = m_iso | date: "%u" | minus: 1 %}
+          <li><time datetime="{{ m_iso }}">{{ weekdays[m_wd] }} {{ meeting.tag }}.{{ meeting.monat }}.{{ meeting.jahr }}</time> <span>{{ meeting.start }}</span></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% if termine %}<a class="tty-link" href="{{ termine.url | relative_url }}">Stadtplan + Info <span aria-hidden="true">→</span></a>{% endif %}
+      </div>
+    </div>
+    {% endif %}
+  </section>
 
+  <aside class="lpd-note">
+    <img src="{{ '/images/Linux_presentation_day.png' | relative_url }}" alt="Linux Presentation Day" width="60" loading="lazy">
+    <p>Am 16. Oktober 2026 gab es einen <a href="https://www.hs-worms.de/lpd-2026-2/">Linux Presentation Day in Worms</a>.<br>Bisherige <a href="{{ '/talk/' | relative_url }}">LPDs mit WOLUST</a>.</p>
+  </aside>
+  {% endif %}
+
+  <div class="home-content">
+    <div class="home-posts">
+      <h2 class="man-section">SEE ALSO</h2>
+      {% if posts_count > 0 %}
+      <div class="posts">
+        {% for post in paginator.posts %}
+        <article class="post">
+          <h3 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.summary %}
+            <p>{{ post.summary }} <a class="post-more" href="{{ post.url | relative_url }}">lesen<span class="visually-hidden">: {{ post.title }}</span></a></p>
+          {% else %}
+            <p>Alle Termine, Stadtplan und Anfahrt. <a class="post-more" href="{{ post.url | relative_url }}">öffnen<span class="visually-hidden">: {{ post.title }}</span></a></p>
+          {% endif %}
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+        <p>{{ site.text.index.coming_soon }}</p>
+      {% endif %}
+    </div>
+    <figure id="home_tux">
+      <img src="{{ '/images/tux-wolust.jpg' | relative_url }}" alt="Tux auf einem Biertisch" title="Der Tux ist immer dabei" width="280" height="373">
+      <figcaption><span aria-hidden="true">$ file tux.jpg<br></span>Tux ist auf dem Tisch</figcaption>
+    </figure>
+  </div>
+  {% if posts_count > 0 %}{% include pagination.html %}{% endif %}
+</div>
