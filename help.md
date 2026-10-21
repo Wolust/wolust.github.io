@@ -10,7 +10,7 @@ sitemap: false
 ist jetzt auf <a href="https://github.com/Wolust/wolust.github.io">readme.md</a> zu finden.
 
 ## Schreibt hier:
-[{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench) [{% avatar derverpaul2 %}](https://github.com/serverpaul2)
+[{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench) [{% avatar hush1981 %}](https://github.com/hush1981)
 
 ## Geht zum Wolust und hat ein Github-Account:
 [{% avatar dewomser %}](https://github.com/dewomser) [{% avatar cmuench %}](https://github.com/cmuench) [{% avatar devcon2012 %}](https://github.com/devcon2012) [{% avatar doppeldau %}](https://github.com/doppeldau) [{% avatar satwareAG-ironMike %}](https://github.com/satwareAG-ironMike) [{% avatar Dankward15738 %}](https://github.com/Dankward15738)

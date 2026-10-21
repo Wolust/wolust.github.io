@@ -6,6 +6,24 @@ tags:
 - contact
 ---
 
+{% assign next = site.data.daten.linuxuser[0] %}
+{% assign weekdays = "Mo,Di,Mi,Do,Fr,Sa,So" | split: "," %}
+{% assign termine = site.posts | where: "title", "Termine" | first %}
+{% if next %}
+{% capture next_iso %}{{ next.jahr }}-{{ next.monat }}-{{ next.tag }}{% endcapture %}
+{% assign next_wd = next_iso | date: "%u" | minus: 1 %}
+<div class="tty contact-next" role="region" aria-label="Nächstes Treffen">
+  <div class="tty-bar" aria-hidden="true"><span>tty1</span><span>bash</span></div>
+  <div class="tty-body">
+    <p class="tty-cmd" aria-hidden="true"><span class="tty-ps1">$</span> wolust --next</p>
+    <p class="tty-label">Nächstes Treffen</p>
+    <p class="tty-date"><time datetime="{{ next_iso }}">{{ next.tag }}.{{ next.monat }}.<span>{{ next.jahr }}</span></time></p>
+    <p class="tty-meta">{{ weekdays[next_wd] }} · {{ next.start }}<br>{{ next.ort }}{% if next.strasse %}, {{ next.strasse }}{% endif %}</p>
+    {% if termine %}<a class="tty-link" href="{{ termine.url | relative_url }}">Alle Termine, Stadtplan + Info <span aria-hidden="true">→</span></a>{% endif %}
+  </div>
+</div>
+{% endif %}
+
 <h3>Kontakt mit Wolust</h3>
  Komm einfach zu unseren Stammtischen und setz dich dazu !
  

@@ -7,6 +7,16 @@ permalink: "/talk/"
 description: Vorträge, Folien, Talks bei Wolust, die man hier nachlesen kann
 sitemap: true
 ---
+
+{% assign stammtische = site.posts | where_exp: "p", "p.title contains 'Stammtische'" | sort: "title" | reverse %}
+<section class="stammtisch-archive" aria-labelledby="stammtisch-archiv">
+<h3 id="stammtisch-archiv">Stammtisch-Zusammenfassungen</h3>
+<p>Was an den Stammtischen besprochen wurde, Jahr für Jahr.</p>
+<ul class="stammtisch-list">
+{% for post in stammtische %}<li><a href="{{ post.url | relative_url }}">{{ post.title | remove: "Stammtische " }}<span>{{ post.summary | default: "Zusammenfassung" }}</span></a></li>
+{% endfor %}</ul>
+</section>
+
 ### Hier gibts Vorträge zum nachlesen vom Linux Presentation day 2025.1
 1. Stefan: [{% avatar dewomser %}](https://github.com/dewomser) Einkauf  bei REWE   Auf dem Weg von der Hochschule zum Supermarkt werden Daten geloggt und danach in einem kurzen Vortrag als Visualisierug gezeigt. [Link](https://www.untergang.de/index.php/mein-beitrag-zum-lpd25-1-in-worms)
 
