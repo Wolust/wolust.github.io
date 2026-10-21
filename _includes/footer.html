@@ -1,26 +1,35 @@
-<footer class="center">
-  <div class="measure">
-  
-
-   <small>
-      Gemacht mit &lt;3 von <a href="https://stefan-höhn.de">Stefan Höhn</a> mail: <a href="mailto:wolust@untergang.de">wolust@untergang.de</a>&lt;/&gt; <a href="/datenschutz">Datenschutz</a> &lt;/&gt; {% github_edit_link "Online Editor" %}
-   </small>
-
+<footer class="site-footer">
+  <div class="measure footer-inner">
+    <p><span class="footer-prompt" aria-hidden="true">&lt;/&gt;</span> Gemacht mit &lt;3 von <a href="https://stefan-höhn.de">Stefan Höhn</a></p>
+    <nav aria-label="Footer">
+      <a href="mailto:wolust@untergang.de">Kontakt</a>
+      <a href="{{ '/datenschutz' | relative_url }}">Datenschutz</a>
+      {% github_edit_link "Seite bearbeiten" %}
+    </nav>
+    <div class="man-bar man-bar-foot" aria-hidden="true">
+      <span>wolust.de</span>
+      <span>{{ site.time | date: '%Y-%m-%d' }}</span>
+      <span>WOLUST(1)</span>
+    </div>
   </div>
 </footer>
 
 <!-- AnchorJS -->
 
 
+{% if site.enable_anchorjs %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
 <script>
+  if (window.anchors) {
     anchors.options = {
-    visible: 'always',
+    visible: 'hover',
     placement: 'right',
-    icon: '⚓️'
+    icon: '¶'
     };
-    anchors.add('.post-content ul');
+    anchors.add('.post-content h2, .post-content h3');
+  }
 </script>
+{% endif %}
 <script type="text/javascript">
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker.register("{{ '/sw.js' | relative_url }}", {

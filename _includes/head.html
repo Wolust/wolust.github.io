@@ -1,4 +1,8 @@
 <head>
+    <script>
+      /* Pin the saved theme before first paint to avoid a flash. */
+      try { var t = localStorage.getItem('wolust-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+    </script>
     {% if site.google_tag_manager %}
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -31,6 +35,10 @@
 
     <link rel="stylesheet" href="{{ '/css/pixyll.css' | prepend: site.baseurl }}?{{ site.time | date: '%Y%m%d%H%M' }}" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}?{{ site.time | date: '%Y%m%d%H%M' }}">
+    <link rel="preload" href="{{ '/assets/fonts/martian-mono-700.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/atkinson-next-400.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <meta name="theme-color" content="#f3efe4" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#141612" media="(prefers-color-scheme: dark)">
 
     {% if site.extended_fonts %}
     <!-- Custom fonts enabled -->
@@ -214,28 +222,5 @@
     <script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Article", "name" : "{{ page.title }}", "author" : { "@type" : "Person", "name" : "{{ site.author }}" }, "datePublished" : "2019-03-25", "dateModified" : "{{ site.time }}", "image" : "{{ site.url }}/images/tux-wolust.jpg", "headline": "{{ page.description }}", "articleSection" : "{{ page.content | markdownify | strip_html }}", "url" : "{{ site.url }}{{ page.url }}", "publisher" : { "@type" : "Organization", "name" : "untergang.de", "logo" : {"@type" : "ImageObject", "url" : "https://untergang.de/images/logo.png", "width" : "600", "height" : "60"} } } </script>
     {% endif %}
 
-    <script type="text/javascript">
-    document.cookie = "klicker";
-    function change()
-    {
-      document.getElementById("d").style.display = "none";
-    }
-    function getCookie(cname) {
-      var name = cname + "=";
-      var decodedCookie = decodeURIComponent(document.cookie);
-      var ca = decodedCookie.split(';');
-      for(var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-          c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-          return c.substring(name.length, c.length);
-        }
-      }
-      return "";
-    }
-    var x = getCookie('klicker');
-    </script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>

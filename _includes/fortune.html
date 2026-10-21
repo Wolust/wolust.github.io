@@ -1,6 +1,7 @@
-<hr />
-<strong>Fortunes:</strong>
-<br />
+<figure class="fortune">
+  <figcaption aria-hidden="true"><span class="tty-ps1">$</span> fortune</figcaption>
+  <blockquote id="fortune-text">Kein Backup, kein Mitleid.</blockquote>
+</figure>
 <script type="text/javascript">
 var myArray = [
   "Programmierweisheit:Unsere Fehler von heute sichern uns unser Brot von morgen.",
@@ -26,6 +27,6 @@ var myArray = [
   "The first version always gets thrown away."
 ];
 var randomitem = myArray[Math.floor(Math.random()*myArray.length)];
-document.write( randomitem );
+var fortuneEl = document.getElementById('fortune-text');
+fortuneEl.innerHTML = randomitem;
 </script>
-&nbsp;<br />
