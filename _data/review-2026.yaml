@@ -1,5 +1,26 @@
 ---
 linuxuser:
+
+
+  - monat: 11
+    inhalt: |-
+      03.11.2026
+
+      - LPD an der Hochschule
+      - [SGPT](https://gist.github.com/dewomser/dd467189a7f7befc4917b5c8c59d49db) Stefan hat das LPD vorgestellt
+      - Neues Design Webseite
+      - Mitgebracht: Home-IOT  Zigbee BLE
+      - Radar und  fast Fourier Transformation
+      - [Fette](https://gist.github.com/dewomser/dd28b71ebbb3f9687a89411f74cc4c4e) Überschriften in UTF-8
+      - Mintklassen
+      - Begeisterung für Linux/ Computer 👎️
+      - Piandmore nach Worms ?
+      - Retro: SCSI / Glasfaser bei Neckermann
+      - Heizung mit Holz
+      - Wärmepumpe  mit Homeautomation
+    editor: dewomser
+
+
   - monat: 10a
     inhalt: |-
       16.10.2026
