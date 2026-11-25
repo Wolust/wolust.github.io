@@ -1,4 +1,4 @@
-FROM ruby:3.3.10-bookworm
+FROM ruby:3.3.14-bookworm
 
 WORKDIR /opt/jekyll
 
